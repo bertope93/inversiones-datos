@@ -1,0 +1,2465 @@
+ticker,nombre,clase,consulta,dominio,idioma,mercado,nucleo
+^GSPC,S&P 500,Índices,S&P 500 stock market,spglobal.com,en,Índices mundiales,1
+^NDX,Nasdaq 100,Índices,Nasdaq stock market,nasdaq.com,en,Índices mundiales,1
+^IBEX,IBEX 35,Índices,Ibex 35 bolsa,bolsasymercados.es,es,Índices mundiales,1
+^N225,Nikkei 225,Índices,Nikkei Japan stocks,nikkei.com,en,Índices mundiales,1
+^STOXX50E,Euro Stoxx 50,Índices,European stocks Euro Stoxx,stoxx.com,en,Índices mundiales,1
+^GDAXI,DAX,Índices,DAX German stocks,deutsche-boerse.com,en,Índices mundiales,1
+^FTSE,FTSE 100,Índices,FTSE 100 London stocks,londonstockexchange.com,en,Índices mundiales,1
+^HSI,Hang Seng,Índices,Hang Seng Hong Kong stocks,hsi.com.hk,en,Índices mundiales,1
+^DJI,Dow Jones,Índices,Dow Jones stocks,dowjones.com,en,Índices mundiales,1
+^FCHI,CAC 40,Índices,CAC 40 French stocks,euronext.com,en,Índices mundiales,1
+^RUT,Russell 2000,Índices,Russell 2000 small caps,ftserussell.com,en,Índices mundiales,1
+FTSEMIB.MI,FTSE MIB (Italia),Índices,FTSE MIB Milan stocks,borsaitaliana.it,en,Índices mundiales,1
+^GSPTSE,S&P/TSX (Canadá),Índices,TSX Canada stocks,tmx.com,en,Índices mundiales,1
+^AXJO,ASX 200 (Australia),Índices,ASX 200 Australia stocks,asx.com.au,en,Índices mundiales,1
+000001.SS,Shanghái Composite,Índices,Shanghai Composite China stocks,sse.com.cn,en,Índices mundiales,1
+^KS11,KOSPI (Corea),Índices,KOSPI Korea stocks,krx.co.kr,en,Índices mundiales,1
+^BSESN,Sensex (India),Índices,Sensex India stocks,bseindia.com,en,Índices mundiales,1
+^BVSP,Bovespa (Brasil),Índices,Bovespa Brazil stocks,b3.com.br,en,Índices mundiales,1
+^VIX,Volatilidad (VIX),Índices,VIX volatility,cboe.com,en,Índices mundiales,1
+SPY,SPDR S&P 500 ETF,ETFs,SPY ETF,ssga.com,en,ETF,1
+QQQ,Invesco QQQ (Nasdaq 100),ETFs,QQQ ETF,invesco.com,en,ETF,1
+VT,Vanguard Total World,ETFs,Vanguard total world ETF,vanguard.com,en,ETF,1
+IWDA.AS,iShares MSCI World,ETFs,MSCI World ETF,ishares.com,en,ETF,1
+EUNL.DE,iShares Core MSCI World (EUR),ETFs,iShares Core MSCI World,ishares.com,en,ETF,1
+VWO,Vanguard Emerging Markets,ETFs,emerging markets ETF,vanguard.com,en,ETF,1
+EXSA.DE,iShares STOXX Europe 600,ETFs,STOXX Europe 600,ishares.com,en,ETF,1
+SMH,VanEck Semiconductores,ETFs,semiconductor ETF,vaneck.com,en,ETF,1
+XLE,Energy Select Sector,ETFs,energy stocks ETF,ssga.com,en,ETF,1
+XLF,Financial Select Sector,ETFs,bank stocks ETF,ssga.com,en,ETF,1
+XLV,Health Care Select Sector,ETFs,healthcare stocks ETF,ssga.com,en,ETF,1
+ARKK,ARK Innovation,ETFs,ARK Innovation ETF,ark-funds.com,en,ETF,1
+GLD,SPDR Oro,ETFs,gold price,ssga.com,en,ETF,1
+SLV,iShares Plata,ETFs,silver price,ishares.com,en,ETF,1
+USO,Petróleo (USO),ETFs,oil price,uscfinvestments.com,en,ETF,1
+BTC-USD,Bitcoin,Cripto,Bitcoin price,bitcoin.org,en,Cripto,1
+ETH-USD,Ethereum,Cripto,Ethereum price,ethereum.org,en,Cripto,1
+SOL-USD,Solana,Cripto,Solana crypto,solana.com,en,Cripto,1
+XRP-USD,XRP,Cripto,XRP Ripple,ripple.com,en,Cripto,1
+BNB-USD,BNB,Cripto,BNB Binance coin,bnbchain.org,en,Cripto,1
+ADA-USD,Cardano,Cripto,Cardano ADA,cardano.org,en,Cripto,1
+DOGE-USD,Dogecoin,Cripto,Dogecoin,dogecoin.com,en,Cripto,1
+AVAX-USD,Avalanche,Cripto,Avalanche AVAX crypto,avax.network,en,Cripto,1
+LINK-USD,Chainlink,Cripto,Chainlink LINK crypto,chain.link,en,Cripto,1
+DOT-USD,Polkadot,Cripto,Polkadot DOT crypto,polkadot.network,en,Cripto,1
+EURUSD=X,Euro / Dólar,Divisas,EUR/USD euro dollar,ecb.europa.eu,en,Divisas,1
+GBPUSD=X,Libra / Dólar,Divisas,GBP/USD pound,bankofengland.co.uk,en,Divisas,1
+USDJPY=X,Dólar / Yen,Divisas,USD/JPY yen,boj.or.jp,en,Divisas,1
+EURGBP=X,Euro / Libra,Divisas,EUR/GBP,ecb.europa.eu,en,Divisas,1
+USDCHF=X,Dólar / Franco suizo,Divisas,Swiss franc,snb.ch,en,Divisas,1
+USDCNY=X,Dólar / Yuan,Divisas,Chinese yuan,pbc.gov.cn,en,Divisas,1
+DX-Y.NYB,Índice dólar (DXY),Divisas,dollar index DXY,ice.com,en,Divisas,1
+^TNX,Bono EE. UU. 10 años (rentabilidad %),Renta fija,10-year Treasury yield,treasury.gov,en,Renta fija,1
+^IRX,Letra EE. UU. 3 meses (rentabilidad %),Renta fija,Treasury bills yield Fed,treasury.gov,en,Renta fija,1
+TLT,iShares Bonos EE. UU. +20 años,Renta fija,long-term Treasury bonds,ishares.com,en,Renta fija,1
+IEF,iShares Bonos EE. UU. 7-10 años,Renta fija,Treasury bonds,ishares.com,en,Renta fija,1
+SHY,iShares Bonos EE. UU. 1-3 años,Renta fija,short-term Treasury,ishares.com,en,Renta fija,1
+LQD,iShares Bonos corporativos,Renta fija,investment grade corporate bonds,ishares.com,en,Renta fija,1
+HYG,iShares Bonos high yield,Renta fija,high yield bonds,ishares.com,en,Renta fija,1
+IBGL.AS,iShares Bonos del Estado zona euro,Renta fija,euro zone government bonds yields,ishares.com,en,Renta fija,1
+TRX-USD,TRON,Cripto,TRON crypto,,en,Cripto,0
+FIGR_HELOC-USD,Figure Heloc,Cripto,Figure Heloc crypto,,en,Cripto,0
+HYPE-USD,Hyperliquid,Cripto,Hyperliquid crypto,,en,Cripto,0
+ZEC-USD,Zcash,Cripto,Zcash crypto,,en,Cripto,0
+XMR-USD,Monero,Cripto,Monero crypto,,en,Cripto,0
+LEO-USD,LEO Token,Cripto,LEO Token crypto,,en,Cripto,0
+WBT-USD,WhiteBIT Coin,Cripto,WhiteBIT Coin crypto,,en,Cripto,0
+XLM-USD,Stellar,Cripto,Stellar crypto,,en,Cripto,0
+NEAR-USD,NEAR Protocol,Cripto,NEAR Protocol crypto,,en,Cripto,0
+BCH-USD,Bitcoin Cash,Cripto,Bitcoin Cash crypto,,en,Cripto,0
+RAIN-USD,Rain,Cripto,Rain crypto,,en,Cripto,0
+LTC-USD,Litecoin,Cripto,Litecoin crypto,,en,Cripto,0
+CC-USD,Canton,Cripto,Canton crypto,,en,Cripto,0
+UNI-USD,Uniswap,Cripto,Uniswap crypto,,en,Cripto,0
+SUI-USD,Sui,Cripto,Sui crypto,,en,Cripto,0
+GRAM-USD,Gram (prev. Toncoin),Cripto,Gram (prev. Toncoin) crypto,,en,Cripto,0
+HBAR-USD,Hedera,Cripto,Hedera crypto,,en,Cripto,0
+CRO-USD,Cronos,Cripto,Cronos crypto,,en,Cripto,0
+SHIB-USD,Shiba Inu,Cripto,Shiba Inu crypto,,en,Cripto,0
+QNT-USD,Quant,Cripto,Quant crypto,,en,Cripto,0
+TAO-USD,Bittensor,Cripto,Bittensor crypto,,en,Cripto,0
+M-USD,MemeCore,Cripto,MemeCore crypto,,en,Cripto,0
+EURSAFO-USD,Spiko Amundi Overnight Swap Fund (EUR),Cripto,Spiko Amundi Overnight Swap Fund (EUR) crypto,,en,Cripto,0
+OKB-USD,OKB,Cripto,OKB crypto,,en,Cripto,0
+AAVE-USD,Aave,Cripto,Aave crypto,,en,Cripto,0
+U-USD,United Stables,Cripto,United Stables crypto,,en,Cripto,0
+PEPE-USD,Pepe,Cripto,Pepe crypto,,en,Cripto,0
+ENA-USD,Ethena,Cripto,Ethena crypto,,en,Cripto,0
+ONDO-USD,Ondo,Cripto,Ondo crypto,,en,Cripto,0
+ASTER-USD,Aster,Cripto,Aster crypto,,en,Cripto,0
+WLFI-USD,World Liberty Financial,Cripto,World Liberty Financial crypto,,en,Cripto,0
+ICP-USD,Internet Computer,Cripto,Internet Computer crypto,,en,Cripto,0
+HTX-USD,HTX DAO,Cripto,HTX DAO crypto,,en,Cripto,0
+PUMP-USD,Pump.fun,Cripto,Pump.fun crypto,,en,Cripto,0
+MNT-USD,Mantle,Cripto,Mantle crypto,,en,Cripto,0
+MORPHO-USD,Morpho,Cripto,Morpho crypto,,en,Cripto,0
+SKY-USD,Sky,Cripto,Sky crypto,,en,Cripto,0
+JST-USD,JUST,Cripto,JUST crypto,,en,Cripto,0
+BGB-USD,Bitget Token,Cripto,Bitget Token crypto,,en,Cripto,0
+VVV-USD,Venice Token,Cripto,Venice Token crypto,,en,Cripto,0
+WLD-USD,Worldcoin,Cripto,Worldcoin crypto,,en,Cripto,0
+ETC-USD,Ethereum Classic,Cripto,Ethereum Classic crypto,,en,Cripto,0
+ARB-USD,Arbitrum,Cripto,Arbitrum crypto,,en,Cripto,0
+JUP-USD,Jupiter,Cripto,Jupiter crypto,,en,Cripto,0
+KCS-USD,KuCoin,Cripto,KuCoin crypto,,en,Cripto,0
+POL-USD,POL (ex-MATIC),Cripto,POL (ex-MATIC) crypto,,en,Cripto,0
+NIGHT-USD,Midnight,Cripto,Midnight crypto,,en,Cripto,0
+GT-USD,Gate,Cripto,Gate crypto,,en,Cripto,0
+RENDER-USD,Render,Cripto,Render crypto,,en,Cripto,0
+KAS-USD,Kaspa,Cripto,Kaspa crypto,,en,Cripto,0
+LIT-USD,Lighter,Cripto,Lighter crypto,,en,Cripto,0
+INJ-USD,Injective,Cripto,Injective crypto,,en,Cripto,0
+ALGO-USD,Algorand,Cripto,Algorand crypto,,en,Cripto,0
+ATOM-USD,Cosmos Hub,Cripto,Cosmos Hub crypto,,en,Cripto,0
+USTB-USD,Invesco Short Duration US Government Securities Fund,Cripto,Invesco Short Duration US Government Securities Fund crypto,,en,Cripto,0
+NEXO-USD,NEXO,Cripto,NEXO crypto,,en,Cripto,0
+PI-USD,Pi Network,Cripto,Pi Network crypto,,en,Cripto,0
+PEARL-USD,Pearl,Cripto,Pearl crypto,,en,Cripto,0
+BTW-USD,Bitway,Cripto,Bitway crypto,,en,Cripto,0
+ZRO-USD,LayerZero,Cripto,LayerZero crypto,,en,Cripto,0
+XDC-USD,XDC Network,Cripto,XDC Network crypto,,en,Cripto,0
+JAAA-USD,Janus Henderson Anemoy AAA CLO Fund,Cripto,Janus Henderson Anemoy AAA CLO Fund crypto,,en,Cripto,0
+BDX-USD,Beldex,Cripto,Beldex crypto,,en,Cripto,0
+PIEVERSE-USD,Pieverse,Cripto,Pieverse crypto,,en,Cripto,0
+CAKE-USD,PancakeSwap,Cripto,PancakeSwap crypto,,en,Cripto,0
+FIL-USD,Filecoin,Cripto,Filecoin crypto,,en,Cripto,0
+STX-USD,Stacks,Cripto,Stacks crypto,,en,Cripto,0
+DASH-USD,Dash,Cripto,Dash crypto,,en,Cripto,0
+币安人生-USD,币安人生 (BinanceLife),Cripto,币安人生 (BinanceLife) crypto,,en,Cripto,0
+ETHFI-USD,Ether.fi,Cripto,Ether.fi crypto,,en,Cripto,0
+EUTBL-USD,Spiko EU T-Bills Money Market Fund,Cripto,Spiko EU T-Bills Money Market Fund crypto,,en,Cripto,0
+YLDS-USD,YLDS,Cripto,YLDS crypto,,en,Cripto,0
+A7A5-USD,A7A5,Cripto,A7A5 crypto,,en,Cripto,0
+HASH-USD,Provenance Blockchain,Cripto,Provenance Blockchain crypto,,en,Cripto,0
+FLR-USD,Flare,Cripto,Flare crypto,,en,Cripto,0
+STABLE-USD,​​Stable,Cripto,​​Stable crypto,,en,Cripto,0
+PYTH-USD,Pyth Network,Cripto,Pyth Network crypto,,en,Cripto,0
+VET-USD,VeChain,Cripto,VeChain crypto,,en,Cripto,0
+APT-USD,Aptos,Cripto,Aptos crypto,,en,Cripto,0
+RAY-USD,Raydium,Cripto,Raydium crypto,,en,Cripto,0
+FF-USD,Falcon Finance,Cripto,Falcon Finance crypto,,en,Cripto,0
+TIA-USD,Celestia,Cripto,Celestia crypto,,en,Cripto,0
+KAU-USD,Kinesis Gold,Cripto,Kinesis Gold crypto,,en,Cripto,0
+SOFID-USD,SoFiUSD,Cripto,SoFiUSD crypto,,en,Cripto,0
+CRV-USD,Curve DAO,Cripto,Curve DAO crypto,,en,Cripto,0
+AERO-USD,Aero,Cripto,Aero crypto,,en,Cripto,0
+KITE-USD,Kite,Cripto,Kite crypto,,en,Cripto,0
+OUSG-USD,Ondo Short-Term U.S. Government Bond Fund,Cripto,Ondo Short-Term U.S. Government Bond Fund crypto,,en,Cripto,0
+FET-USD,Artificial Superintelligence Alliance,Cripto,Artificial Superintelligence Alliance crypto,,en,Cripto,0
+BTT-USD,BitTorrent,Cripto,BitTorrent crypto,,en,Cripto,0
+LQDA,Liquidia,Acciones,Liquidia stock,liquidia.com,en,EE. UU.,1
+UTHR,United Therapeutics,Acciones,United Therapeutics stock,unither.com,en,EE. UU.,1
+VWCE.DE,Vanguard FTSE All-World (acumulación),ETFs,Vanguard FTSE All-World ETF,vanguard.com,en,ETF,1
+VWRL.AS,Vanguard FTSE All-World (distribución),ETFs,Vanguard FTSE All-World ETF,vanguard.com,en,ETF,1
+SXR8.DE,iShares Core S&P 500 (EUR),ETFs,iShares Core S&P 500 UCITS,ishares.com,en,ETF,1
+VUSA.AS,Vanguard S&P 500 (EUR),ETFs,Vanguard S&P 500 UCITS,vanguard.com,en,ETF,1
+EQQQ.DE,Invesco Nasdaq-100 (EUR),ETFs,Invesco Nasdaq-100 UCITS,invesco.com,en,ETF,1
+IS3N.DE,iShares Core MSCI EM IMI,ETFs,iShares MSCI emerging markets,ishares.com,en,ETF,1
+XDWD.DE,Xtrackers MSCI World,ETFs,Xtrackers MSCI World,dws.com,en,ETF,1
+VOO,Vanguard S&P 500,ETFs,VOO ETF,vanguard.com,en,ETF,1
+IVV,iShares Core S&P 500,ETFs,IVV ETF,ishares.com,en,ETF,1
+VTI,Vanguard Total Stock Market,ETFs,VTI ETF,vanguard.com,en,ETF,1
+DIA,SPDR Dow Jones,ETFs,DIA ETF Dow,ssga.com,en,ETF,1
+IWM,iShares Russell 2000,ETFs,IWM small caps ETF,ishares.com,en,ETF,1
+SCHD,Schwab US Dividend Equity,ETFs,SCHD dividend ETF,schwab.com,en,ETF,1
+JEPI,JPMorgan Equity Premium Income,ETFs,JEPI ETF,jpmorgan.com,en,ETF,1
+EFA,iShares MSCI EAFE,ETFs,EFA ETF,ishares.com,en,ETF,1
+IEMG,iShares Core MSCI Emerging,ETFs,IEMG emerging ETF,ishares.com,en,ETF,1
+XLK,Technology Select Sector,ETFs,tech stocks ETF XLK,ssga.com,en,ETF,1
+XLY,Consumer Discretionary Select,ETFs,consumer discretionary ETF,ssga.com,en,ETF,1
+XLP,Consumer Staples Select,ETFs,consumer staples ETF,ssga.com,en,ETF,1
+XLI,Industrial Select Sector,ETFs,industrials ETF,ssga.com,en,ETF,1
+XLU,Utilities Select Sector,ETFs,utilities ETF,ssga.com,en,ETF,1
+XLB,Materials Select Sector,ETFs,materials ETF,ssga.com,en,ETF,1
+XLRE,Real Estate Select Sector,ETFs,real estate ETF,ssga.com,en,ETF,1
+XLC,Communication Services Select,ETFs,communication services ETF,ssga.com,en,ETF,1
+VNQ,Vanguard Real Estate,ETFs,REIT ETF VNQ,vanguard.com,en,ETF,1
+SOXX,iShares Semiconductor,ETFs,semiconductor ETF SOXX,ishares.com,en,ETF,1
+TQQQ,ProShares UltraPro QQQ (x3),ETFs,TQQQ leveraged ETF,proshares.com,en,ETF,1
+ICLN,iShares Global Clean Energy,ETFs,clean energy ETF,ishares.com,en,ETF,1
+TAN,Invesco Solar,ETFs,solar stocks ETF,invesco.com,en,ETF,1
+LIT,Global X Lithium & Battery,ETFs,lithium ETF,globalxetfs.com,en,ETF,1
+URA,Global X Uranium,ETFs,uranium ETF,globalxetfs.com,en,ETF,1
+CIBR,First Trust Cybersecurity,ETFs,cybersecurity ETF,ftportfolios.com,en,ETF,1
+BOTZ,Global X Robotics & AI,ETFs,robotics AI ETF,globalxetfs.com,en,ETF,1
+KWEB,KraneShares China Internet,ETFs,China internet stocks ETF,kraneshares.com,en,ETF,1
+FXI,iShares China Large-Cap,ETFs,China stocks ETF FXI,ishares.com,en,ETF,1
+EWJ,iShares MSCI Japan,ETFs,Japan stocks ETF,ishares.com,en,ETF,1
+EWZ,iShares MSCI Brazil,ETFs,Brazil stocks ETF,ishares.com,en,ETF,1
+INDA,iShares MSCI India,ETFs,India stocks ETF,ishares.com,en,ETF,1
+EWG,iShares MSCI Germany,ETFs,Germany stocks ETF,ishares.com,en,ETF,1
+EWP,iShares MSCI Spain,ETFs,Spain stocks ETF,ishares.com,en,ETF,1
+GDX,VanEck Gold Miners,ETFs,gold miners ETF,vaneck.com,en,ETF,1
+CPER,United States Copper,ETFs,copper price,uscfinvestments.com,en,ETF,1
+UNG,United States Natural Gas,ETFs,natural gas price,uscfinvestments.com,en,ETF,1
+DBC,Invesco DB Commodity,ETFs,commodities ETF,invesco.com,en,ETF,1
+IBIT,iShares Bitcoin Trust,ETFs,IBIT bitcoin ETF flows,ishares.com,en,ETF,1
+ETHA,iShares Ethereum Trust,ETFs,ether ETF flows,ishares.com,en,ETF,1
+PHM.MC,Pharma Mar,Acciones,Pharma Mar bolsa,pharmamar.com,es,España,0
+VIS.MC,Viscofan,Acciones,Viscofan bolsa,viscofan.com,es,España,0
+CAF.MC,CAF,Acciones,CAF Construcciones y Auxiliar de Ferrocarriles bolsa,caf.net,es,España,0
+EBRO.MC,Ebro Foods,Acciones,Ebro Foods bolsa,ebrofoods.es,es,España,0
+ALM.MC,Almirall,Acciones,Almirall bolsa,almirall.com,es,España,0
+ENC.MC,Ence,Acciones,Ence bolsa,ence.es,es,España,0
+GEST.MC,Gestamp,Acciones,Gestamp bolsa,gestamp.com,es,España,0
+CIE.MC,CIE Automotive,Acciones,CIE Automotive bolsa,cieautomotive.com,es,España,0
+ENO.MC,Elecnor,Acciones,Elecnor bolsa,elecnor.com,es,España,0
+FAE.MC,Faes Farma,Acciones,Faes Farma bolsa,faesfarma.com,es,España,0
+VID.MC,Vidrala,Acciones,Vidrala bolsa,vidrala.com,es,España,0
+PSG.MC,Prosegur,Acciones,Prosegur bolsa,prosegur.com,es,España,0
+A3M.MC,Atresmedia,Acciones,Atresmedia bolsa,atresmediacorporacion.com,es,España,0
+TUB.MC,Tubacex,Acciones,Tubacex bolsa,tubacex.com,es,España,0
+GRE.MC,Grenergy,Acciones,Grenergy bolsa,grenergy.eu,es,España,0
+LDA.MC,Línea Directa,Acciones,Línea Directa bolsa,lineadirectaaseguradora.com,es,España,0
+NEI.MC,Neinor Homes,Acciones,Neinor Homes bolsa,neinorhomes.com,es,España,0
+MVC.MC,Metrovacesa,Acciones,Metrovacesa bolsa,metrovacesa.com,es,España,0
+DOM.MC,Global Dominion,Acciones,Dominion bolsa,dominion-global.com,es,España,0
+ECR.MC,Ercros,Acciones,Ercros bolsa,ercros.es,es,España,0
+ORY.MC,Oryzon Genomics,Acciones,Oryzon bolsa,oryzon.com,es,España,0
+ADX.MC,Audax Renovables,Acciones,Audax Renovables bolsa,audaxrenovables.com,es,España,0
+TRE.MC,Técnicas Reunidas,Acciones,Técnicas Reunidas bolsa,tecnicasreunidas.es,es,España,0
+MEL.MC,Meliá Hotels,Acciones,Meliá bolsa,melia.com,es,España,0
+EDR.MC,eDreams Odigeo,Acciones,eDreams bolsa,edreamsodigeo.com,es,España,0
+7203.T,Toyota,Acciones,Toyota stock,toyota-global.com,en,Japón,0
+6758.T,Sony,Acciones,Sony stock,sony.com,en,Japón,0
+8306.T,Mitsubishi UFJ,Acciones,Mitsubishi UFJ stock,mufg.jp,en,Japón,0
+6861.T,Keyence,Acciones,Keyence stock,keyence.com,en,Japón,0
+9984.T,SoftBank Group,Acciones,SoftBank Group stock,group.softbank,en,Japón,0
+9983.T,Fast Retailing (Uniqlo),Acciones,Fast Retailing stock,fastretailing.com,en,Japón,0
+6501.T,Hitachi,Acciones,Hitachi stock,hitachi.com,en,Japón,0
+8035.T,Tokyo Electron,Acciones,Tokyo Electron stock,tel.com,en,Japón,0
+7974.T,Nintendo,Acciones,Nintendo stock,nintendo.com,en,Japón,0
+7267.T,Honda,Acciones,Honda stock,honda.com,en,Japón,0
+4502.T,Takeda,Acciones,Takeda stock,takeda.com,en,Japón,0
+6857.T,Advantest,Acciones,Advantest stock,advantest.com,en,Japón,0
+6146.T,Disco,Acciones,Disco Corp stock,disco.co.jp,en,Japón,0
+7011.T,Mitsubishi Heavy Industries,Acciones,Mitsubishi Heavy stock,mhi.com,en,Japón,0
+005930.KS,Samsung Electronics,Acciones,Samsung Electronics stock,samsung.com,en,Corea del Sur,0
+000660.KS,SK Hynix,Acciones,SK Hynix stock,skhynix.com,en,Corea del Sur,0
+NESN.SW,Nestlé,Acciones,Nestle stock,nestle.com,en,Suiza,0
+NOVN.SW,Novartis,Acciones,Novartis stock,novartis.com,en,Suiza,0
+ROG.SW,Roche,Acciones,Roche stock,roche.com,en,Suiza,0
+UBSG.SW,UBS,Acciones,UBS stock,ubs.com,en,Suiza,0
+ZURN.SW,Zurich Insurance,Acciones,Zurich Insurance stock,zurich.com,en,Suiza,0
+ABBN.SW,ABB,Acciones,ABB stock,abb.com,en,Suiza,0
+CFR.SW,Richemont,Acciones,Richemont stock,richemont.com,en,Suiza,0
+LOGN.SW,Logitech,Acciones,Logitech stock,logitech.com,en,Suiza,0
+NOVO-B.CO,Novo Nordisk (Copenhague),Acciones,Novo Nordisk stock,novonordisk.com,en,Dinamarca,0
+DSV.CO,DSV,Acciones,DSV stock,dsv.com,en,Dinamarca,0
+VOLV-B.ST,Volvo,Acciones,Volvo stock,volvogroup.com,en,Suecia,0
+ERIC-B.ST,Ericsson,Acciones,Ericsson stock,ericsson.com,en,Suecia,0
+EQNR.OL,Equinor,Acciones,Equinor stock,equinor.com,en,Noruega,0
+ADYEN.AS,Adyen,Acciones,Adyen stock,adyen.com,en,Países Bajos,0
+HEIA.AS,Heineken,Acciones,Heineken stock,theheinekencompany.com,en,Países Bajos,0
+NOKIA.HE,Nokia,Acciones,Nokia stock,nokia.com,en,Finlandia,0
+ASML,ASML,Acciones,ASML stock,,en,EE. UU.,0
+ARM,Arm Holdings,Acciones,Arm Holdings stock,,en,EE. UU.,0
+MELI,MercadoLibre,Acciones,MercadoLibre stock,,en,EE. UU.,0
+PDD,PDD (Temu),Acciones,PDD (Temu) stock,,en,EE. UU.,0
+SHOP,Shopify,Acciones,Shopify stock,,en,EE. UU.,0
+TSM,TSMC,Acciones,TSMC stock,,en,Taiwán,0
+BABA,Alibaba,Acciones,Alibaba stock,,en,China,0
+SPOT,Spotify,Acciones,Spotify stock,,en,EE. UU.,0
+MSTR,Strategy (MicroStrategy),Acciones,Strategy (MicroStrategy) stock,,en,EE. UU.,0
+COIN,Coinbase,Acciones,Coinbase stock,,en,EE. UU.,0
+HOOD,Robinhood,Acciones,Robinhood stock,,en,EE. UU.,0
+RKLB,Rocket Lab,Acciones,Rocket Lab stock,,en,EE. UU.,0
+SOFI,SoFi,Acciones,SoFi stock,,en,EE. UU.,0
+NIO,NIO,Acciones,NIO stock,,en,China,0
+MMM,3M,Acciones,3M stock,,en,EE. UU.,0
+AOS,A. O. Smith,Acciones,A. O. Smith stock,,en,EE. UU.,0
+ABT,Abbott Laboratories,Acciones,Abbott Laboratories stock,,en,EE. UU.,0
+ABBV,AbbVie,Acciones,AbbVie stock,,en,EE. UU.,0
+ACN,Accenture,Acciones,Accenture stock,,en,EE. UU.,0
+ADBE,Adobe Inc.,Acciones,Adobe Inc. stock,,en,EE. UU.,0
+AMD,Advanced Micro Devices,Acciones,Advanced Micro Devices stock,,en,EE. UU.,0
+AES,AES Corporation,Acciones,AES Corporation stock,,en,EE. UU.,0
+AFL,Aflac,Acciones,Aflac stock,,en,EE. UU.,0
+A,Agilent Technologies,Acciones,Agilent Technologies stock,,en,EE. UU.,0
+APD,Air Products,Acciones,Air Products stock,,en,EE. UU.,0
+ABNB,Airbnb,Acciones,Airbnb stock,,en,EE. UU.,0
+AKAM,Akamai Technologies,Acciones,Akamai Technologies stock,,en,EE. UU.,0
+ALB,Albemarle Corporation,Acciones,Albemarle Corporation stock,,en,EE. UU.,0
+ARE,Alexandria Real Estate Equities,Acciones,Alexandria Real Estate Equities stock,,en,EE. UU.,0
+ALGN,Align Technology,Acciones,Align Technology stock,,en,EE. UU.,0
+ALLE,Allegion,Acciones,Allegion stock,,en,EE. UU.,0
+LNT,Alliant Energy,Acciones,Alliant Energy stock,,en,EE. UU.,0
+ALL,Allstate,Acciones,Allstate stock,,en,EE. UU.,0
+GOOGL,Alphabet Inc. (Class A),Acciones,Alphabet Inc. (Class A) stock,,en,EE. UU.,0
+GOOG,Alphabet Inc. (Class C),Acciones,Alphabet Inc. (Class C) stock,,en,EE. UU.,0
+MO,Altria,Acciones,Altria stock,,en,EE. UU.,0
+AMZN,Amazon,Acciones,Amazon stock,,en,EE. UU.,0
+AMCR,Amcor,Acciones,Amcor stock,,en,EE. UU.,0
+AEE,Ameren,Acciones,Ameren stock,,en,EE. UU.,0
+AEP,American Electric Power,Acciones,American Electric Power stock,,en,EE. UU.,0
+AXP,American Express,Acciones,American Express stock,,en,EE. UU.,0
+AIG,American International Group,Acciones,American International Group stock,,en,EE. UU.,0
+AMT,American Tower,Acciones,American Tower stock,,en,EE. UU.,0
+AWK,American Water Works,Acciones,American Water Works stock,,en,EE. UU.,0
+AMP,Ameriprise Financial,Acciones,Ameriprise Financial stock,,en,EE. UU.,0
+AME,Ametek,Acciones,Ametek stock,,en,EE. UU.,0
+AMGN,Amgen,Acciones,Amgen stock,,en,EE. UU.,0
+APH,Amphenol,Acciones,Amphenol stock,,en,EE. UU.,0
+ADI,Analog Devices,Acciones,Analog Devices stock,,en,EE. UU.,0
+AON,Aon plc,Acciones,Aon plc stock,,en,EE. UU.,0
+APA,APA Corporation,Acciones,APA Corporation stock,,en,EE. UU.,0
+APO,Apollo Global Management,Acciones,Apollo Global Management stock,,en,EE. UU.,0
+AAPL,Apple Inc.,Acciones,Apple Inc. stock,,en,EE. UU.,0
+AMAT,Applied Materials,Acciones,Applied Materials stock,,en,EE. UU.,0
+APP,AppLovin,Acciones,AppLovin stock,,en,EE. UU.,0
+APTV,Aptiv,Acciones,Aptiv stock,,en,EE. UU.,0
+ACGL,Arch Capital Group,Acciones,Arch Capital Group stock,,en,EE. UU.,0
+ADM,Archer Daniels Midland,Acciones,Archer Daniels Midland stock,,en,EE. UU.,0
+ARES,Ares Management,Acciones,Ares Management stock,,en,EE. UU.,0
+ANET,Arista Networks,Acciones,Arista Networks stock,,en,EE. UU.,0
+AJG,Arthur J. Gallagher & Co.,Acciones,Arthur J. Gallagher & Co. stock,,en,EE. UU.,0
+AIZ,Assurant,Acciones,Assurant stock,,en,EE. UU.,0
+T,AT&T,Acciones,AT&T stock,,en,EE. UU.,0
+ATO,Atmos Energy,Acciones,Atmos Energy stock,,en,EE. UU.,0
+ADSK,Autodesk,Acciones,Autodesk stock,,en,EE. UU.,0
+ADP,Automatic Data Processing,Acciones,Automatic Data Processing stock,,en,EE. UU.,0
+AZO,AutoZone,Acciones,AutoZone stock,,en,EE. UU.,0
+AVY,Avery Dennison,Acciones,Avery Dennison stock,,en,EE. UU.,0
+AXON,Axon Enterprise,Acciones,Axon Enterprise stock,,en,EE. UU.,0
+BKR,Baker Hughes,Acciones,Baker Hughes stock,,en,EE. UU.,0
+BALL,Ball Corporation,Acciones,Ball Corporation stock,,en,EE. UU.,0
+BAC,Bank of America,Acciones,Bank of America stock,,en,EE. UU.,0
+BAX,Baxter International,Acciones,Baxter International stock,,en,EE. UU.,0
+BDX,Becton Dickinson,Acciones,Becton Dickinson stock,,en,EE. UU.,0
+BRK-B,Berkshire Hathaway,Acciones,Berkshire Hathaway stock,,en,EE. UU.,0
+BBY,Best Buy,Acciones,Best Buy stock,,en,EE. UU.,0
+TECH,Bio-Techne,Acciones,Bio-Techne stock,,en,EE. UU.,0
+BIIB,Biogen,Acciones,Biogen stock,,en,EE. UU.,0
+BLK,BlackRock,Acciones,BlackRock stock,,en,EE. UU.,0
+BX,Blackstone Inc.,Acciones,Blackstone Inc. stock,,en,EE. UU.,0
+XYZ,"Block, Inc.",Acciones,"Block, Inc. stock",,en,EE. UU.,0
+BE,Bloom Energy,Acciones,Bloom Energy stock,,en,EE. UU.,0
+BNY,BNY Mellon,Acciones,BNY Mellon stock,,en,EE. UU.,0
+BA,Boeing,Acciones,Boeing stock,,en,EE. UU.,0
+BKNG,Booking Holdings,Acciones,Booking Holdings stock,,en,EE. UU.,0
+BSX,Boston Scientific,Acciones,Boston Scientific stock,,en,EE. UU.,0
+BMY,Bristol Myers Squibb,Acciones,Bristol Myers Squibb stock,,en,EE. UU.,0
+AVGO,Broadcom,Acciones,Broadcom stock,,en,EE. UU.,0
+BR,Broadridge Financial Solutions,Acciones,Broadridge Financial Solutions stock,,en,EE. UU.,0
+BRO,Brown & Brown,Acciones,Brown & Brown stock,,en,EE. UU.,0
+BF-B,Brown–Forman,Acciones,Brown–Forman stock,,en,EE. UU.,0
+BG,Bunge Global,Acciones,Bunge Global stock,,en,EE. UU.,0
+BXP,"BXP, Inc.",Acciones,"BXP, Inc. stock",,en,EE. UU.,0
+CHRW,C.H. Robinson,Acciones,C.H. Robinson stock,,en,EE. UU.,0
+CDNS,Cadence Design Systems,Acciones,Cadence Design Systems stock,,en,EE. UU.,0
+CPT,Camden Property Trust,Acciones,Camden Property Trust stock,,en,EE. UU.,0
+COF,Capital One,Acciones,Capital One stock,,en,EE. UU.,0
+CAH,Cardinal Health,Acciones,Cardinal Health stock,,en,EE. UU.,0
+CCL,Carnival Corporation,Acciones,Carnival Corporation stock,,en,EE. UU.,0
+CARR,Carrier Global,Acciones,Carrier Global stock,,en,EE. UU.,0
+CVNA,Carvana,Acciones,Carvana stock,,en,EE. UU.,0
+CASY,Casey's,Acciones,Casey's stock,,en,EE. UU.,0
+CAT,Caterpillar Inc.,Acciones,Caterpillar Inc. stock,,en,EE. UU.,0
+CBOE,Cboe Global Markets,Acciones,Cboe Global Markets stock,,en,EE. UU.,0
+CBRE,CBRE Group,Acciones,CBRE Group stock,,en,EE. UU.,0
+CDW,CDW Corporation,Acciones,CDW Corporation stock,,en,EE. UU.,0
+COR,Cencora,Acciones,Cencora stock,,en,EE. UU.,0
+CNC,Centene Corporation,Acciones,Centene Corporation stock,,en,EE. UU.,0
+CNP,CenterPoint Energy,Acciones,CenterPoint Energy stock,,en,EE. UU.,0
+CF,CF Industries,Acciones,CF Industries stock,,en,EE. UU.,0
+CRL,Charles River Laboratories,Acciones,Charles River Laboratories stock,,en,EE. UU.,0
+SCHW,Charles Schwab Corporation,Acciones,Charles Schwab Corporation stock,,en,EE. UU.,0
+CHTR,Charter Communications,Acciones,Charter Communications stock,,en,EE. UU.,0
+CVX,Chevron Corporation,Acciones,Chevron Corporation stock,,en,EE. UU.,0
+CMG,Chipotle Mexican Grill,Acciones,Chipotle Mexican Grill stock,,en,EE. UU.,0
+CB,Chubb Limited,Acciones,Chubb Limited stock,,en,EE. UU.,0
+CHD,Church & Dwight,Acciones,Church & Dwight stock,,en,EE. UU.,0
+CIEN,Ciena,Acciones,Ciena stock,,en,EE. UU.,0
+CI,Cigna,Acciones,Cigna stock,,en,EE. UU.,0
+CINF,Cincinnati Financial,Acciones,Cincinnati Financial stock,,en,EE. UU.,0
+CTAS,Cintas,Acciones,Cintas stock,,en,EE. UU.,0
+CSCO,Cisco,Acciones,Cisco stock,,en,EE. UU.,0
+C,Citigroup,Acciones,Citigroup stock,,en,EE. UU.,0
+CFG,Citizens Financial Group,Acciones,Citizens Financial Group stock,,en,EE. UU.,0
+CLX,Clorox,Acciones,Clorox stock,,en,EE. UU.,0
+CME,CME Group,Acciones,CME Group stock,,en,EE. UU.,0
+CMS,CMS Energy,Acciones,CMS Energy stock,,en,EE. UU.,0
+KO,Coca-Cola Company (The),Acciones,Coca-Cola Company (The) stock,,en,EE. UU.,0
+CTSH,Cognizant,Acciones,Cognizant stock,,en,EE. UU.,0
+COHR,Coherent Corp.,Acciones,Coherent Corp. stock,,en,EE. UU.,0
+CL,Colgate-Palmolive,Acciones,Colgate-Palmolive stock,,en,EE. UU.,0
+CMCSA,Comcast,Acciones,Comcast stock,,en,EE. UU.,0
+FIX,Comfort Systems USA,Acciones,Comfort Systems USA stock,,en,EE. UU.,0
+COP,ConocoPhillips,Acciones,ConocoPhillips stock,,en,EE. UU.,0
+ED,Consolidated Edison,Acciones,Consolidated Edison stock,,en,EE. UU.,0
+STZ,Constellation Brands,Acciones,Constellation Brands stock,,en,EE. UU.,0
+CEG,Constellation Energy,Acciones,Constellation Energy stock,,en,EE. UU.,0
+COO,Cooper Companies (The),Acciones,Cooper Companies (The) stock,,en,EE. UU.,0
+CPRT,Copart,Acciones,Copart stock,,en,EE. UU.,0
+GLW,Corning Inc.,Acciones,Corning Inc. stock,,en,EE. UU.,0
+CPAY,Corpay,Acciones,Corpay stock,,en,EE. UU.,0
+CSGP,CoStar Group,Acciones,CoStar Group stock,,en,EE. UU.,0
+COST,Costco,Acciones,Costco stock,,en,EE. UU.,0
+CRH,CRH plc,Acciones,CRH plc stock,,en,EE. UU.,0
+CRWD,CrowdStrike,Acciones,CrowdStrike stock,,en,EE. UU.,0
+CCI,Crown Castle,Acciones,Crown Castle stock,,en,EE. UU.,0
+CSX,CSX Corporation,Acciones,CSX Corporation stock,,en,EE. UU.,0
+CMI,Cummins,Acciones,Cummins stock,,en,EE. UU.,0
+CVS,CVS Health,Acciones,CVS Health stock,,en,EE. UU.,0
+DHR,Danaher Corporation,Acciones,Danaher Corporation stock,,en,EE. UU.,0
+DRI,Darden Restaurants,Acciones,Darden Restaurants stock,,en,EE. UU.,0
+DDOG,Datadog,Acciones,Datadog stock,,en,EE. UU.,0
+DVA,DaVita,Acciones,DaVita stock,,en,EE. UU.,0
+DECK,Deckers Brands,Acciones,Deckers Brands stock,,en,EE. UU.,0
+DE,Deere & Company,Acciones,Deere & Company stock,,en,EE. UU.,0
+DELL,Dell Technologies,Acciones,Dell Technologies stock,,en,EE. UU.,0
+DAL,Delta Air Lines,Acciones,Delta Air Lines stock,,en,EE. UU.,0
+DVN,Devon Energy,Acciones,Devon Energy stock,,en,EE. UU.,0
+DXCM,Dexcom,Acciones,Dexcom stock,,en,EE. UU.,0
+FANG,Diamondback Energy,Acciones,Diamondback Energy stock,,en,EE. UU.,0
+DLR,Digital Realty,Acciones,Digital Realty stock,,en,EE. UU.,0
+DG,Dollar General,Acciones,Dollar General stock,,en,EE. UU.,0
+DLTR,Dollar Tree,Acciones,Dollar Tree stock,,en,EE. UU.,0
+D,Dominion Energy,Acciones,Dominion Energy stock,,en,EE. UU.,0
+DPZ,Domino's,Acciones,Domino's stock,,en,EE. UU.,0
+DASH,DoorDash,Acciones,DoorDash stock,,en,EE. UU.,0
+DOV,Dover Corporation,Acciones,Dover Corporation stock,,en,EE. UU.,0
+DOW,Dow Inc.,Acciones,Dow Inc. stock,,en,EE. UU.,0
+DHI,D. R. Horton,Acciones,D. R. Horton stock,,en,EE. UU.,0
+DTE,DTE Energy,Acciones,DTE Energy stock,,en,EE. UU.,0
+DUK,Duke Energy,Acciones,Duke Energy stock,,en,EE. UU.,0
+DD,DuPont,Acciones,DuPont stock,,en,EE. UU.,0
+ETN,Eaton Corporation,Acciones,Eaton Corporation stock,,en,EE. UU.,0
+EBAY,eBay Inc.,Acciones,eBay Inc. stock,,en,EE. UU.,0
+ECHO,EchoStar,Acciones,EchoStar stock,,en,EE. UU.,0
+ECL,Ecolab,Acciones,Ecolab stock,,en,EE. UU.,0
+EIX,Edison International,Acciones,Edison International stock,,en,EE. UU.,0
+EW,Edwards Lifesciences,Acciones,Edwards Lifesciences stock,,en,EE. UU.,0
+ELV,Elevance Health,Acciones,Elevance Health stock,,en,EE. UU.,0
+EME,Emcor,Acciones,Emcor stock,,en,EE. UU.,0
+EMR,Emerson Electric,Acciones,Emerson Electric stock,,en,EE. UU.,0
+ETR,Entergy,Acciones,Entergy stock,,en,EE. UU.,0
+EOG,EOG Resources,Acciones,EOG Resources stock,,en,EE. UU.,0
+EQT,EQT Corporation,Acciones,EQT Corporation stock,,en,EE. UU.,0
+EFX,Equifax,Acciones,Equifax stock,,en,EE. UU.,0
+EQIX,Equinix,Acciones,Equinix stock,,en,EE. UU.,0
+ERIE,Erie Indemnity,Acciones,Erie Indemnity stock,,en,EE. UU.,0
+ESS,Essex Property Trust,Acciones,Essex Property Trust stock,,en,EE. UU.,0
+EL,Estée Lauder Companies (The),Acciones,Estée Lauder Companies (The) stock,,en,EE. UU.,0
+EG,Everest Group,Acciones,Everest Group stock,,en,EE. UU.,0
+EVRG,Evergy,Acciones,Evergy stock,,en,EE. UU.,0
+P,Everpure,Acciones,Everpure stock,,en,EE. UU.,0
+ES,Eversource Energy,Acciones,Eversource Energy stock,,en,EE. UU.,0
+EXC,Exelon,Acciones,Exelon stock,,en,EE. UU.,0
+EXE,Expand Energy,Acciones,Expand Energy stock,,en,EE. UU.,0
+EXPE,Expedia Group,Acciones,Expedia Group stock,,en,EE. UU.,0
+EXPD,Expeditors International,Acciones,Expeditors International stock,,en,EE. UU.,0
+EXR,Extra Space Storage,Acciones,Extra Space Storage stock,,en,EE. UU.,0
+XOM,ExxonMobil,Acciones,ExxonMobil stock,,en,EE. UU.,0
+FFIV,"F5, Inc.",Acciones,"F5, Inc. stock",,en,EE. UU.,0
+FDS,FactSet,Acciones,FactSet stock,,en,EE. UU.,0
+FICO,Fair Isaac,Acciones,Fair Isaac stock,,en,EE. UU.,0
+FAST,Fastenal,Acciones,Fastenal stock,,en,EE. UU.,0
+FRT,Federal Realty Investment Trust,Acciones,Federal Realty Investment Trust stock,,en,EE. UU.,0
+FDX,FedEx,Acciones,FedEx stock,,en,EE. UU.,0
+FDXF,FedEx Freight,Acciones,FedEx Freight stock,,en,EE. UU.,0
+FERG,Ferguson Enterprises,Acciones,Ferguson Enterprises stock,,en,EE. UU.,0
+FIS,Fidelity National Information Services,Acciones,Fidelity National Information Services stock,,en,EE. UU.,0
+FITB,Fifth Third Bancorp,Acciones,Fifth Third Bancorp stock,,en,EE. UU.,0
+FSLR,First Solar,Acciones,First Solar stock,,en,EE. UU.,0
+FE,FirstEnergy,Acciones,FirstEnergy stock,,en,EE. UU.,0
+FISV,Fiserv,Acciones,Fiserv stock,,en,EE. UU.,0
+FLEX,Flex Ltd.,Acciones,Flex Ltd. stock,,en,EE. UU.,0
+F,Ford Motor Company,Acciones,Ford Motor Company stock,,en,EE. UU.,0
+FTNT,Fortinet,Acciones,Fortinet stock,,en,EE. UU.,0
+FTV,Fortive,Acciones,Fortive stock,,en,EE. UU.,0
+FOXA,Fox Corporation (Class A),Acciones,Fox Corporation (Class A) stock,,en,EE. UU.,0
+FOX,Fox Corporation (Class B),Acciones,Fox Corporation (Class B) stock,,en,EE. UU.,0
+BEN,Franklin Resources,Acciones,Franklin Resources stock,,en,EE. UU.,0
+FCX,Freeport-McMoRan,Acciones,Freeport-McMoRan stock,,en,EE. UU.,0
+GRMN,Garmin,Acciones,Garmin stock,,en,EE. UU.,0
+IT,Gartner,Acciones,Gartner stock,,en,EE. UU.,0
+GE,GE Aerospace,Acciones,GE Aerospace stock,,en,EE. UU.,0
+GEHC,GE HealthCare,Acciones,GE HealthCare stock,,en,EE. UU.,0
+GEV,GE Vernova,Acciones,GE Vernova stock,,en,EE. UU.,0
+GEN,Gen Digital,Acciones,Gen Digital stock,,en,EE. UU.,0
+GNRC,Generac,Acciones,Generac stock,,en,EE. UU.,0
+GD,General Dynamics,Acciones,General Dynamics stock,,en,EE. UU.,0
+GIS,General Mills,Acciones,General Mills stock,,en,EE. UU.,0
+GM,General Motors,Acciones,General Motors stock,,en,EE. UU.,0
+GPC,Genuine Parts Company,Acciones,Genuine Parts Company stock,,en,EE. UU.,0
+GILD,Gilead Sciences,Acciones,Gilead Sciences stock,,en,EE. UU.,0
+GPN,Global Payments,Acciones,Global Payments stock,,en,EE. UU.,0
+GL,Globe Life,Acciones,Globe Life stock,,en,EE. UU.,0
+GDDY,GoDaddy,Acciones,GoDaddy stock,,en,EE. UU.,0
+GS,Goldman Sachs,Acciones,Goldman Sachs stock,,en,EE. UU.,0
+HAL,Halliburton,Acciones,Halliburton stock,,en,EE. UU.,0
+HIG,Hartford (The),Acciones,Hartford (The) stock,,en,EE. UU.,0
+HAS,Hasbro,Acciones,Hasbro stock,,en,EE. UU.,0
+HCA,HCA Healthcare,Acciones,HCA Healthcare stock,,en,EE. UU.,0
+DOC,Healthpeak Properties,Acciones,Healthpeak Properties stock,,en,EE. UU.,0
+HSIC,Henry Schein,Acciones,Henry Schein stock,,en,EE. UU.,0
+HSY,Hershey Company (The),Acciones,Hershey Company (The) stock,,en,EE. UU.,0
+HPE,Hewlett Packard Enterprise,Acciones,Hewlett Packard Enterprise stock,,en,EE. UU.,0
+HLT,Hilton Worldwide,Acciones,Hilton Worldwide stock,,en,EE. UU.,0
+HD,Home Depot (The),Acciones,Home Depot (The) stock,,en,EE. UU.,0
+HONA,Honeywell Aerospace,Acciones,Honeywell Aerospace stock,,en,EE. UU.,0
+HON,Honeywell Technologies,Acciones,Honeywell Technologies stock,,en,EE. UU.,0
+HRL,Hormel Foods,Acciones,Hormel Foods stock,,en,EE. UU.,0
+HST,Host Hotels & Resorts,Acciones,Host Hotels & Resorts stock,,en,EE. UU.,0
+HWM,Howmet Aerospace,Acciones,Howmet Aerospace stock,,en,EE. UU.,0
+HPQ,HP Inc.,Acciones,HP Inc. stock,,en,EE. UU.,0
+HUBB,Hubbell Incorporated,Acciones,Hubbell Incorporated stock,,en,EE. UU.,0
+HUM,Humana,Acciones,Humana stock,,en,EE. UU.,0
+HBAN,Huntington Bancshares,Acciones,Huntington Bancshares stock,,en,EE. UU.,0
+HII,Huntington Ingalls Industries,Acciones,Huntington Ingalls Industries stock,,en,EE. UU.,0
+IBM,IBM,Acciones,IBM stock,,en,EE. UU.,0
+IEX,IDEX Corporation,Acciones,IDEX Corporation stock,,en,EE. UU.,0
+IDXX,Idexx Laboratories,Acciones,Idexx Laboratories stock,,en,EE. UU.,0
+ITW,Illinois Tool Works,Acciones,Illinois Tool Works stock,,en,EE. UU.,0
+ILMN,"Illumina, Inc.",Acciones,"Illumina, Inc. stock",,en,EE. UU.,0
+INCY,Incyte,Acciones,Incyte stock,,en,EE. UU.,0
+IR,Ingersoll Rand,Acciones,Ingersoll Rand stock,,en,EE. UU.,0
+PODD,Insulet Corporation,Acciones,Insulet Corporation stock,,en,EE. UU.,0
+INTC,Intel,Acciones,Intel stock,,en,EE. UU.,0
+IBKR,Interactive Brokers,Acciones,Interactive Brokers stock,,en,EE. UU.,0
+ICE,Intercontinental Exchange,Acciones,Intercontinental Exchange stock,,en,EE. UU.,0
+IFF,International Flavors & Fragrances,Acciones,International Flavors & Fragrances stock,,en,EE. UU.,0
+IP,International Paper,Acciones,International Paper stock,,en,EE. UU.,0
+INTU,Intuit,Acciones,Intuit stock,,en,EE. UU.,0
+ISRG,Intuitive Surgical,Acciones,Intuitive Surgical stock,,en,EE. UU.,0
+IVZ,Invesco,Acciones,Invesco stock,,en,EE. UU.,0
+INVH,Invitation Homes,Acciones,Invitation Homes stock,,en,EE. UU.,0
+IQV,IQVIA,Acciones,IQVIA stock,,en,EE. UU.,0
+IRM,Iron Mountain,Acciones,Iron Mountain stock,,en,EE. UU.,0
+JBHT,J.B. Hunt,Acciones,J.B. Hunt stock,,en,EE. UU.,0
+JBL,Jabil,Acciones,Jabil stock,,en,EE. UU.,0
+JKHY,Jack Henry & Associates,Acciones,Jack Henry & Associates stock,,en,EE. UU.,0
+J,Jacobs Solutions,Acciones,Jacobs Solutions stock,,en,EE. UU.,0
+JNJ,Johnson & Johnson,Acciones,Johnson & Johnson stock,,en,EE. UU.,0
+JCI,Johnson Controls,Acciones,Johnson Controls stock,,en,EE. UU.,0
+JPM,JPMorgan Chase,Acciones,JPMorgan Chase stock,,en,EE. UU.,0
+KDP,Keurig Dr Pepper,Acciones,Keurig Dr Pepper stock,,en,EE. UU.,0
+KEY,KeyCorp,Acciones,KeyCorp stock,,en,EE. UU.,0
+KEYS,Keysight Technologies,Acciones,Keysight Technologies stock,,en,EE. UU.,0
+KMB,Kimberly-Clark,Acciones,Kimberly-Clark stock,,en,EE. UU.,0
+KIM,Kimco Realty,Acciones,Kimco Realty stock,,en,EE. UU.,0
+KMI,Kinder Morgan,Acciones,Kinder Morgan stock,,en,EE. UU.,0
+KKR,KKR & Co.,Acciones,KKR & Co. stock,,en,EE. UU.,0
+KLAC,KLA Corporation,Acciones,KLA Corporation stock,,en,EE. UU.,0
+KHC,Kraft Heinz,Acciones,Kraft Heinz stock,,en,EE. UU.,0
+KR,Kroger,Acciones,Kroger stock,,en,EE. UU.,0
+LHX,L3Harris,Acciones,L3Harris stock,,en,EE. UU.,0
+LH,Labcorp,Acciones,Labcorp stock,,en,EE. UU.,0
+LRCX,Lam Research,Acciones,Lam Research stock,,en,EE. UU.,0
+LVS,Las Vegas Sands,Acciones,Las Vegas Sands stock,,en,EE. UU.,0
+LDOS,Leidos,Acciones,Leidos stock,,en,EE. UU.,0
+LEN,Lennar,Acciones,Lennar stock,,en,EE. UU.,0
+LII,Lennox International,Acciones,Lennox International stock,,en,EE. UU.,0
+LLY,Lilly (Eli),Acciones,Lilly (Eli) stock,,en,EE. UU.,0
+LIN,Linde plc,Acciones,Linde plc stock,,en,EE. UU.,0
+LYV,Live Nation Entertainment,Acciones,Live Nation Entertainment stock,,en,EE. UU.,0
+LMT,Lockheed Martin,Acciones,Lockheed Martin stock,,en,EE. UU.,0
+L,Loews Corporation,Acciones,Loews Corporation stock,,en,EE. UU.,0
+LOW,Lowe's,Acciones,Lowe's stock,,en,EE. UU.,0
+LULU,Lululemon Athletica,Acciones,Lululemon Athletica stock,,en,EE. UU.,0
+LITE,Lumentum,Acciones,Lumentum stock,,en,EE. UU.,0
+LYB,LyondellBasell,Acciones,LyondellBasell stock,,en,EE. UU.,0
+MTB,M&T Bank,Acciones,M&T Bank stock,,en,EE. UU.,0
+MPC,Marathon Petroleum,Acciones,Marathon Petroleum stock,,en,EE. UU.,0
+MAR,Marriott International,Acciones,Marriott International stock,,en,EE. UU.,0
+MRSH,Marsh McLennan,Acciones,Marsh McLennan stock,,en,EE. UU.,0
+MLM,Martin Marietta Materials,Acciones,Martin Marietta Materials stock,,en,EE. UU.,0
+MRVL,Marvell Technology,Acciones,Marvell Technology stock,,en,EE. UU.,0
+MAS,Masco,Acciones,Masco stock,,en,EE. UU.,0
+MA,Mastercard,Acciones,Mastercard stock,,en,EE. UU.,0
+MKC,McCormick & Company,Acciones,McCormick & Company stock,,en,EE. UU.,0
+MCD,McDonald's,Acciones,McDonald's stock,,en,EE. UU.,0
+MCK,McKesson,Acciones,McKesson stock,,en,EE. UU.,0
+MDT,Medtronic,Acciones,Medtronic stock,,en,EE. UU.,0
+MRK,Merck & Co.,Acciones,Merck & Co. stock,,en,EE. UU.,0
+META,Meta Platforms,Acciones,Meta Platforms stock,,en,EE. UU.,0
+MET,MetLife,Acciones,MetLife stock,,en,EE. UU.,0
+MTD,Mettler Toledo,Acciones,Mettler Toledo stock,,en,EE. UU.,0
+MGM,MGM Resorts,Acciones,MGM Resorts stock,,en,EE. UU.,0
+MCHP,Microchip Technology,Acciones,Microchip Technology stock,,en,EE. UU.,0
+MU,Micron Technology,Acciones,Micron Technology stock,,en,EE. UU.,0
+MSFT,Microsoft,Acciones,Microsoft stock,,en,EE. UU.,0
+MAA,Mid-America Apartment Communities,Acciones,Mid-America Apartment Communities stock,,en,EE. UU.,0
+MRNA,Moderna,Acciones,Moderna stock,,en,EE. UU.,0
+MDLZ,Mondelez International,Acciones,Mondelez International stock,,en,EE. UU.,0
+MPWR,Monolithic Power Systems,Acciones,Monolithic Power Systems stock,,en,EE. UU.,0
+MNST,Monster Beverage,Acciones,Monster Beverage stock,,en,EE. UU.,0
+MCO,Moody's Corporation,Acciones,Moody's Corporation stock,,en,EE. UU.,0
+MS,Morgan Stanley,Acciones,Morgan Stanley stock,,en,EE. UU.,0
+MOS,Mosaic Company (The),Acciones,Mosaic Company (The) stock,,en,EE. UU.,0
+MSI,Motorola Solutions,Acciones,Motorola Solutions stock,,en,EE. UU.,0
+MSCI,MSCI,Acciones,MSCI stock,,en,EE. UU.,0
+NDAQ,"Nasdaq, Inc.",Acciones,"Nasdaq, Inc. stock",,en,EE. UU.,0
+NTAP,NetApp,Acciones,NetApp stock,,en,EE. UU.,0
+NFLX,Netflix,Acciones,Netflix stock,,en,EE. UU.,0
+NEM,Newmont,Acciones,Newmont stock,,en,EE. UU.,0
+NWSA,News Corp (Class A),Acciones,News Corp (Class A) stock,,en,EE. UU.,0
+NWS,News Corp (Class B),Acciones,News Corp (Class B) stock,,en,EE. UU.,0
+NEE,NextEra Energy,Acciones,NextEra Energy stock,,en,EE. UU.,0
+NKE,"Nike, Inc.",Acciones,"Nike, Inc. stock",,en,EE. UU.,0
+NI,NiSource,Acciones,NiSource stock,,en,EE. UU.,0
+NDSN,Nordson Corporation,Acciones,Nordson Corporation stock,,en,EE. UU.,0
+NSC,Norfolk Southern,Acciones,Norfolk Southern stock,,en,EE. UU.,0
+NTRS,Northern Trust,Acciones,Northern Trust stock,,en,EE. UU.,0
+NOC,Northrop Grumman,Acciones,Northrop Grumman stock,,en,EE. UU.,0
+NCLH,Norwegian Cruise Line Holdings,Acciones,Norwegian Cruise Line Holdings stock,,en,EE. UU.,0
+NRG,NRG Energy,Acciones,NRG Energy stock,,en,EE. UU.,0
+NUE,Nucor,Acciones,Nucor stock,,en,EE. UU.,0
+NVDA,Nvidia,Acciones,Nvidia stock,,en,EE. UU.,0
+NVR,"NVR, Inc.",Acciones,"NVR, Inc. stock",,en,EE. UU.,0
+NXPI,NXP Semiconductors,Acciones,NXP Semiconductors stock,,en,EE. UU.,0
+ORLY,O'Reilly Automotive,Acciones,O'Reilly Automotive stock,,en,EE. UU.,0
+OXY,Occidental Petroleum,Acciones,Occidental Petroleum stock,,en,EE. UU.,0
+OKTA,"Okta, Inc.",Acciones,"Okta, Inc. stock",,en,EE. UU.,0
+ODFL,Old Dominion,Acciones,Old Dominion stock,,en,EE. UU.,0
+OMC,Omnicom Group,Acciones,Omnicom Group stock,,en,EE. UU.,0
+ON,ON Semiconductor,Acciones,ON Semiconductor stock,,en,EE. UU.,0
+OKE,Oneok,Acciones,Oneok stock,,en,EE. UU.,0
+ORCL,Oracle Corporation,Acciones,Oracle Corporation stock,,en,EE. UU.,0
+OTIS,Otis Worldwide,Acciones,Otis Worldwide stock,,en,EE. UU.,0
+PCAR,Paccar,Acciones,Paccar stock,,en,EE. UU.,0
+PKG,Packaging Corporation of America,Acciones,Packaging Corporation of America stock,,en,EE. UU.,0
+PLTR,Palantir Technologies,Acciones,Palantir Technologies stock,,en,EE. UU.,0
+PANW,Palo Alto Networks,Acciones,Palo Alto Networks stock,,en,EE. UU.,0
+PH,Parker Hannifin,Acciones,Parker Hannifin stock,,en,EE. UU.,0
+PAYX,Paychex,Acciones,Paychex stock,,en,EE. UU.,0
+PYPL,PayPal,Acciones,PayPal stock,,en,EE. UU.,0
+PNR,Pentair,Acciones,Pentair stock,,en,EE. UU.,0
+PEP,PepsiCo,Acciones,PepsiCo stock,,en,EE. UU.,0
+PFE,Pfizer,Acciones,Pfizer stock,,en,EE. UU.,0
+PCG,PG&E Corporation,Acciones,PG&E Corporation stock,,en,EE. UU.,0
+PM,Philip Morris International,Acciones,Philip Morris International stock,,en,EE. UU.,0
+PSX,Phillips 66,Acciones,Phillips 66 stock,,en,EE. UU.,0
+PNW,Pinnacle West Capital,Acciones,Pinnacle West Capital stock,,en,EE. UU.,0
+PNC,PNC Financial Services,Acciones,PNC Financial Services stock,,en,EE. UU.,0
+PPG,PPG Industries,Acciones,PPG Industries stock,,en,EE. UU.,0
+PPL,PPL Corporation,Acciones,PPL Corporation stock,,en,EE. UU.,0
+PFG,Principal Financial Group,Acciones,Principal Financial Group stock,,en,EE. UU.,0
+PG,Procter & Gamble,Acciones,Procter & Gamble stock,,en,EE. UU.,0
+PGR,Progressive Corporation,Acciones,Progressive Corporation stock,,en,EE. UU.,0
+PLD,Prologis,Acciones,Prologis stock,,en,EE. UU.,0
+PRU,Prudential Financial,Acciones,Prudential Financial stock,,en,EE. UU.,0
+PTC,PTC Inc.,Acciones,PTC Inc. stock,,en,EE. UU.,0
+PEG,Public Service Enterprise Group,Acciones,Public Service Enterprise Group stock,,en,EE. UU.,0
+PSA,Public Storage,Acciones,Public Storage stock,,en,EE. UU.,0
+PHM,PulteGroup,Acciones,PulteGroup stock,,en,EE. UU.,0
+Q,Qnity Electronics,Acciones,Qnity Electronics stock,,en,EE. UU.,0
+QCOM,Qualcomm,Acciones,Qualcomm stock,,en,EE. UU.,0
+PWR,Quanta Services,Acciones,Quanta Services stock,,en,EE. UU.,0
+DGX,Quest Diagnostics,Acciones,Quest Diagnostics stock,,en,EE. UU.,0
+RL,Ralph Lauren Corporation,Acciones,Ralph Lauren Corporation stock,,en,EE. UU.,0
+RJF,Raymond James Financial,Acciones,Raymond James Financial stock,,en,EE. UU.,0
+RDDT,Reddit,Acciones,Reddit stock,,en,EE. UU.,0
+O,Realty Income,Acciones,Realty Income stock,,en,EE. UU.,0
+REG,Regency Centers,Acciones,Regency Centers stock,,en,EE. UU.,0
+REGN,Regeneron Pharmaceuticals,Acciones,Regeneron Pharmaceuticals stock,,en,EE. UU.,0
+RF,Regions Financial Corporation,Acciones,Regions Financial Corporation stock,,en,EE. UU.,0
+RSG,Republic Services,Acciones,Republic Services stock,,en,EE. UU.,0
+RMD,ResMed,Acciones,ResMed stock,,en,EE. UU.,0
+RVTY,Revvity,Acciones,Revvity stock,,en,EE. UU.,0
+ROK,Rockwell Automation,Acciones,Rockwell Automation stock,,en,EE. UU.,0
+ROL,"Rollins, Inc.",Acciones,"Rollins, Inc. stock",,en,EE. UU.,0
+ROP,Roper Technologies,Acciones,Roper Technologies stock,,en,EE. UU.,0
+ROST,Ross Stores,Acciones,Ross Stores stock,,en,EE. UU.,0
+RCL,Royal Caribbean Group,Acciones,Royal Caribbean Group stock,,en,EE. UU.,0
+RTX,RTX Corporation,Acciones,RTX Corporation stock,,en,EE. UU.,0
+SPGI,S&P Global,Acciones,S&P Global stock,,en,EE. UU.,0
+CRM,Salesforce,Acciones,Salesforce stock,,en,EE. UU.,0
+SNDK,Sandisk,Acciones,Sandisk stock,,en,EE. UU.,0
+SBAC,SBA Communications,Acciones,SBA Communications stock,,en,EE. UU.,0
+SLB,Schlumberger,Acciones,Schlumberger stock,,en,EE. UU.,0
+STX,Seagate Technology,Acciones,Seagate Technology stock,,en,EE. UU.,0
+SRE,Sempra,Acciones,Sempra stock,,en,EE. UU.,0
+NOW,ServiceNow,Acciones,ServiceNow stock,,en,EE. UU.,0
+SHW,Sherwin-Williams,Acciones,Sherwin-Williams stock,,en,EE. UU.,0
+SPG,Simon Property Group,Acciones,Simon Property Group stock,,en,EE. UU.,0
+SKYD,Skydance,Acciones,Skydance stock,,en,EE. UU.,0
+SWKS,Skyworks Solutions,Acciones,Skyworks Solutions stock,,en,EE. UU.,0
+SJM,J.M. Smucker Company (The),Acciones,J.M. Smucker Company (The) stock,,en,EE. UU.,0
+SW,Smurfit Westrock,Acciones,Smurfit Westrock stock,,en,EE. UU.,0
+SNA,Snap-on,Acciones,Snap-on stock,,en,EE. UU.,0
+SOLV,Solventum,Acciones,Solventum stock,,en,EE. UU.,0
+SO,Southern Company,Acciones,Southern Company stock,,en,EE. UU.,0
+LUV,Southwest Airlines,Acciones,Southwest Airlines stock,,en,EE. UU.,0
+SWK,Stanley Black & Decker,Acciones,Stanley Black & Decker stock,,en,EE. UU.,0
+SBUX,Starbucks,Acciones,Starbucks stock,,en,EE. UU.,0
+STT,State Street Corporation,Acciones,State Street Corporation stock,,en,EE. UU.,0
+STLD,Steel Dynamics,Acciones,Steel Dynamics stock,,en,EE. UU.,0
+STE,Steris,Acciones,Steris stock,,en,EE. UU.,0
+SYK,Stryker Corporation,Acciones,Stryker Corporation stock,,en,EE. UU.,0
+SMCI,Supermicro,Acciones,Supermicro stock,,en,EE. UU.,0
+SYF,Synchrony Financial,Acciones,Synchrony Financial stock,,en,EE. UU.,0
+SNPS,Synopsys,Acciones,Synopsys stock,,en,EE. UU.,0
+SYY,Sysco,Acciones,Sysco stock,,en,EE. UU.,0
+TMUS,T-Mobile US,Acciones,T-Mobile US stock,,en,EE. UU.,0
+TROW,T. Rowe Price,Acciones,T. Rowe Price stock,,en,EE. UU.,0
+TTWO,Take-Two Interactive,Acciones,Take-Two Interactive stock,,en,EE. UU.,0
+TPR,"Tapestry, Inc.",Acciones,"Tapestry, Inc. stock",,en,EE. UU.,0
+TRGP,Targa Resources,Acciones,Targa Resources stock,,en,EE. UU.,0
+TGT,Target Corporation,Acciones,Target Corporation stock,,en,EE. UU.,0
+TEL,TE Connectivity,Acciones,TE Connectivity stock,,en,EE. UU.,0
+TDY,Teledyne Technologies,Acciones,Teledyne Technologies stock,,en,EE. UU.,0
+TER,Teradyne,Acciones,Teradyne stock,,en,EE. UU.,0
+TSLA,"Tesla, Inc.",Acciones,"Tesla, Inc. stock",,en,EE. UU.,0
+TXN,Texas Instruments,Acciones,Texas Instruments stock,,en,EE. UU.,0
+TPL,Texas Pacific Land Corporation,Acciones,Texas Pacific Land Corporation stock,,en,EE. UU.,0
+TXT,Textron,Acciones,Textron stock,,en,EE. UU.,0
+TMO,Thermo Fisher Scientific,Acciones,Thermo Fisher Scientific stock,,en,EE. UU.,0
+TJX,TJX Companies,Acciones,TJX Companies stock,,en,EE. UU.,0
+TKO,TKO Group Holdings,Acciones,TKO Group Holdings stock,,en,EE. UU.,0
+TSCO,Tractor Supply,Acciones,Tractor Supply stock,,en,EE. UU.,0
+TT,Trane Technologies,Acciones,Trane Technologies stock,,en,EE. UU.,0
+TDG,TransDigm Group,Acciones,TransDigm Group stock,,en,EE. UU.,0
+TRV,Travelers Companies (The),Acciones,Travelers Companies (The) stock,,en,EE. UU.,0
+TRMB,Trimble Inc.,Acciones,Trimble Inc. stock,,en,EE. UU.,0
+TFC,Truist Financial,Acciones,Truist Financial stock,,en,EE. UU.,0
+TWLO,Twilio,Acciones,Twilio stock,,en,EE. UU.,0
+TYL,Tyler Technologies,Acciones,Tyler Technologies stock,,en,EE. UU.,0
+TSN,Tyson Foods,Acciones,Tyson Foods stock,,en,EE. UU.,0
+USB,U.S. Bancorp,Acciones,U.S. Bancorp stock,,en,EE. UU.,0
+UBER,Uber,Acciones,Uber stock,,en,EE. UU.,0
+UDR,"UDR, Inc.",Acciones,"UDR, Inc. stock",,en,EE. UU.,0
+ULTA,Ulta Beauty,Acciones,Ulta Beauty stock,,en,EE. UU.,0
+UNP,Union Pacific Corporation,Acciones,Union Pacific Corporation stock,,en,EE. UU.,0
+UAL,United Airlines Holdings,Acciones,United Airlines Holdings stock,,en,EE. UU.,0
+UPS,United Parcel Service,Acciones,United Parcel Service stock,,en,EE. UU.,0
+URI,United Rentals,Acciones,United Rentals stock,,en,EE. UU.,0
+UNH,UnitedHealth Group,Acciones,UnitedHealth Group stock,,en,EE. UU.,0
+UHS,Universal Health Services,Acciones,Universal Health Services stock,,en,EE. UU.,0
+VLO,Valero Energy,Acciones,Valero Energy stock,,en,EE. UU.,0
+VEEV,Veeva Systems,Acciones,Veeva Systems stock,,en,EE. UU.,0
+VTR,Ventas,Acciones,Ventas stock,,en,EE. UU.,0
+VLTO,Veralto,Acciones,Veralto stock,,en,EE. UU.,0
+VRSN,Verisign,Acciones,Verisign stock,,en,EE. UU.,0
+VRSK,Verisk Analytics,Acciones,Verisk Analytics stock,,en,EE. UU.,0
+VZ,Verizon,Acciones,Verizon stock,,en,EE. UU.,0
+VRTX,Vertex Pharmaceuticals,Acciones,Vertex Pharmaceuticals stock,,en,EE. UU.,0
+VRT,Vertiv,Acciones,Vertiv stock,,en,EE. UU.,0
+VTRS,Viatris,Acciones,Viatris stock,,en,EE. UU.,0
+VICI,Vici Properties,Acciones,Vici Properties stock,,en,EE. UU.,0
+V,Visa Inc.,Acciones,Visa Inc. stock,,en,EE. UU.,0
+VST,Vistra Corp.,Acciones,Vistra Corp. stock,,en,EE. UU.,0
+VMRK,Vivmark Residential,Acciones,Vivmark Residential stock,,en,EE. UU.,0
+VMC,Vulcan Materials Company,Acciones,Vulcan Materials Company stock,,en,EE. UU.,0
+VYLR,Vylor,Acciones,Vylor stock,,en,EE. UU.,0
+WRB,W. R. Berkley Corporation,Acciones,W. R. Berkley Corporation stock,,en,EE. UU.,0
+GWW,W. W. Grainger,Acciones,W. W. Grainger stock,,en,EE. UU.,0
+WAB,Wabtec,Acciones,Wabtec stock,,en,EE. UU.,0
+WMT,Walmart,Acciones,Walmart stock,,en,EE. UU.,0
+DIS,Walt Disney Company (The),Acciones,Walt Disney Company (The) stock,,en,EE. UU.,0
+WM,Waste Management,Acciones,Waste Management stock,,en,EE. UU.,0
+WAT,Waters Corporation,Acciones,Waters Corporation stock,,en,EE. UU.,0
+WEC,WEC Energy Group,Acciones,WEC Energy Group stock,,en,EE. UU.,0
+WFC,Wells Fargo,Acciones,Wells Fargo stock,,en,EE. UU.,0
+WELL,Welltower,Acciones,Welltower stock,,en,EE. UU.,0
+WST,West Pharmaceutical Services,Acciones,West Pharmaceutical Services stock,,en,EE. UU.,0
+WDC,Western Digital,Acciones,Western Digital stock,,en,EE. UU.,0
+WY,Weyerhaeuser,Acciones,Weyerhaeuser stock,,en,EE. UU.,0
+WSM,"Williams-Sonoma, Inc.",Acciones,"Williams-Sonoma, Inc. stock",,en,EE. UU.,0
+WMB,Williams Companies,Acciones,Williams Companies stock,,en,EE. UU.,0
+WTW,Willis Towers Watson,Acciones,Willis Towers Watson stock,,en,EE. UU.,0
+WDAY,"Workday, Inc.",Acciones,"Workday, Inc. stock",,en,EE. UU.,0
+WYNN,Wynn Resorts,Acciones,Wynn Resorts stock,,en,EE. UU.,0
+XEL,Xcel Energy,Acciones,Xcel Energy stock,,en,EE. UU.,0
+XYL,Xylem Inc.,Acciones,Xylem Inc. stock,,en,EE. UU.,0
+YUM,Yum! Brands,Acciones,Yum! Brands stock,,en,EE. UU.,0
+ZBRA,Zebra Technologies,Acciones,Zebra Technologies stock,,en,EE. UU.,0
+ZBH,Zimmer Biomet,Acciones,Zimmer Biomet stock,,en,EE. UU.,0
+ZTS,Zoetis,Acciones,Zoetis stock,,en,EE. UU.,0
+ACS.MC,ACS,Acciones,ACS bolsa,,es,España,0
+ACX.MC,Acerinox,Acciones,Acerinox bolsa,,es,España,0
+AMS.MC,Amadeus IT Group,Acciones,Amadeus IT Group bolsa,,es,España,0
+ANA.MC,Acciona,Acciones,Acciona bolsa,,es,España,0
+ANE.MC,Acciona Energía,Acciones,Acciona Energía bolsa,,es,España,0
+BBVA.MC,BBVA,Acciones,BBVA bolsa,,es,España,0
+BKT.MC,Bankinter,Acciones,Bankinter bolsa,,es,España,0
+CABK.MC,CaixaBank,Acciones,CaixaBank bolsa,,es,España,0
+CLNX.MC,Cellnex Telecom,Acciones,Cellnex Telecom bolsa,,es,España,0
+COL.MC,Inmobiliaria Colonial,Acciones,Inmobiliaria Colonial bolsa,,es,España,0
+AENA.MC,AENA,Acciones,AENA bolsa,,es,España,0
+ELE.MC,Endesa,Acciones,Endesa bolsa,,es,España,0
+ENG.MC,Enagás,Acciones,Enagás bolsa,,es,España,0
+FDR.MC,Fluidra,Acciones,Fluidra bolsa,,es,España,0
+FER.MC,Ferrovial,Acciones,Ferrovial bolsa,,es,España,0
+GRF.MC,Grifols,Acciones,Grifols bolsa,,es,España,0
+IAG.MC,International Airlines Group,Acciones,International Airlines Group bolsa,,es,España,0
+IBE.MC,Iberdrola,Acciones,Iberdrola bolsa,,es,España,0
+IDR.MC,Indra,Acciones,Indra bolsa,,es,España,0
+ITX.MC,Inditex,Acciones,Inditex bolsa,,es,España,0
+LOG.MC,Logista,Acciones,Logista bolsa,,es,España,0
+MAP.MC,Mapfre,Acciones,Mapfre bolsa,,es,España,0
+MRL.MC,Merlin Properties,Acciones,Merlin Properties bolsa,,es,España,0
+MTS.MC,ArcelorMittal,Acciones,ArcelorMittal bolsa,,es,España,0
+NTGY.MC,Naturgy,Acciones,Naturgy bolsa,,es,España,0
+PUIG.MC,Puig,Acciones,Puig bolsa,,es,España,0
+RED.MC,Redeia Corporación,Acciones,Redeia Corporación bolsa,,es,España,0
+REP.MC,Repsol,Acciones,Repsol bolsa,,es,España,0
+ROVI.MC,Laboratorios Rovi [es],Acciones,Laboratorios Rovi [es] bolsa,,es,España,0
+SAB.MC,Banco Sabadell,Acciones,Banco Sabadell bolsa,,es,España,0
+SAN.MC,Santander,Acciones,Santander bolsa,,es,España,0
+SCYR.MC,Sacyr,Acciones,Sacyr bolsa,,es,España,0
+SLR.MC,Solaria,Acciones,Solaria bolsa,,es,España,0
+TEF.MC,Telefónica,Acciones,Telefónica bolsa,,es,España,0
+UNI.MC,Unicaja,Acciones,Unicaja bolsa,,es,España,0
+ADS.DE,Adidas,Acciones,Adidas stock,,en,Alemania,0
+AIR.PA,Airbus,Acciones,Airbus stock,,en,Alemania,0
+ALV.DE,Allianz,Acciones,Allianz stock,,en,Alemania,0
+BAS.DE,BASF,Acciones,BASF stock,,en,Alemania,0
+BAYN.DE,Bayer,Acciones,Bayer stock,,en,Alemania,0
+BEI.DE,Beiersdorf,Acciones,Beiersdorf stock,,en,Alemania,0
+BMW.DE,BMW,Acciones,BMW stock,,en,Alemania,0
+BNR.DE,Brenntag,Acciones,Brenntag stock,,en,Alemania,0
+CBK.DE,Commerzbank,Acciones,Commerzbank stock,,en,Alemania,0
+CON.DE,Continental,Acciones,Continental stock,,en,Alemania,0
+DTG.DE,Daimler Truck,Acciones,Daimler Truck stock,,en,Alemania,0
+DBK.DE,Deutsche Bank,Acciones,Deutsche Bank stock,,en,Alemania,0
+DB1.DE,Deutsche Börse,Acciones,Deutsche Börse stock,,en,Alemania,0
+DHL.DE,Deutsche Post,Acciones,Deutsche Post stock,,en,Alemania,0
+DTE.DE,Deutsche Telekom,Acciones,Deutsche Telekom stock,,en,Alemania,0
+EOAN.DE,E.ON,Acciones,E.ON stock,,en,Alemania,0
+FRE.DE,Fresenius,Acciones,Fresenius stock,,en,Alemania,0
+FME.DE,Fresenius Medical Care,Acciones,Fresenius Medical Care stock,,en,Alemania,0
+G1A.DE,GEA Group,Acciones,GEA Group stock,,en,Alemania,0
+HNR1.DE,Hannover Re,Acciones,Hannover Re stock,,en,Alemania,0
+HEI.DE,Heidelberg Materials,Acciones,Heidelberg Materials stock,,en,Alemania,0
+HEN3.DE,Henkel,Acciones,Henkel stock,,en,Alemania,0
+IFX.DE,Infineon Technologies,Acciones,Infineon Technologies stock,,en,Alemania,0
+MBG.DE,Mercedes-Benz Group,Acciones,Mercedes-Benz Group stock,,en,Alemania,0
+MRK.DE,Merck,Acciones,Merck stock,,en,Alemania,0
+MTX.DE,MTU Aero Engines,Acciones,MTU Aero Engines stock,,en,Alemania,0
+MUV2.DE,Munich Re,Acciones,Munich Re stock,,en,Alemania,0
+PAH3.DE,Porsche SE,Acciones,Porsche SE stock,,en,Alemania,0
+QIA.DE,Qiagen,Acciones,Qiagen stock,,en,Alemania,0
+RHM.DE,Rheinmetall,Acciones,Rheinmetall stock,,en,Alemania,0
+RWE.DE,RWE,Acciones,RWE stock,,en,Alemania,0
+SAP.DE,SAP,Acciones,SAP stock,,en,Alemania,0
+G24.DE,Scout24,Acciones,Scout24 stock,,en,Alemania,0
+SIE.DE,Siemens,Acciones,Siemens stock,,en,Alemania,0
+ENR.DE,Siemens Energy,Acciones,Siemens Energy stock,,en,Alemania,0
+SHL.DE,Siemens Healthineers,Acciones,Siemens Healthineers stock,,en,Alemania,0
+SY1.DE,Symrise,Acciones,Symrise stock,,en,Alemania,0
+VOW3.DE,Volkswagen Group,Acciones,Volkswagen Group stock,,en,Alemania,0
+VNA.DE,Vonovia,Acciones,Vonovia stock,,en,Alemania,0
+ZAL.DE,Zalando,Acciones,Zalando stock,,en,Alemania,0
+AC.PA,Accor,Acciones,Accor stock,,en,Francia,0
+AI.PA,Air Liquide,Acciones,Air Liquide stock,,en,Francia,0
+MT.AS,ArcelorMittal,Acciones,ArcelorMittal stock,,en,Francia,0
+CS.PA,Axa,Acciones,Axa stock,,en,Francia,0
+BNP.PA,BNP Paribas,Acciones,BNP Paribas stock,,en,Francia,0
+EN.PA,Bouygues,Acciones,Bouygues stock,,en,Francia,0
+BVI.PA,Bureau Veritas,Acciones,Bureau Veritas stock,,en,Francia,0
+CAP.PA,Capgemini,Acciones,Capgemini stock,,en,Francia,0
+CA.PA,Carrefour,Acciones,Carrefour stock,,en,Francia,0
+ACA.PA,Crédit Agricole,Acciones,Crédit Agricole stock,,en,Francia,0
+BN.PA,Danone,Acciones,Danone stock,,en,Francia,0
+DSY.PA,Dassault Systèmes,Acciones,Dassault Systèmes stock,,en,Francia,0
+FGR.PA,Eiffage,Acciones,Eiffage stock,,en,Francia,0
+ENGI.PA,Engie,Acciones,Engie stock,,en,Francia,0
+EL.PA,EssilorLuxottica,Acciones,EssilorLuxottica stock,,en,Francia,0
+ERF.PA,Eurofins Scientific,Acciones,Eurofins Scientific stock,,en,Francia,0
+ENX.PA,Euronext,Acciones,Euronext stock,,en,Francia,0
+RMS.PA,Hermès,Acciones,Hermès stock,,en,Francia,0
+KER.PA,Kering,Acciones,Kering stock,,en,Francia,0
+OR.PA,L'Oréal,Acciones,L'Oréal stock,,en,Francia,0
+LR.PA,Legrand,Acciones,Legrand stock,,en,Francia,0
+MC.PA,LVMH,Acciones,LVMH stock,,en,Francia,0
+ML.PA,Michelin,Acciones,Michelin stock,,en,Francia,0
+ORA.PA,Orange,Acciones,Orange stock,,en,Francia,0
+RI.PA,Pernod Ricard,Acciones,Pernod Ricard stock,,en,Francia,0
+PUB.PA,Publicis,Acciones,Publicis stock,,en,Francia,0
+RNO.PA,Renault,Acciones,Renault stock,,en,Francia,0
+SAF.PA,Safran,Acciones,Safran stock,,en,Francia,0
+SGO.PA,Saint-Gobain,Acciones,Saint-Gobain stock,,en,Francia,0
+SAN.PA,Sanofi,Acciones,Sanofi stock,,en,Francia,0
+SU.PA,Schneider Electric,Acciones,Schneider Electric stock,,en,Francia,0
+GLE.PA,Société Générale,Acciones,Société Générale stock,,en,Francia,0
+STLAP.PA,Stellantis,Acciones,Stellantis stock,,en,Francia,0
+STMPA.PA,STMicroelectronics,Acciones,STMicroelectronics stock,,en,Francia,0
+HO.PA,Thales,Acciones,Thales stock,,en,Francia,0
+TTE.PA,TotalEnergies,Acciones,TotalEnergies stock,,en,Francia,0
+URW.PA,Unibail-Rodamco-Westfield,Acciones,Unibail-Rodamco-Westfield stock,,en,Francia,0
+VIE.PA,Veolia,Acciones,Veolia stock,,en,Francia,0
+DG.PA,Vinci,Acciones,Vinci stock,,en,Francia,0
+AD.AS,Ahold Delhaize,Acciones,Ahold Delhaize stock,,en,Zona euro,0
+ABI.BR,Anheuser-Busch InBev,Acciones,Anheuser-Busch InBev stock,,en,Zona euro,0
+ARGX.BR,Argenx,Acciones,Argenx stock,,en,Zona euro,0
+ASML.AS,ASML Holding,Acciones,ASML Holding stock,,en,Zona euro,0
+ENEL.MI,Enel,Acciones,Enel stock,,en,Zona euro,0
+ENI.MI,Eni,Acciones,Eni stock,,en,Zona euro,0
+RACE.MI,Ferrari,Acciones,Ferrari stock,,en,Zona euro,0
+INGA.AS,ING Group,Acciones,ING Group stock,,en,Zona euro,0
+ISP.MI,Intesa Sanpaolo,Acciones,Intesa Sanpaolo stock,,en,Zona euro,0
+NDA-FI.HE,Nordea,Acciones,Nordea stock,,en,Zona euro,0
+PRX.AS,Prosus,Acciones,Prosus stock,,en,Zona euro,0
+UCG.MI,UniCredit,Acciones,UniCredit stock,,en,Zona euro,0
+III.L,3i,Acciones,3i stock,,en,Reino Unido,0
+ABDN.L,Aberdeen Group,Acciones,Aberdeen Group stock,,en,Reino Unido,0
+ADM.L,Admiral Group,Acciones,Admiral Group stock,,en,Reino Unido,0
+AAF.L,Airtel Africa,Acciones,Airtel Africa stock,,en,Reino Unido,0
+ALW.L,Alliance Witan,Acciones,Alliance Witan stock,,en,Reino Unido,0
+AAL.L,Anglo American plc,Acciones,Anglo American plc stock,,en,Reino Unido,0
+ANTO.L,Antofagasta plc,Acciones,Antofagasta plc stock,,en,Reino Unido,0
+ABF.L,Associated British Foods,Acciones,Associated British Foods stock,,en,Reino Unido,0
+AZN.L,AstraZeneca,Acciones,AstraZeneca stock,,en,Reino Unido,0
+AUTO.L,Autotrader Group,Acciones,Autotrader Group stock,,en,Reino Unido,0
+AV.L,Aviva,Acciones,Aviva stock,,en,Reino Unido,0
+BAB.L,Babcock International,Acciones,Babcock International stock,,en,Reino Unido,0
+BA.L,BAE Systems,Acciones,BAE Systems stock,,en,Reino Unido,0
+BBY.L,Balfour Beatty,Acciones,Balfour Beatty stock,,en,Reino Unido,0
+BARC.L,Barclays,Acciones,Barclays stock,,en,Reino Unido,0
+BTRW.L,Barratt Redrow,Acciones,Barratt Redrow stock,,en,Reino Unido,0
+BP.L,BP,Acciones,BP stock,,en,Reino Unido,0
+BATS.L,British American Tobacco,Acciones,British American Tobacco stock,,en,Reino Unido,0
+BLND.L,British Land,Acciones,British Land stock,,en,Reino Unido,0
+BT-A.L,BT Group,Acciones,BT Group stock,,en,Reino Unido,0
+BNZL.L,Bunzl,Acciones,Bunzl stock,,en,Reino Unido,0
+BRBY.L,Burberry Group,Acciones,Burberry Group stock,,en,Reino Unido,0
+CNA.L,Centrica,Acciones,Centrica stock,,en,Reino Unido,0
+CCEP.L,Coca-Cola Europacific Partners,Acciones,Coca-Cola Europacific Partners stock,,en,Reino Unido,0
+CCH.L,Coca-Cola HBC,Acciones,Coca-Cola HBC stock,,en,Reino Unido,0
+CPG.L,Compass Group,Acciones,Compass Group stock,,en,Reino Unido,0
+CCC.L,Computacenter,Acciones,Computacenter stock,,en,Reino Unido,0
+CTEC.L,Convatec,Acciones,Convatec stock,,en,Reino Unido,0
+CRDA.L,Croda International,Acciones,Croda International stock,,en,Reino Unido,0
+DCC.L,DCC Energy,Acciones,DCC Energy stock,,en,Reino Unido,0
+DGE.L,Diageo,Acciones,Diageo stock,,en,Reino Unido,0
+DPLM.L,Diploma,Acciones,Diploma stock,,en,Reino Unido,0
+EZJ.L,EasyJet,Acciones,EasyJet stock,,en,Reino Unido,0
+EDV.L,Endeavour Mining,Acciones,Endeavour Mining stock,,en,Reino Unido,0
+EXPN.L,Experian,Acciones,Experian stock,,en,Reino Unido,0
+FRES.L,Fresnillo plc,Acciones,Fresnillo plc stock,,en,Reino Unido,0
+GAW.L,Games Workshop,Acciones,Games Workshop stock,,en,Reino Unido,0
+GLEN.L,Glencore,Acciones,Glencore stock,,en,Reino Unido,0
+GSK.L,GSK plc,Acciones,GSK plc stock,,en,Reino Unido,0
+HLN.L,Haleon,Acciones,Haleon stock,,en,Reino Unido,0
+HLMA.L,Halma plc,Acciones,Halma plc stock,,en,Reino Unido,0
+HSX.L,Hiscox,Acciones,Hiscox stock,,en,Reino Unido,0
+HWDN.L,Howdens Joinery,Acciones,Howdens Joinery stock,,en,Reino Unido,0
+HSBA.L,HSBC,Acciones,HSBC stock,,en,Reino Unido,0
+ICG.L,ICG,Acciones,ICG stock,,en,Reino Unido,0
+IGG.L,IG Group,Acciones,IG Group stock,,en,Reino Unido,0
+IHG.L,IHG Hotels & Resorts,Acciones,IHG Hotels & Resorts stock,,en,Reino Unido,0
+IMI.L,IMI,Acciones,IMI stock,,en,Reino Unido,0
+IMB.L,Imperial Brands,Acciones,Imperial Brands stock,,en,Reino Unido,0
+INF.L,Informa,Acciones,Informa stock,,en,Reino Unido,0
+IAG.L,International Airlines Group,Acciones,International Airlines Group stock,,en,Reino Unido,0
+ITRK.L,Intertek,Acciones,Intertek stock,,en,Reino Unido,0
+INVP.L,Investec,Acciones,Investec stock,,en,Reino Unido,0
+ITH.L,Ithaca Energy,Acciones,Ithaca Energy stock,,en,Reino Unido,0
+JD.L,JD Sports,Acciones,JD Sports stock,,en,Reino Unido,0
+BGEO.L,Lion Finance Group,Acciones,Lion Finance Group stock,,en,Reino Unido,0
+KGF.L,Kingfisher plc,Acciones,Kingfisher plc stock,,en,Reino Unido,0
+LAND.L,Land Securities,Acciones,Land Securities stock,,en,Reino Unido,0
+LGEN.L,Legal & General,Acciones,Legal & General stock,,en,Reino Unido,0
+LLOY.L,Lloyds Banking Group,Acciones,Lloyds Banking Group stock,,en,Reino Unido,0
+LMP.L,LondonMetric Property,Acciones,LondonMetric Property stock,,en,Reino Unido,0
+LSEG.L,London Stock Exchange Group,Acciones,London Stock Exchange Group stock,,en,Reino Unido,0
+MNG.L,M&G,Acciones,M&G stock,,en,Reino Unido,0
+MKS.L,Marks & Spencer,Acciones,Marks & Spencer stock,,en,Reino Unido,0
+MRO.L,Melrose Industries,Acciones,Melrose Industries stock,,en,Reino Unido,0
+MTLN.L,Metlen Energy & Metals,Acciones,Metlen Energy & Metals stock,,en,Reino Unido,0
+NG.L,National Grid plc,Acciones,National Grid plc stock,,en,Reino Unido,0
+NWG.L,NatWest Group,Acciones,NatWest Group stock,,en,Reino Unido,0
+NXT.L,Next plc,Acciones,Next plc stock,,en,Reino Unido,0
+PSON.L,Pearson plc,Acciones,Pearson plc stock,,en,Reino Unido,0
+PSH.L,Pershing Square Holdings,Acciones,Pershing Square Holdings stock,,en,Reino Unido,0
+PRU.L,Prudential plc,Acciones,Prudential plc stock,,en,Reino Unido,0
+RKT.L,Reckitt,Acciones,Reckitt stock,,en,Reino Unido,0
+REL.L,RELX,Acciones,RELX stock,,en,Reino Unido,0
+RTO.L,Rentokil Initial,Acciones,Rentokil Initial stock,,en,Reino Unido,0
+RIO.L,Rio Tinto,Acciones,Rio Tinto stock,,en,Reino Unido,0
+RR.L,Rolls-Royce Holdings,Acciones,Rolls-Royce Holdings stock,,en,Reino Unido,0
+SGE.L,Sage Group,Acciones,Sage Group stock,,en,Reino Unido,0
+SBRY.L,Sainsbury's,Acciones,Sainsbury's stock,,en,Reino Unido,0
+SGRO.L,Segro,Acciones,Segro stock,,en,Reino Unido,0
+SVT.L,Severn Trent,Acciones,Severn Trent stock,,en,Reino Unido,0
+SHEL.L,Shell plc,Acciones,Shell plc stock,,en,Reino Unido,0
+SMIN.L,Smiths Group,Acciones,Smiths Group stock,,en,Reino Unido,0
+SN.L,Smith & Nephew,Acciones,Smith & Nephew stock,,en,Reino Unido,0
+SPX.L,Spirax Group,Acciones,Spirax Group stock,,en,Reino Unido,0
+SSE.L,SSE plc,Acciones,SSE plc stock,,en,Reino Unido,0
+STAN.L,Standard Chartered,Acciones,Standard Chartered stock,,en,Reino Unido,0
+SDLF.L,Standard Life,Acciones,Standard Life stock,,en,Reino Unido,0
+STJ.L,St. James's Place,Acciones,St. James's Place stock,,en,Reino Unido,0
+TSCO.L,Tesco,Acciones,Tesco stock,,en,Reino Unido,0
+BBOX.L,Tritax Big Box REIT,Acciones,Tritax Big Box REIT stock,,en,Reino Unido,0
+ULVR.L,Unilever,Acciones,Unilever stock,,en,Reino Unido,0
+UU.L,United Utilities,Acciones,United Utilities stock,,en,Reino Unido,0
+VOD.L,Vodafone Group,Acciones,Vodafone Group stock,,en,Reino Unido,0
+WEIR.L,Weir,Acciones,Weir stock,,en,Reino Unido,0
+WTB.L,Whitbread,Acciones,Whitbread stock,,en,Reino Unido,0
+WPP.L,WPP,Acciones,WPP stock,,en,Reino Unido,0
+AA,Alcoa,Acciones,Alcoa stock,,en,EE. UU.,0
+AAL,American Airlines Group,Acciones,American Airlines Group stock,,en,EE. UU.,0
+AAON,AAON,Acciones,AAON stock,,en,EE. UU.,0
+ACI,Albertsons,Acciones,Albertsons stock,,en,EE. UU.,0
+ACM,AECOM,Acciones,AECOM stock,,en,EE. UU.,0
+ADC,Agree Realty,Acciones,Agree Realty stock,,en,EE. UU.,0
+AEIS,Advanced Energy,Acciones,Advanced Energy stock,,en,EE. UU.,0
+AFG,American Financial Group,Acciones,American Financial Group stock,,en,EE. UU.,0
+AGCO,AGCO,Acciones,AGCO stock,,en,EE. UU.,0
+AGNC,AGNC Investment,Acciones,AGNC Investment stock,,en,EE. UU.,0
+AHR,American Healthcare REIT,Acciones,American Healthcare REIT stock,,en,EE. UU.,0
+AIT,Applied Industrial Technologies,Acciones,Applied Industrial Technologies stock,,en,EE. UU.,0
+ALGM,Allegro MicroSystems,Acciones,Allegro MicroSystems stock,,en,EE. UU.,0
+ALK,Alaska Air Group,Acciones,Alaska Air Group stock,,en,EE. UU.,0
+ALLY,Ally Financial,Acciones,Ally Financial stock,,en,EE. UU.,0
+ALSN,Allison Transmission,Acciones,Allison Transmission stock,,en,EE. UU.,0
+ALV,Autoliv,Acciones,Autoliv stock,,en,EE. UU.,0
+AM,Antero Midstream,Acciones,Antero Midstream stock,,en,EE. UU.,0
+AMG,Affiliated Managers Group,Acciones,Affiliated Managers Group stock,,en,EE. UU.,0
+AMH,American Homes 4 Rent,Acciones,American Homes 4 Rent stock,,en,EE. UU.,0
+AMKR,Amkor Technology,Acciones,Amkor Technology stock,,en,EE. UU.,0
+AN,AutoNation,Acciones,AutoNation stock,,en,EE. UU.,0
+ANF,Abercrombie & Fitch,Acciones,Abercrombie & Fitch stock,,en,EE. UU.,0
+APG,APi Group,Acciones,APi Group stock,,en,EE. UU.,0
+APPF,AppFolio,Acciones,AppFolio stock,,en,EE. UU.,0
+AR,Antero Resources,Acciones,Antero Resources stock,,en,EE. UU.,0
+ARMK,Aramark,Acciones,Aramark stock,,en,EE. UU.,0
+ARW,Arrow Electronics,Acciones,Arrow Electronics stock,,en,EE. UU.,0
+ARWR,Arrowhead Pharmaceuticals,Acciones,Arrowhead Pharmaceuticals stock,,en,EE. UU.,0
+ASB,Associated Bank,Acciones,Associated Bank stock,,en,EE. UU.,0
+ASH,Ashland Global,Acciones,Ashland Global stock,,en,EE. UU.,0
+ATI,ATI Inc.,Acciones,ATI Inc. stock,,en,EE. UU.,0
+ATR,AptarGroup,Acciones,AptarGroup stock,,en,EE. UU.,0
+AVAV,AeroVironment,Acciones,AeroVironment stock,,en,EE. UU.,0
+AVNT,Avient,Acciones,Avient stock,,en,EE. UU.,0
+AVT,Avnet,Acciones,Avnet stock,,en,EE. UU.,0
+AVTR,Avantor,Acciones,Avantor stock,,en,EE. UU.,0
+AXTA,Axalta,Acciones,Axalta stock,,en,EE. UU.,0
+AYI,Acuity Brands,Acciones,Acuity Brands stock,,en,EE. UU.,0
+BAH,Booz Allen Hamilton,Acciones,Booz Allen Hamilton stock,,en,EE. UU.,0
+BBWI,"Bath & Body Works, Inc.",Acciones,"Bath & Body Works, Inc. stock",,en,EE. UU.,0
+BC,Brunswick,Acciones,Brunswick stock,,en,EE. UU.,0
+BCO,Brink's,Acciones,Brink's stock,,en,EE. UU.,0
+BDC,Belden Inc.,Acciones,Belden Inc. stock,,en,EE. UU.,0
+BHF,Brighthouse Financial,Acciones,Brighthouse Financial stock,,en,EE. UU.,0
+BILL,Bill Holdings,Acciones,Bill Holdings stock,,en,EE. UU.,0
+BIO,Bio-Rad Laboratories,Acciones,Bio-Rad Laboratories stock,,en,EE. UU.,0
+BJ,BJ's Wholesale Club,Acciones,BJ's Wholesale Club stock,,en,EE. UU.,0
+BKH,Black Hills Corporation,Acciones,Black Hills Corporation stock,,en,EE. UU.,0
+BMRN,BioMarin Pharmaceutical,Acciones,BioMarin Pharmaceutical stock,,en,EE. UU.,0
+BRKR,Bruker,Acciones,Bruker stock,,en,EE. UU.,0
+BROS,Dutch Bros Inc.,Acciones,Dutch Bros Inc. stock,,en,EE. UU.,0
+BRX,Brixmor Property Group,Acciones,Brixmor Property Group stock,,en,EE. UU.,0
+BSY,Bentley Systems,Acciones,Bentley Systems stock,,en,EE. UU.,0
+BTSG,BrightSpring Health Services,Acciones,BrightSpring Health Services stock,,en,EE. UU.,0
+BURL,Burlington Stores,Acciones,Burlington Stores stock,,en,EE. UU.,0
+BWA,BorgWarner,Acciones,BorgWarner stock,,en,EE. UU.,0
+BWXT,BWX Technologies,Acciones,BWX Technologies stock,,en,EE. UU.,0
+BYD,Boyd Gaming,Acciones,Boyd Gaming stock,,en,EE. UU.,0
+CACI,CACI International,Acciones,CACI International stock,,en,EE. UU.,0
+CAR,Avis Budget Group,Acciones,Avis Budget Group stock,,en,EE. UU.,0
+CART,Maplebear Inc.,Acciones,Maplebear Inc. stock,,en,EE. UU.,0
+CAVA,Cava Group,Acciones,Cava Group stock,,en,EE. UU.,0
+CBSH,Commerce Bancshares,Acciones,Commerce Bancshares stock,,en,EE. UU.,0
+CBT,Cabot Corp,Acciones,Cabot Corp stock,,en,EE. UU.,0
+CCK,Crown Holdings,Acciones,Crown Holdings stock,,en,EE. UU.,0
+CDE,Coeur Mining,Acciones,Coeur Mining stock,,en,EE. UU.,0
+CDP,COPT Defense Properties,Acciones,COPT Defense Properties stock,,en,EE. UU.,0
+CELH,Celsius Holdings,Acciones,Celsius Holdings stock,,en,EE. UU.,0
+CFR,Frost Bank,Acciones,Frost Bank stock,,en,EE. UU.,0
+CG,Carlyle Group (The),Acciones,Carlyle Group (The) stock,,en,EE. UU.,0
+CGNX,Cognex,Acciones,Cognex stock,,en,EE. UU.,0
+CHDN,Churchill Downs Inc.,Acciones,Churchill Downs Inc. stock,,en,EE. UU.,0
+CHE,Chemed Corp.,Acciones,Chemed Corp. stock,,en,EE. UU.,0
+CHH,Choice Hotels,Acciones,Choice Hotels stock,,en,EE. UU.,0
+CHRD,Chord Energy,Acciones,Chord Energy stock,,en,EE. UU.,0
+CHWY,Chewy,Acciones,Chewy stock,,en,EE. UU.,0
+CLF,Cleveland-Cliffs,Acciones,Cleveland-Cliffs stock,,en,EE. UU.,0
+CLH,Clean Harbors,Acciones,Clean Harbors stock,,en,EE. UU.,0
+CMC,Commercial Metals,Acciones,Commercial Metals stock,,en,EE. UU.,0
+CNH,CNH Industrial,Acciones,CNH Industrial stock,,en,EE. UU.,0
+CNM,Core & Main,Acciones,Core & Main stock,,en,EE. UU.,0
+CNO,CNO Financial Group,Acciones,CNO Financial Group stock,,en,EE. UU.,0
+CNX,CNX Resources,Acciones,CNX Resources stock,,en,EE. UU.,0
+COKE,Coca-Cola Consolidated,Acciones,Coca-Cola Consolidated stock,,en,EE. UU.,0
+COLB,Columbia Banking System,Acciones,Columbia Banking System stock,,en,EE. UU.,0
+COLM,Columbia Sportswear,Acciones,Columbia Sportswear stock,,en,EE. UU.,0
+CORT,Corcept Therapeutics,Acciones,Corcept Therapeutics stock,,en,EE. UU.,0
+CR,Crane,Acciones,Crane stock,,en,EE. UU.,0
+CRBG,Corebridge Financial,Acciones,Corebridge Financial stock,,en,EE. UU.,0
+CROX,Crocs,Acciones,Crocs stock,,en,EE. UU.,0
+CRS,Carpenter Technology,Acciones,Carpenter Technology stock,,en,EE. UU.,0
+CRUS,Cirrus Logic,Acciones,Cirrus Logic stock,,en,EE. UU.,0
+CSL,Carlisle Companies,Acciones,Carlisle Companies stock,,en,EE. UU.,0
+CTRE,CareTrust REIT,Acciones,CareTrust REIT stock,,en,EE. UU.,0
+CTVA,Corteva,Acciones,Corteva stock,,en,EE. UU.,0
+CUBE,CubeSmart,Acciones,CubeSmart stock,,en,EE. UU.,0
+CUZ,Cousins Properties,Acciones,Cousins Properties stock,,en,EE. UU.,0
+CVLT,CommVault Systems,Acciones,CommVault Systems stock,,en,EE. UU.,0
+CW,Curtiss-Wright,Acciones,Curtiss-Wright stock,,en,EE. UU.,0
+CXT,Crane NXT,Acciones,Crane NXT stock,,en,EE. UU.,0
+CYTK,Cytokinetics,Acciones,Cytokinetics stock,,en,EE. UU.,0
+DAR,Darling Ingredients,Acciones,Darling Ingredients stock,,en,EE. UU.,0
+DBX,Dropbox,Acciones,Dropbox stock,,en,EE. UU.,0
+DCI,Donaldson Company,Acciones,Donaldson Company stock,,en,EE. UU.,0
+DINO,HF Sinclair,Acciones,HF Sinclair stock,,en,EE. UU.,0
+DKS,Dick's Sporting Goods,Acciones,Dick's Sporting Goods stock,,en,EE. UU.,0
+DLB,Dolby,Acciones,Dolby stock,,en,EE. UU.,0
+DOCN,DigitalOcean,Acciones,DigitalOcean stock,,en,EE. UU.,0
+DOCS,Doximity,Acciones,Doximity stock,,en,EE. UU.,0
+DOCU,Docusign,Acciones,Docusign stock,,en,EE. UU.,0
+DT,Dynatrace,Acciones,Dynatrace stock,,en,EE. UU.,0
+DTM,DT Midstream,Acciones,DT Midstream stock,,en,EE. UU.,0
+DUOL,Duolingo,Acciones,Duolingo stock,,en,EE. UU.,0
+DY,Dycom Industries,Acciones,Dycom Industries stock,,en,EE. UU.,0
+EAT,Brinker International,Acciones,Brinker International stock,,en,EE. UU.,0
+EEFT,Euronet Worldwide,Acciones,Euronet Worldwide stock,,en,EE. UU.,0
+EGP,EastGroup Properties,Acciones,EastGroup Properties stock,,en,EE. UU.,0
+EHC,Encompass Health,Acciones,Encompass Health stock,,en,EE. UU.,0
+ELAN,Elanco,Acciones,Elanco stock,,en,EE. UU.,0
+ELF,e.l.f. Beauty,Acciones,e.l.f. Beauty stock,,en,EE. UU.,0
+ELS,Equity Lifestyle Properties,Acciones,Equity Lifestyle Properties stock,,en,EE. UU.,0
+ENS,EnerSys,Acciones,EnerSys stock,,en,EE. UU.,0
+ENSG,Ensign Group,Acciones,Ensign Group stock,,en,EE. UU.,0
+ENTG,Entegris,Acciones,Entegris stock,,en,EE. UU.,0
+EPR,EPR Properties,Acciones,EPR Properties stock,,en,EE. UU.,0
+EQH,Equitable Holdings,Acciones,Equitable Holdings stock,,en,EE. UU.,0
+ESAB,ESAB,Acciones,ESAB stock,,en,EE. UU.,0
+ESNT,Essent Group Ltd.,Acciones,Essent Group Ltd. stock,,en,EE. UU.,0
+EVR,Evercore,Acciones,Evercore stock,,en,EE. UU.,0
+EWBC,East West Bancorp,Acciones,East West Bancorp stock,,en,EE. UU.,0
+EXEL,Exelixis,Acciones,Exelixis stock,,en,EE. UU.,0
+EXLS,EXL Service,Acciones,EXL Service stock,,en,EE. UU.,0
+EXP,Eagle Materials,Acciones,Eagle Materials stock,,en,EE. UU.,0
+EXPO,"Exponent, Inc.",Acciones,"Exponent, Inc. stock",,en,EE. UU.,0
+FAF,First American Financial Corporation,Acciones,First American Financial Corporation stock,,en,EE. UU.,0
+FBIN,Fortune Brands Innovations,Acciones,Fortune Brands Innovations stock,,en,EE. UU.,0
+FCFS,FirstCash,Acciones,FirstCash stock,,en,EE. UU.,0
+FCN,FTI Consulting,Acciones,FTI Consulting stock,,en,EE. UU.,0
+FFIN,First Financial Bankshares,Acciones,First Financial Bankshares stock,,en,EE. UU.,0
+FHI,Federated Hermes,Acciones,Federated Hermes stock,,en,EE. UU.,0
+FHN,First Horizon,Acciones,First Horizon stock,,en,EE. UU.,0
+FIVE,Five Below,Acciones,Five Below stock,,en,EE. UU.,0
+FLG,Flagstar Bank,Acciones,Flagstar Bank stock,,en,EE. UU.,0
+FLR,Fluor,Acciones,Fluor stock,,en,EE. UU.,0
+FLS,Flowserve,Acciones,Flowserve stock,,en,EE. UU.,0
+FN,Fabrinet,Acciones,Fabrinet stock,,en,EE. UU.,0
+FNB,FNB Corporation,Acciones,FNB Corporation stock,,en,EE. UU.,0
+FND,Floor & Decor,Acciones,Floor & Decor stock,,en,EE. UU.,0
+FNF,Fidelity National Financial,Acciones,Fidelity National Financial stock,,en,EE. UU.,0
+FORM,FormFactor,Acciones,FormFactor stock,,en,EE. UU.,0
+FOUR,Shift4,Acciones,Shift4 stock,,en,EE. UU.,0
+FR,First Industrial Realty Trust,Acciones,First Industrial Realty Trust stock,,en,EE. UU.,0
+FTI,TechnipFMC,Acciones,TechnipFMC stock,,en,EE. UU.,0
+G,Genpact,Acciones,Genpact stock,,en,EE. UU.,0
+GAP,Gap Inc.,Acciones,Gap Inc. stock,,en,EE. UU.,0
+GATX,GATX,Acciones,GATX stock,,en,EE. UU.,0
+GBCI,Glacier Bancorp,Acciones,Glacier Bancorp stock,,en,EE. UU.,0
+GEF,"Greif, Inc.",Acciones,"Greif, Inc. stock",,en,EE. UU.,0
+GGG,Graco Inc.,Acciones,Graco Inc. stock,,en,EE. UU.,0
+GHC,Graham Holdings,Acciones,Graham Holdings stock,,en,EE. UU.,0
+GKOS,Glaukos,Acciones,Glaukos stock,,en,EE. UU.,0
+GLPI,Gaming and Leisure Properties,Acciones,Gaming and Leisure Properties stock,,en,EE. UU.,0
+GME,GameStop,Acciones,GameStop stock,,en,EE. UU.,0
+GMED,Globus Medical,Acciones,Globus Medical stock,,en,EE. UU.,0
+GNTX,Gentex,Acciones,Gentex stock,,en,EE. UU.,0
+GPK,Graphic Packaging,Acciones,Graphic Packaging stock,,en,EE. UU.,0
+GWRE,Guidewire Software,Acciones,Guidewire Software stock,,en,EE. UU.,0
+GXO,GXO Logistics,Acciones,GXO Logistics stock,,en,EE. UU.,0
+H,Hyatt,Acciones,Hyatt stock,,en,EE. UU.,0
+HAE,Haemonetics,Acciones,Haemonetics stock,,en,EE. UU.,0
+HALO,Halozyme,Acciones,Halozyme stock,,en,EE. UU.,0
+HGV,Hilton Grand Vacations,Acciones,Hilton Grand Vacations stock,,en,EE. UU.,0
+HIMS,Hims & Hers Health,Acciones,Hims & Hers Health stock,,en,EE. UU.,0
+HL,Hecla Mining,Acciones,Hecla Mining stock,,en,EE. UU.,0
+HLI,Houlihan Lokey,Acciones,Houlihan Lokey stock,,en,EE. UU.,0
+HLNE,Hamilton Lane,Acciones,Hamilton Lane stock,,en,EE. UU.,0
+HOG,Harley-Davidson,Acciones,Harley-Davidson stock,,en,EE. UU.,0
+HOMB,Home BancShares,Acciones,Home BancShares stock,,en,EE. UU.,0
+HQY,HealthEquity,Acciones,HealthEquity stock,,en,EE. UU.,0
+HR,Healthcare Realty Trust,Acciones,Healthcare Realty Trust stock,,en,EE. UU.,0
+HRB,H&R Block,Acciones,H&R Block stock,,en,EE. UU.,0
+HUBS,HubSpot,Acciones,HubSpot stock,,en,EE. UU.,0
+HWC,Hancock Whitney,Acciones,Hancock Whitney stock,,en,EE. UU.,0
+HXL,Hexcel,Acciones,Hexcel stock,,en,EE. UU.,0
+IBOC,Intl Bancshares Corp,Acciones,Intl Bancshares Corp stock,,en,EE. UU.,0
+IDA,Idacorp,Acciones,Idacorp stock,,en,EE. UU.,0
+IDCC,InterDigital,Acciones,InterDigital stock,,en,EE. UU.,0
+IESC,IES Holdings,Acciones,IES Holdings stock,,en,EE. UU.,0
+INGR,Ingredion,Acciones,Ingredion stock,,en,EE. UU.,0
+IPGP,IPG Photonics,Acciones,IPG Photonics stock,,en,EE. UU.,0
+IRT,Independence Realty Trust,Acciones,Independence Realty Trust stock,,en,EE. UU.,0
+ITT,ITT Inc.,Acciones,ITT Inc. stock,,en,EE. UU.,0
+JAZZ,Jazz Pharmaceuticals,Acciones,Jazz Pharmaceuticals stock,,en,EE. UU.,0
+JEF,Jefferies,Acciones,Jefferies stock,,en,EE. UU.,0
+JHX,James Hardie Industries,Acciones,James Hardie Industries stock,,en,EE. UU.,0
+JLL,Jones Lang LaSalle,Acciones,Jones Lang LaSalle stock,,en,EE. UU.,0
+KBH,KB Home,Acciones,KB Home stock,,en,EE. UU.,0
+KBR,"KBR, Inc.",Acciones,"KBR, Inc. stock",,en,EE. UU.,0
+KD,Kyndryl,Acciones,Kyndryl stock,,en,EE. UU.,0
+KEX,Kirby Corporation,Acciones,Kirby Corporation stock,,en,EE. UU.,0
+KNF,Knife River Corporation,Acciones,Knife River Corporation stock,,en,EE. UU.,0
+KNSL,Kinsale Capital Group,Acciones,Kinsale Capital Group stock,,en,EE. UU.,0
+KNX,Knight-Swift,Acciones,Knight-Swift stock,,en,EE. UU.,0
+KRC,Kilroy Realty Corp,Acciones,Kilroy Realty Corp stock,,en,EE. UU.,0
+KRG,Kite Realty Group Trust,Acciones,Kite Realty Group Trust stock,,en,EE. UU.,0
+KRYS,Krystal Biotech,Acciones,Krystal Biotech stock,,en,EE. UU.,0
+KTOS,Kratos Defense & Security Solutions,Acciones,Kratos Defense & Security Solutions stock,,en,EE. UU.,0
+LAD,Lithia Motors,Acciones,Lithia Motors stock,,en,EE. UU.,0
+LAMR,Lamar Advertising Company,Acciones,Lamar Advertising Company stock,,en,EE. UU.,0
+LEA,Lear,Acciones,Lear stock,,en,EE. UU.,0
+LECO,Lincoln Electric,Acciones,Lincoln Electric stock,,en,EE. UU.,0
+LFUS,Littelfuse,Acciones,Littelfuse stock,,en,EE. UU.,0
+LIVN,LivaNova,Acciones,LivaNova stock,,en,EE. UU.,0
+LNTH,Lantheus Holdings,Acciones,Lantheus Holdings stock,,en,EE. UU.,0
+LOPE,Grand Canyon Education,Acciones,Grand Canyon Education stock,,en,EE. UU.,0
+LPX,Louisiana-Pacific,Acciones,Louisiana-Pacific stock,,en,EE. UU.,0
+LSCC,Lattice Semiconductor,Acciones,Lattice Semiconductor stock,,en,EE. UU.,0
+LSTR,Landstar System,Acciones,Landstar System stock,,en,EE. UU.,0
+M,Macy's,Acciones,Macy's stock,,en,EE. UU.,0
+MANH,Manhattan Associates,Acciones,Manhattan Associates stock,,en,EE. UU.,0
+MAT,Mattel,Acciones,Mattel stock,,en,EE. UU.,0
+MEDP,Medpace,Acciones,Medpace stock,,en,EE. UU.,0
+MIDD,Middleby,Acciones,Middleby stock,,en,EE. UU.,0
+MKSI,MKS Instruments,Acciones,MKS Instruments stock,,en,EE. UU.,0
+MLI,Mueller Industries,Acciones,Mueller Industries stock,,en,EE. UU.,0
+MMS,Maximus Inc.,Acciones,Maximus Inc. stock,,en,EE. UU.,0
+MOG-A,Moog Inc.,Acciones,Moog Inc. stock,,en,EE. UU.,0
+MOH,Molina Healthcare,Acciones,Molina Healthcare stock,,en,EE. UU.,0
+MORN,"Morningstar, Inc.",Acciones,"Morningstar, Inc. stock",,en,EE. UU.,0
+MP,MP Materials,Acciones,MP Materials stock,,en,EE. UU.,0
+MSA,MSA Safety,Acciones,MSA Safety stock,,en,EE. UU.,0
+MSM,MSC Industrial Direct,Acciones,MSC Industrial Direct stock,,en,EE. UU.,0
+MTDR,Matador Resources,Acciones,Matador Resources stock,,en,EE. UU.,0
+MTG,MGIC Investment Corporation,Acciones,MGIC Investment Corporation stock,,en,EE. UU.,0
+MTN,Vail Resorts,Acciones,Vail Resorts stock,,en,EE. UU.,0
+MTSI,MACOM Technology Solutions,Acciones,MACOM Technology Solutions stock,,en,EE. UU.,0
+MTZ,MasTec,Acciones,MasTec stock,,en,EE. UU.,0
+MUR,Murphy Oil,Acciones,Murphy Oil stock,,en,EE. UU.,0
+MUSA,Murphy USA,Acciones,Murphy USA stock,,en,EE. UU.,0
+MZTI,The Marzetti Company,Acciones,The Marzetti Company stock,,en,EE. UU.,0
+NBIX,Neurocrine Biosciences,Acciones,Neurocrine Biosciences stock,,en,EE. UU.,0
+NEU,NewMarket Corporation,Acciones,NewMarket Corporation stock,,en,EE. UU.,0
+NFG,National Fuel Gas,Acciones,National Fuel Gas stock,,en,EE. UU.,0
+NJR,New Jersey Resources,Acciones,New Jersey Resources stock,,en,EE. UU.,0
+NLY,Annaly Capital Management,Acciones,Annaly Capital Management stock,,en,EE. UU.,0
+NNN,NNN Reit,Acciones,NNN Reit stock,,en,EE. UU.,0
+NOV,NOV Inc.,Acciones,NOV Inc. stock,,en,EE. UU.,0
+NOVT,Novanta,Acciones,Novanta stock,,en,EE. UU.,0
+NTNX,Nutanix,Acciones,Nutanix stock,,en,EE. UU.,0
+NVST,Envista Holdings,Acciones,Envista Holdings stock,,en,EE. UU.,0
+NVT,nVent Electric plc,Acciones,nVent Electric plc stock,,en,EE. UU.,0
+NWE,NorthWestern Energy,Acciones,NorthWestern Energy stock,,en,EE. UU.,0
+NXST,Nexstar Media Group,Acciones,Nexstar Media Group stock,,en,EE. UU.,0
+NXT,Nextpower,Acciones,Nextpower stock,,en,EE. UU.,0
+NYT,New York Times Company,Acciones,New York Times Company stock,,en,EE. UU.,0
+OC,Owens Corning,Acciones,Owens Corning stock,,en,EE. UU.,0
+OGE,OGE Energy,Acciones,OGE Energy stock,,en,EE. UU.,0
+OGS,One Gas,Acciones,One Gas stock,,en,EE. UU.,0
+OHI,Omega Healthcare Investors,Acciones,Omega Healthcare Investors stock,,en,EE. UU.,0
+OLED,Universal Display,Acciones,Universal Display stock,,en,EE. UU.,0
+OLLI,Ollie's Bargain Outlet,Acciones,Ollie's Bargain Outlet stock,,en,EE. UU.,0
+ONB,Old National Bank,Acciones,Old National Bank stock,,en,EE. UU.,0
+ONTO,Onto Innovation,Acciones,Onto Innovation stock,,en,EE. UU.,0
+OPCH,Option Care Health,Acciones,Option Care Health stock,,en,EE. UU.,0
+ORA,Ormat Technologies,Acciones,Ormat Technologies stock,,en,EE. UU.,0
+ORI,Old Republic International,Acciones,Old Republic International stock,,en,EE. UU.,0
+OSK,Oshkosh,Acciones,Oshkosh stock,,en,EE. UU.,0
+OVV,Ovintiv,Acciones,Ovintiv stock,,en,EE. UU.,0
+OZK,Bank OZK,Acciones,Bank OZK stock,,en,EE. UU.,0
+PAG,Penske Automotive Group,Acciones,Penske Automotive Group stock,,en,EE. UU.,0
+PATH,UiPath,Acciones,UiPath stock,,en,EE. UU.,0
+PB,Prosperity Bancshares,Acciones,Prosperity Bancshares stock,,en,EE. UU.,0
+PBF,PBF Energy,Acciones,PBF Energy stock,,en,EE. UU.,0
+PCTY,Paylocity,Acciones,Paylocity stock,,en,EE. UU.,0
+PEGA,Pegasystems,Acciones,Pegasystems stock,,en,EE. UU.,0
+PEN,"Penumbra, Inc.",Acciones,"Penumbra, Inc. stock",,en,EE. UU.,0
+PFGC,Performance Food Group,Acciones,Performance Food Group stock,,en,EE. UU.,0
+PII,Polaris,Acciones,Polaris stock,,en,EE. UU.,0
+PINS,Pinterest,Acciones,Pinterest stock,,en,EE. UU.,0
+PK,Park Hotels & Resorts,Acciones,Park Hotels & Resorts stock,,en,EE. UU.,0
+PLNT,Planet Fitness,Acciones,Planet Fitness stock,,en,EE. UU.,0
+PNFP,Pinnacle Financial Partners,Acciones,Pinnacle Financial Partners stock,,en,EE. UU.,0
+POR,Portland General Electric,Acciones,Portland General Electric stock,,en,EE. UU.,0
+POST,Post Holdings,Acciones,Post Holdings stock,,en,EE. UU.,0
+PPC,Pilgrim's Pride,Acciones,Pilgrim's Pride stock,,en,EE. UU.,0
+PR,Permian Resources,Acciones,Permian Resources stock,,en,EE. UU.,0
+PRI,Primerica,Acciones,Primerica stock,,en,EE. UU.,0
+PSN,Parsons Corporation,Acciones,Parsons Corporation stock,,en,EE. UU.,0
+PVH,PVH Corp.,Acciones,PVH Corp. stock,,en,EE. UU.,0
+QLYS,Qualys,Acciones,Qualys stock,,en,EE. UU.,0
+R,Ryder,Acciones,Ryder stock,,en,EE. UU.,0
+RBA,RB Global,Acciones,RB Global stock,,en,EE. UU.,0
+RBC,RBC Bearings,Acciones,RBC Bearings stock,,en,EE. UU.,0
+REXR,Rexford Industrial Realty,Acciones,Rexford Industrial Realty stock,,en,EE. UU.,0
+RGA,Reinsurance Group of America,Acciones,Reinsurance Group of America stock,,en,EE. UU.,0
+RGEN,Repligen,Acciones,Repligen stock,,en,EE. UU.,0
+RGLD,Royal Gold,Acciones,Royal Gold stock,,en,EE. UU.,0
+RH,RH,Acciones,RH stock,,en,EE. UU.,0
+RLI,RLI Corp.,Acciones,RLI Corp. stock,,en,EE. UU.,0
+RMBS,Rambus,Acciones,Rambus stock,,en,EE. UU.,0
+RNR,RenaissanceRe,Acciones,RenaissanceRe stock,,en,EE. UU.,0
+ROIV,Roivant Sciences,Acciones,Roivant Sciences stock,,en,EE. UU.,0
+RPM,RPM International,Acciones,RPM International stock,,en,EE. UU.,0
+RRC,Range Resources,Acciones,Range Resources stock,,en,EE. UU.,0
+RRX,Regal Rexnord,Acciones,Regal Rexnord stock,,en,EE. UU.,0
+RS,"Reliance, Inc.",Acciones,"Reliance, Inc. stock",,en,EE. UU.,0
+RYAN,Ryan Specialty,Acciones,Ryan Specialty stock,,en,EE. UU.,0
+RYN,Rayonier,Acciones,Rayonier stock,,en,EE. UU.,0
+SAIA,Saia,Acciones,Saia stock,,en,EE. UU.,0
+SAIC,Science Applications Intl Corp,Acciones,Science Applications Intl Corp stock,,en,EE. UU.,0
+SANM,Sanmina Corporation,Acciones,Sanmina Corporation stock,,en,EE. UU.,0
+SARO,StandardAero,Acciones,StandardAero stock,,en,EE. UU.,0
+SBRA,Sabra Health Care REIT,Acciones,Sabra Health Care REIT stock,,en,EE. UU.,0
+SCI,Service Corp Intl,Acciones,Service Corp Intl stock,,en,EE. UU.,0
+SEIC,SEI Investments Company,Acciones,SEI Investments Company stock,,en,EE. UU.,0
+SF,Stifel,Acciones,Stifel stock,,en,EE. UU.,0
+SFM,Sprouts Farmers Market,Acciones,Sprouts Farmers Market stock,,en,EE. UU.,0
+SGI,Somnigroup International,Acciones,Somnigroup International stock,,en,EE. UU.,0
+SHC,Sotera Health,Acciones,Sotera Health stock,,en,EE. UU.,0
+SIGI,Selective Insurance Group,Acciones,Selective Insurance Group stock,,en,EE. UU.,0
+SIRI,SiriusXM,Acciones,SiriusXM stock,,en,EE. UU.,0
+SITM,SiTime,Acciones,SiTime stock,,en,EE. UU.,0
+SLAB,Silicon Labs,Acciones,Silicon Labs stock,,en,EE. UU.,0
+SLGN,Silgan Holdings,Acciones,Silgan Holdings stock,,en,EE. UU.,0
+SLM,SLM Corp,Acciones,SLM Corp stock,,en,EE. UU.,0
+SMG,Scotts Miracle-Gro Company,Acciones,Scotts Miracle-Gro Company stock,,en,EE. UU.,0
+SMTC,Semtech,Acciones,Semtech stock,,en,EE. UU.,0
+SN,SharkNinja,Acciones,SharkNinja stock,,en,EE. UU.,0
+SNX,TD Synnex,Acciones,TD Synnex stock,,en,EE. UU.,0
+SOLS,Solstice Advanced Materials,Acciones,Solstice Advanced Materials stock,,en,EE. UU.,0
+SON,Sonoco,Acciones,Sonoco stock,,en,EE. UU.,0
+SPXC,SPX Technologies,Acciones,SPX Technologies stock,,en,EE. UU.,0
+SR,Spire,Acciones,Spire stock,,en,EE. UU.,0
+SSB,South State Bank,Acciones,South State Bank stock,,en,EE. UU.,0
+SSD,Simpson Manufacturing,Acciones,Simpson Manufacturing stock,,en,EE. UU.,0
+ST,Sensata Technologies,Acciones,Sensata Technologies stock,,en,EE. UU.,0
+STAG,STAG Industrial,Acciones,STAG Industrial stock,,en,EE. UU.,0
+STRL,Sterling Infrastructure,Acciones,Sterling Infrastructure stock,,en,EE. UU.,0
+STWD,Starwood Property Trust,Acciones,Starwood Property Trust stock,,en,EE. UU.,0
+SUI,Sun Communities,Acciones,Sun Communities stock,,en,EE. UU.,0
+SWX,Southwest Gas Corp,Acciones,Southwest Gas Corp stock,,en,EE. UU.,0
+SYNA,Synaptics,Acciones,Synaptics stock,,en,EE. UU.,0
+TCBI,Texas Capital Bancshares,Acciones,Texas Capital Bancshares stock,,en,EE. UU.,0
+TEX,Terex,Acciones,Terex stock,,en,EE. UU.,0
+THC,Tenet Health,Acciones,Tenet Health stock,,en,EE. UU.,0
+THG,Hanover Insurance,Acciones,Hanover Insurance stock,,en,EE. UU.,0
+THO,Thor Industries,Acciones,Thor Industries stock,,en,EE. UU.,0
+TKR,Timken,Acciones,Timken stock,,en,EE. UU.,0
+TLN,Talen Energy,Acciones,Talen Energy stock,,en,EE. UU.,0
+TNL,Travel + Leisure Co.,Acciones,Travel + Leisure Co. stock,,en,EE. UU.,0
+TOL,Toll Brothers,Acciones,Toll Brothers stock,,en,EE. UU.,0
+TOST,"Toast, Inc.",Acciones,"Toast, Inc. stock",,en,EE. UU.,0
+TREX,Trex,Acciones,Trex stock,,en,EE. UU.,0
+TRU,TransUnion,Acciones,TransUnion stock,,en,EE. UU.,0
+TTC,Toro,Acciones,Toro stock,,en,EE. UU.,0
+TTEK,Tetra Tech,Acciones,Tetra Tech stock,,en,EE. UU.,0
+TTMI,TTM Technologies,Acciones,TTM Technologies stock,,en,EE. UU.,0
+TXNM,TXNM Energy,Acciones,TXNM Energy stock,,en,EE. UU.,0
+TXRH,Texas Roadhouse,Acciones,Texas Roadhouse stock,,en,EE. UU.,0
+UBSI,United Bankshares,Acciones,United Bankshares stock,,en,EE. UU.,0
+UFPI,UFP Industries,Acciones,UFP Industries stock,,en,EE. UU.,0
+UGI,UGI Corp,Acciones,UGI Corp stock,,en,EE. UU.,0
+ULS,UL Solutions,Acciones,UL Solutions stock,,en,EE. UU.,0
+UMBF,UMB Financial Corp.,Acciones,UMB Financial Corp. stock,,en,EE. UU.,0
+UNM,Unum,Acciones,Unum stock,,en,EE. UU.,0
+USFD,US Foods,Acciones,US Foods stock,,en,EE. UU.,0
+VAL,Valaris,Acciones,Valaris stock,,en,EE. UU.,0
+VC,Visteon,Acciones,Visteon stock,,en,EE. UU.,0
+VFC,VF Corporation,Acciones,VF Corporation stock,,en,EE. UU.,0
+VIAV,Viavi Solutions,Acciones,Viavi Solutions stock,,en,EE. UU.,0
+VICR,Vicor Corporation,Acciones,Vicor Corporation stock,,en,EE. UU.,0
+VLY,Valley Bank,Acciones,Valley Bank stock,,en,EE. UU.,0
+VMI,Valmont Industries,Acciones,Valmont Industries stock,,en,EE. UU.,0
+VNO,Vornado Realty Trust,Acciones,Vornado Realty Trust stock,,en,EE. UU.,0
+VNOM,Viper Energy,Acciones,Viper Energy stock,,en,EE. UU.,0
+VNT,Vontier,Acciones,Vontier stock,,en,EE. UU.,0
+VOYA,Voya Financial,Acciones,Voya Financial stock,,en,EE. UU.,0
+VVV,Valvoline,Acciones,Valvoline stock,,en,EE. UU.,0
+WAL,Western Alliance Bancorporation,Acciones,Western Alliance Bancorporation stock,,en,EE. UU.,0
+WCC,WESCO International,Acciones,WESCO International stock,,en,EE. UU.,0
+WEX,WEX Inc.,Acciones,WEX Inc. stock,,en,EE. UU.,0
+WFRD,Weatherford International,Acciones,Weatherford International stock,,en,EE. UU.,0
+WH,Wyndham Hotels & Resorts,Acciones,Wyndham Hotels & Resorts stock,,en,EE. UU.,0
+WHR,Whirlpool Corporation,Acciones,Whirlpool Corporation stock,,en,EE. UU.,0
+WING,Wingstop,Acciones,Wingstop stock,,en,EE. UU.,0
+WLK,Westlake Corporation,Acciones,Westlake Corporation stock,,en,EE. UU.,0
+WMG,Warner Music Group,Acciones,Warner Music Group stock,,en,EE. UU.,0
+WMS,Advanced Drainage Systems,Acciones,Advanced Drainage Systems stock,,en,EE. UU.,0
+WPC,W. P. Carey,Acciones,W. P. Carey stock,,en,EE. UU.,0
+WSO,Watsco,Acciones,Watsco stock,,en,EE. UU.,0
+WTFC,Wintrust Financial,Acciones,Wintrust Financial stock,,en,EE. UU.,0
+WTRG,Essential Utilities,Acciones,Essential Utilities stock,,en,EE. UU.,0
+WTS,Watts Water Technologies,Acciones,Watts Water Technologies stock,,en,EE. UU.,0
+WWD,"Woodward, Inc.",Acciones,"Woodward, Inc. stock",,en,EE. UU.,0
+XPO,"XPO, Inc.",Acciones,"XPO, Inc. stock",,en,EE. UU.,0
+XRAY,Dentsply Sirona,Acciones,Dentsply Sirona stock,,en,EE. UU.,0
+YETI,Yeti Holdings,Acciones,Yeti Holdings stock,,en,EE. UU.,0
+ZION,Zions Bancorporation,Acciones,Zions Bancorporation stock,,en,EE. UU.,0
+AAMI,Acadian Asset Management Inc.,Acciones,Acadian Asset Management Inc. stock,,en,EE. UU.,0
+AAP,"Advance Auto Parts, Inc.",Acciones,"Advance Auto Parts, Inc. stock",,en,EE. UU.,0
+AAT,American Assets Trust,Acciones,American Assets Trust stock,,en,EE. UU.,0
+ABCB,Ameris Bancorp,Acciones,Ameris Bancorp stock,,en,EE. UU.,0
+ABG,Asbury Automotive Group,Acciones,Asbury Automotive Group stock,,en,EE. UU.,0
+ABM,"ABM Industries, Inc.",Acciones,"ABM Industries, Inc. stock",,en,EE. UU.,0
+ABR,Arbor Realty Trust,Acciones,Arbor Realty Trust stock,,en,EE. UU.,0
+ACA,"Arcosa, Inc.",Acciones,"Arcosa, Inc. stock",,en,EE. UU.,0
+ACAD,Acadia Pharmaceuticals,Acciones,Acadia Pharmaceuticals stock,,en,EE. UU.,0
+ACHC,Acadia Healthcare,Acciones,Acadia Healthcare stock,,en,EE. UU.,0
+ACIW,ACI Worldwide,Acciones,ACI Worldwide stock,,en,EE. UU.,0
+ACLS,"Axcelis Technologies, Inc.",Acciones,"Axcelis Technologies, Inc. stock",,en,EE. UU.,0
+ACMR,"ACM Research, Inc.",Acciones,"ACM Research, Inc. stock",,en,EE. UU.,0
+ACT,"Enact Holdings, Inc.",Acciones,"Enact Holdings, Inc. stock",,en,EE. UU.,0
+ADAM,"Adamas Trust, Inc.",Acciones,"Adamas Trust, Inc. stock",,en,EE. UU.,0
+ADEA,"Adeia, Inc.",Acciones,"Adeia, Inc. stock",,en,EE. UU.,0
+ADIG,ADI Global Distribution,Acciones,ADI Global Distribution stock,,en,EE. UU.,0
+ADMA,"ADMA Biologics, Inc.",Acciones,"ADMA Biologics, Inc. stock",,en,EE. UU.,0
+ADNT,Adient,Acciones,Adient stock,,en,EE. UU.,0
+ADT,ADT Inc.,Acciones,ADT Inc. stock,,en,EE. UU.,0
+ADUS,Addus HomeCare Corp.,Acciones,Addus HomeCare Corp. stock,,en,EE. UU.,0
+AEO,American Eagle Outfitters,Acciones,American Eagle Outfitters stock,,en,EE. UU.,0
+AESI,"Atlas Energy Solutions, Inc.",Acciones,"Atlas Energy Solutions, Inc. stock",,en,EE. UU.,0
+AGNT,"eXp World Holdings, Inc.",Acciones,"eXp World Holdings, Inc. stock",,en,EE. UU.,0
+AGO,Assured Guaranty Ltd.,Acciones,Assured Guaranty Ltd. stock,,en,EE. UU.,0
+AGX,"Argan, Inc.",Acciones,"Argan, Inc. stock",,en,EE. UU.,0
+AGYS,"Agilysys, Inc.",Acciones,"Agilysys, Inc. stock",,en,EE. UU.,0
+AHCO,AdaptHealth Corp.,Acciones,AdaptHealth Corp. stock,,en,EE. UU.,0
+AIN,Albany International Corp.,Acciones,Albany International Corp. stock,,en,EE. UU.,0
+AIR,AAR Corp.,Acciones,AAR Corp. stock,,en,EE. UU.,0
+AKR,Acadia Realty Trust,Acciones,Acadia Realty Trust stock,,en,EE. UU.,0
+ALG,Alamo Group,Acciones,Alamo Group stock,,en,EE. UU.,0
+ALGT,Allegiant Travel Company,Acciones,Allegiant Travel Company stock,,en,EE. UU.,0
+ALHC,"Alignment Healthcare, Inc.",Acciones,"Alignment Healthcare, Inc. stock",,en,EE. UU.,0
+ALKS,Alkermes plc,Acciones,Alkermes plc stock,,en,EE. UU.,0
+ALRM,"Alarm.Com, Inc.",Acciones,"Alarm.Com, Inc. stock",,en,EE. UU.,0
+AMN,"Amn Healthcare Services, Inc.",Acciones,"Amn Healthcare Services, Inc. stock",,en,EE. UU.,0
+AMPH,"Amphstar Pharmaceuticals, Inc.",Acciones,"Amphstar Pharmaceuticals, Inc. stock",,en,EE. UU.,0
+AMR,"Alpha Metallurgical Resources, Inc.",Acciones,"Alpha Metallurgical Resources, Inc. stock",,en,EE. UU.,0
+AMRX,Amneal Pharmaceuticals,Acciones,Amneal Pharmaceuticals stock,,en,EE. UU.,0
+AMSF,"Amerisafe, Inc.",Acciones,"Amerisafe, Inc. stock",,en,EE. UU.,0
+AMTM,Amentum,Acciones,Amentum stock,,en,EE. UU.,0
+ANDE,"The Andersons, Inc.",Acciones,"The Andersons, Inc. stock",,en,EE. UU.,0
+ANIP,"ANI Pharmaceuticals, Inc.",Acciones,"ANI Pharmaceuticals, Inc. stock",,en,EE. UU.,0
+AORT,Artivion,Acciones,Artivion stock,,en,EE. UU.,0
+AOSL,"Alpha and Omega Semiconductor, Ltd.",Acciones,"Alpha and Omega Semiconductor, Ltd. stock",,en,EE. UU.,0
+APAM,"Artisan Partners Asset Management, Inc.",Acciones,"Artisan Partners Asset Management, Inc. stock",,en,EE. UU.,0
+APLE,"Apple Hospitality REIT, Inc.",Acciones,"Apple Hospitality REIT, Inc. stock",,en,EE. UU.,0
+APOG,"Apogee Enterprises, Inc.",Acciones,"Apogee Enterprises, Inc. stock",,en,EE. UU.,0
+ARCB,ArcBest Corp.,Acciones,ArcBest Corp. stock,,en,EE. UU.,0
+ARLO,Arlo Technologies,Acciones,Arlo Technologies stock,,en,EE. UU.,0
+AROC,"Archrock, Inc.",Acciones,"Archrock, Inc. stock",,en,EE. UU.,0
+ARR,Armour Residential REIT,Acciones,Armour Residential REIT stock,,en,EE. UU.,0
+ASO,Academy Sports + Outdoors,Acciones,Academy Sports + Outdoors stock,,en,EE. UU.,0
+ASTE,"Astec Industries, Inc.",Acciones,"Astec Industries, Inc. stock",,en,EE. UU.,0
+ASTH,"Astrana Health, Inc.",Acciones,"Astrana Health, Inc. stock",,en,EE. UU.,0
+ATEN,"A10 Networks, Inc.",Acciones,"A10 Networks, Inc. stock",,en,EE. UU.,0
+ATMU,Atmus Filtration Technologies Inc.,Acciones,Atmus Filtration Technologies Inc. stock,,en,EE. UU.,0
+AUB,"Atlantic Union Bankshares, Corp.",Acciones,"Atlantic Union Bankshares, Corp. stock",,en,EE. UU.,0
+AVA,Avista Corporation,Acciones,Avista Corporation stock,,en,EE. UU.,0
+AWI,"Armstrong World Industries, Inc.",Acciones,"Armstrong World Industries, Inc. stock",,en,EE. UU.,0
+AWR,American States Water Company,Acciones,American States Water Company stock,,en,EE. UU.,0
+AX,"Axos Financial, Inc.",Acciones,"Axos Financial, Inc. stock",,en,EE. UU.,0
+AZTA,"Azenta, Inc.",Acciones,"Azenta, Inc. stock",,en,EE. UU.,0
+AZZ,"AZZ, Inc.",Acciones,"AZZ, Inc. stock",,en,EE. UU.,0
+BANC,"Banc Of California, Inc.",Acciones,"Banc Of California, Inc. stock",,en,EE. UU.,0
+BANF,Bancfirst Corp,Acciones,Bancfirst Corp stock,,en,EE. UU.,0
+BANR,Banner Corporation,Acciones,Banner Corporation stock,,en,EE. UU.,0
+BBT,Beacon Financial Corp.,Acciones,Beacon Financial Corp. stock,,en,EE. UU.,0
+BCC,Boise Cascade,Acciones,Boise Cascade stock,,en,EE. UU.,0
+BCPC,Balchem Corporation,Acciones,Balchem Corporation stock,,en,EE. UU.,0
+BFAM,Bright Horizons Family Solutions Inc.,Acciones,Bright Horizons Family Solutions Inc. stock,,en,EE. UU.,0
+BFH,"Bread Financial Holdings, Inc.",Acciones,"Bread Financial Holdings, Inc. stock",,en,EE. UU.,0
+BFS,"Saul Centers, Inc.",Acciones,"Saul Centers, Inc. stock",,en,EE. UU.,0
+BGC,"BGC Group, Inc.",Acciones,"BGC Group, Inc. stock",,en,EE. UU.,0
+BHE,"Benchmark Electronics, Inc.",Acciones,"Benchmark Electronics, Inc. stock",,en,EE. UU.,0
+BJRI,"BJ's Restaurants, Inc.",Acciones,"BJ's Restaurants, Inc. stock",,en,EE. UU.,0
+BKE,"The Buckle, Inc.",Acciones,"The Buckle, Inc. stock",,en,EE. UU.,0
+BKU,"BankUnited, Inc.",Acciones,"BankUnited, Inc. stock",,en,EE. UU.,0
+BL,"BlackLine Systems, Inc.",Acciones,"BlackLine Systems, Inc. stock",,en,EE. UU.,0
+BLFS,"BioLife Solutions, Inc.",Acciones,"BioLife Solutions, Inc. stock",,en,EE. UU.,0
+BLKB,Blackbaud,Acciones,Blackbaud stock,,en,EE. UU.,0
+BMI,"Badger Meter, Inc.",Acciones,"Badger Meter, Inc. stock",,en,EE. UU.,0
+BNL,"Broadstone Net Lease, Inc.",Acciones,"Broadstone Net Lease, Inc. stock",,en,EE. UU.,0
+BOH,Bank of Hawaii,Acciones,Bank of Hawaii stock,,en,EE. UU.,0
+BOOT,"Boot Barn Holdings, Inc.",Acciones,"Boot Barn Holdings, Inc. stock",,en,EE. UU.,0
+BOX,"Box, Inc.",Acciones,"Box, Inc. stock",,en,EE. UU.,0
+BRC,Brady Corporation,Acciones,Brady Corporation stock,,en,EE. UU.,0
+BTU,"Peabody Energy, Inc.",Acciones,"Peabody Energy, Inc. stock",,en,EE. UU.,0
+BXMT,"Blackstone Mortgage Trust, Inc.",Acciones,"Blackstone Mortgage Trust, Inc. stock",,en,EE. UU.,0
+CACC,Credit Acceptance,Acciones,Credit Acceptance stock,,en,EE. UU.,0
+CAG,Conagra Brands,Acciones,Conagra Brands stock,,en,EE. UU.,0
+CAKE,"The Cheesecake Factory, Inc.",Acciones,"The Cheesecake Factory, Inc. stock",,en,EE. UU.,0
+CALM,"Cal-Maine Foods, Inc.",Acciones,"Cal-Maine Foods, Inc. stock",,en,EE. UU.,0
+CALX,Calix,Acciones,Calix stock,,en,EE. UU.,0
+CALY,Callaway Golf Company,Acciones,Callaway Golf Company stock,,en,EE. UU.,0
+CARG,CarGurus,Acciones,CarGurus stock,,en,EE. UU.,0
+CASH,"Pathward Financial, Inc.",Acciones,"Pathward Financial, Inc. stock",,en,EE. UU.,0
+CATY,Cathay General Bancorp,Acciones,Cathay General Bancorp stock,,en,EE. UU.,0
+CBRL,Cracker Barrel,Acciones,Cracker Barrel stock,,en,EE. UU.,0
+CBU,"Community Bank System, Inc.",Acciones,"Community Bank System, Inc. stock",,en,EE. UU.,0
+CC,Chemours,Acciones,Chemours stock,,en,EE. UU.,0
+CCOI,"Cogent Communications Holdings, Inc.",Acciones,"Cogent Communications Holdings, Inc. stock",,en,EE. UU.,0
+CCS,"Century Communities, Inc.",Acciones,"Century Communities, Inc. stock",,en,EE. UU.,0
+CE,Celanese,Acciones,Celanese stock,,en,EE. UU.,0
+CENT,Central Garden & Pet Company,Acciones,Central Garden & Pet Company stock,,en,EE. UU.,0
+CENTA,Central Garden & Pet Company (Class A),Acciones,Central Garden & Pet Company (Class A) stock,,en,EE. UU.,0
+CENX,Century Aluminum Company,Acciones,Century Aluminum Company stock,,en,EE. UU.,0
+CERT,"Certara, Inc.",Acciones,"Certara, Inc. stock",,en,EE. UU.,0
+CFFN,Capitol Federal Savings Bank,Acciones,Capitol Federal Savings Bank stock,,en,EE. UU.,0
+CHCO,City Holding Company,Acciones,City Holding Company stock,,en,EE. UU.,0
+CHEF,"Chefs' Warehouse, Inc.",Acciones,"Chefs' Warehouse, Inc. stock",,en,EE. UU.,0
+CLSK,"CleanSpark, Inc.",Acciones,"CleanSpark, Inc. stock",,en,EE. UU.,0
+CNK,"Cinemark Holdings, Inc.",Acciones,"Cinemark Holdings, Inc. stock",,en,EE. UU.,0
+CNMD,CONMED Corporation,Acciones,CONMED Corporation stock,,en,EE. UU.,0
+CNR,"Core Natural Resources, Inc.",Acciones,"Core Natural Resources, Inc. stock",,en,EE. UU.,0
+CNS,"Cohen & Steers, Inc.",Acciones,"Cohen & Steers, Inc. stock",,en,EE. UU.,0
+CNXC,Concentrix,Acciones,Concentrix stock,,en,EE. UU.,0
+CNXN,"PC Connection, Inc.",Acciones,"PC Connection, Inc. stock",,en,EE. UU.,0
+COCO,The Vita Coco Company,Acciones,The Vita Coco Company stock,,en,EE. UU.,0
+COHU,"Cohu, Inc.",Acciones,"Cohu, Inc. stock",,en,EE. UU.,0
+COLL,"Collegium Pharmaceutical, Inc.",Acciones,"Collegium Pharmaceutical, Inc. stock",,en,EE. UU.,0
+CON,"Concentra Group Holdings Parent, Inc.",Acciones,"Concentra Group Holdings Parent, Inc. stock",,en,EE. UU.,0
+COTY,Coty,Acciones,Coty stock,,en,EE. UU.,0
+CPB,The Campbell's Company,Acciones,The Campbell's Company stock,,en,EE. UU.,0
+CPF,Central Pacific Financial Corp.,Acciones,Central Pacific Financial Corp. stock,,en,EE. UU.,0
+CPK,Chesapeake Utilities Corp.,Acciones,Chesapeake Utilities Corp. stock,,en,EE. UU.,0
+CRC,California Resources Corporation,Acciones,California Resources Corporation stock,,en,EE. UU.,0
+CRGY,Crescent Energy Company,Acciones,Crescent Energy Company stock,,en,EE. UU.,0
+CRI,"Carter's, Inc.",Acciones,"Carter's, Inc. stock",,en,EE. UU.,0
+CRK,"Comstock Resources, Inc.",Acciones,"Comstock Resources, Inc. stock",,en,EE. UU.,0
+CRSR,Corsair Gaming,Acciones,Corsair Gaming stock,,en,EE. UU.,0
+CRVL,CorVel Corporation,Acciones,CorVel Corporation stock,,en,EE. UU.,0
+CSR,Centerspace Trust,Acciones,Centerspace Trust stock,,en,EE. UU.,0
+CSW,"CSW Industrials, Inc.",Acciones,"CSW Industrials, Inc. stock",,en,EE. UU.,0
+CTS,CTS Corporation,Acciones,CTS Corporation stock,,en,EE. UU.,0
+CUBI,"Customers Bancorp, Inc.",Acciones,"Customers Bancorp, Inc. stock",,en,EE. UU.,0
+CURB,Curbline Properties Corp.,Acciones,Curbline Properties Corp. stock,,en,EE. UU.,0
+CVBF,CVB Financial Corp.,Acciones,CVB Financial Corp. stock,,en,EE. UU.,0
+CVCO,"Cavco Industries, Inc.",Acciones,"Cavco Industries, Inc. stock",,en,EE. UU.,0
+CVI,"CVR Energy, Inc.",Acciones,"CVR Energy, Inc. stock",,en,EE. UU.,0
+CVSA,Covista Inc.,Acciones,Covista Inc. stock,,en,EE. UU.,0
+CWEN,"Clearway Energy, Inc. (Class C)",Acciones,"Clearway Energy, Inc. (Class C) stock",,en,EE. UU.,0
+CWEN-A,"Clearway Energy, Inc. (Class A)",Acciones,"Clearway Energy, Inc. (Class A) stock",,en,EE. UU.,0
+CWK,Cushman & Wakefield plc,Acciones,Cushman & Wakefield plc stock,,en,EE. UU.,0
+CWST,"Casella Waste Systems, Inc.",Acciones,"Casella Waste Systems, Inc. stock",,en,EE. UU.,0
+CWT,California Water Service Group,Acciones,California Water Service Group stock,,en,EE. UU.,0
+CXM,"Sprinklr, Inc.",Acciones,"Sprinklr, Inc. stock",,en,EE. UU.,0
+CXW,CoreCivic,Acciones,CoreCivic stock,,en,EE. UU.,0
+CZR,Caesars Entertainment,Acciones,Caesars Entertainment stock,,en,EE. UU.,0
+DAN,Dana Incorporated,Acciones,Dana Incorporated stock,,en,EE. UU.,0
+DAVE,"Dave, Inc.",Acciones,"Dave, Inc. stock",,en,EE. UU.,0
+DBD,Diebold Nixdorf,Acciones,Diebold Nixdorf stock,,en,EE. UU.,0
+DCH,Dauch Corporation,Acciones,Dauch Corporation stock,,en,EE. UU.,0
+DCOM,"Dime Community Bancshares, Inc.",Acciones,"Dime Community Bancshares, Inc. stock",,en,EE. UU.,0
+DEA,"Easterly Government Properties, Inc.",Acciones,"Easterly Government Properties, Inc. stock",,en,EE. UU.,0
+DEI,Douglas Emmett,Acciones,Douglas Emmett stock,,en,EE. UU.,0
+DFH,"Dream Finders Homes, Inc.",Acciones,"Dream Finders Homes, Inc. stock",,en,EE. UU.,0
+DFIN,"Donnelley Financial Solutions, Inc.",Acciones,"Donnelley Financial Solutions, Inc. stock",,en,EE. UU.,0
+DGII,Digi International Inc.,Acciones,Digi International Inc. stock,,en,EE. UU.,0
+DIOD,Diodes Incorporated,Acciones,Diodes Incorporated stock,,en,EE. UU.,0
+DLX,Deluxe Corporation,Acciones,Deluxe Corporation stock,,en,EE. UU.,0
+DMC,Del Monte Corporation,Acciones,Del Monte Corporation stock,,en,EE. UU.,0
+DNOW,NOW Inc,Acciones,NOW Inc stock,,en,EE. UU.,0
+DORM,"Dorman Products, Inc.",Acciones,"Dorman Products, Inc. stock",,en,EE. UU.,0
+DRH,DiamondRock Hospitality Company,Acciones,DiamondRock Hospitality Company stock,,en,EE. UU.,0
+DV,DoubleVerify Holdings Inc.,Acciones,DoubleVerify Holdings Inc. stock,,en,EE. UU.,0
+DXC,DXC Technology,Acciones,DXC Technology stock,,en,EE. UU.,0
+DXPE,"DXP Enterprises, Inc.",Acciones,"DXP Enterprises, Inc. stock",,en,EE. UU.,0
+EBC,"Eastern Bankshares, Inc.",Acciones,"Eastern Bankshares, Inc. stock",,en,EE. UU.,0
+ECG,"Everus Construction Group, Inc.",Acciones,"Everus Construction Group, Inc. stock",,en,EE. UU.,0
+ECPG,"Encore Capital Group, Inc.",Acciones,"Encore Capital Group, Inc. stock",,en,EE. UU.,0
+EFC,"Ellington Financial, Inc.",Acciones,"Ellington Financial, Inc. stock",,en,EE. UU.,0
+EFOR,Everforth Inc.,Acciones,Everforth Inc. stock,,en,EE. UU.,0
+EGBN,Eagle Bancorp Inc,Acciones,Eagle Bancorp Inc stock,,en,EE. UU.,0
+EIG,"Employers Holdings, Inc.",Acciones,"Employers Holdings, Inc. stock",,en,EE. UU.,0
+EMN,Eastman Chemical Company,Acciones,Eastman Chemical Company stock,,en,EE. UU.,0
+ENOV,Enovis,Acciones,Enovis stock,,en,EE. UU.,0
+ENPH,Enphase Energy,Acciones,Enphase Energy stock,,en,EE. UU.,0
+ENR,Energizer,Acciones,Energizer stock,,en,EE. UU.,0
+ENVA,"Enova International, Inc.",Acciones,"Enova International, Inc. stock",,en,EE. UU.,0
+EPAC,Enerpac Tool Group,Acciones,Enerpac Tool Group stock,,en,EE. UU.,0
+EPAM,EPAM Systems,Acciones,EPAM Systems stock,,en,EE. UU.,0
+EPC,Edgewell Personal Care,Acciones,Edgewell Personal Care stock,,en,EE. UU.,0
+EPRT,"Essential Properties Realty Trust, Inc.",Acciones,"Essential Properties Realty Trust, Inc. stock",,en,EE. UU.,0
+ESE,ESCO Technologies Inc.,Acciones,ESCO Technologies Inc. stock,,en,EE. UU.,0
+ESI,Element Solutions,Acciones,Element Solutions stock,,en,EE. UU.,0
+ETSY,Etsy,Acciones,Etsy stock,,en,EE. UU.,0
+EVTC,"EVERTEC, Inc.",Acciones,"EVERTEC, Inc. stock",,en,EE. UU.,0
+EXTR,"Extreme Networks, Inc.",Acciones,"Extreme Networks, Inc. stock",,en,EE. UU.,0
+EYE,National Vision Holdings,Acciones,National Vision Holdings stock,,en,EE. UU.,0
+EZPW,"EZCORP, Inc.",Acciones,"EZCORP, Inc. stock",,en,EE. UU.,0
+FA,First Advantage Corporation,Acciones,First Advantage Corporation stock,,en,EE. UU.,0
+FBK,FB Financial Corp.,Acciones,FB Financial Corp. stock,,en,EE. UU.,0
+FBNC,First Bancorp (Southern Pines NC),Acciones,First Bancorp (Southern Pines NC) stock,,en,EE. UU.,0
+FBP,First BanCorp (Puerto Rico),Acciones,First BanCorp (Puerto Rico) stock,,en,EE. UU.,0
+FBRT,"Franklin BSP Realty Trust, Inc.",Acciones,"Franklin BSP Realty Trust, Inc. stock",,en,EE. UU.,0
+FCF,"First Commonwealth Financial, Corp.",Acciones,"First Commonwealth Financial, Corp. stock",,en,EE. UU.,0
+FCPT,"Four Corners Property Trust, Inc.",Acciones,"Four Corners Property Trust, Inc. stock",,en,EE. UU.,0
+FELE,Franklin Electric,Acciones,Franklin Electric stock,,en,EE. UU.,0
+FFBC,First Financial Bancorp,Acciones,First Financial Bancorp stock,,en,EE. UU.,0
+FG,"F&G Annuities & Life, Inc.",Acciones,"F&G Annuities & Life, Inc. stock",,en,EE. UU.,0
+FHB,"First Hawaiian, Inc.",Acciones,"First Hawaiian, Inc. stock",,en,EE. UU.,0
+FIBK,"First Interstate BancSystem, Inc.",Acciones,"First Interstate BancSystem, Inc. stock",,en,EE. UU.,0
+FIVN,"Five9, Inc.",Acciones,"Five9, Inc. stock",,en,EE. UU.,0
+FIZZ,National Beverage Corp.,Acciones,National Beverage Corp. stock,,en,EE. UU.,0
+FLO,Flowers Foods,Acciones,Flowers Foods stock,,en,EE. UU.,0
+FMC,FMC Corporation,Acciones,FMC Corporation stock,,en,EE. UU.,0
+FOXF,Fox Factory,Acciones,Fox Factory stock,,en,EE. UU.,0
+FRPT,Freshpet,Acciones,Freshpet stock,,en,EE. UU.,0
+FSS,Federal Signal Corporation,Acciones,Federal Signal Corporation stock,,en,EE. UU.,0
+FTDR,"Frontdoor, Inc.",Acciones,"Frontdoor, Inc. stock",,en,EE. UU.,0
+FTRE,Fortrea,Acciones,Fortrea stock,,en,EE. UU.,0
+FUL,H.B. Fuller Company,Acciones,H.B. Fuller Company stock,,en,EE. UU.,0
+FULT,Fulton Financial Corporation,Acciones,Fulton Financial Corporation stock,,en,EE. UU.,0
+FUN,Six Flags,Acciones,Six Flags stock,,en,EE. UU.,0
+GBX,"The Greenbrier Companies, Inc.",Acciones,"The Greenbrier Companies, Inc. stock",,en,EE. UU.,0
+GEO,"GEO Group, Inc.",Acciones,"GEO Group, Inc. stock",,en,EE. UU.,0
+GFF,Griffon Corporation,Acciones,Griffon Corporation stock,,en,EE. UU.,0
+GIII,"G-III Apparel Group, Ltd.",Acciones,"G-III Apparel Group, Ltd. stock",,en,EE. UU.,0
+GNL,"Global Net Lease, Inc.",Acciones,"Global Net Lease, Inc. stock",,en,EE. UU.,0
+GNW,"Genworth Financial, Inc.",Acciones,"Genworth Financial, Inc. stock",,en,EE. UU.,0
+GO,Grocery Outlet,Acciones,Grocery Outlet stock,,en,EE. UU.,0
+GOLF,Acushnet Company,Acciones,Acushnet Company stock,,en,EE. UU.,0
+GPI,"Group 1 Automotive, Inc.",Acciones,"Group 1 Automotive, Inc. stock",,en,EE. UU.,0
+GPOR,Gulfport Energy Corporation,Acciones,Gulfport Energy Corporation stock,,en,EE. UU.,0
+GRBK,"Green Brick Partners, Inc.",Acciones,"Green Brick Partners, Inc. stock",,en,EE. UU.,0
+GSHD,"Goosehead Insurance, Inc.",Acciones,"Goosehead Insurance, Inc. stock",,en,EE. UU.,0
+GT,Goodyear Tire and Rubber Company,Acciones,Goodyear Tire and Rubber Company stock,,en,EE. UU.,0
+GTES,Gates Corporation,Acciones,Gates Corporation stock,,en,EE. UU.,0
+GTM,ZoomInfo,Acciones,ZoomInfo stock,,en,EE. UU.,0
+GTY,Getty Realty Corp.,Acciones,Getty Realty Corp. stock,,en,EE. UU.,0
+GVA,"Granite Construction, Inc.",Acciones,"Granite Construction, Inc. stock",,en,EE. UU.,0
+HAFC,Hanmi Financial Corporation,Acciones,Hanmi Financial Corporation stock,,en,EE. UU.,0
+HASI,"Hannon Armstrong Sustainable Infrastructure Capital, Inc.",Acciones,"Hannon Armstrong Sustainable Infrastructure Capital, Inc. stock",,en,EE. UU.,0
+HAYW,"Hayward Holdings, Inc.",Acciones,"Hayward Holdings, Inc. stock",,en,EE. UU.,0
+HCC,"Warrior Met Coal, Inc.",Acciones,"Warrior Met Coal, Inc. stock",,en,EE. UU.,0
+HCI,"HCI Group, Inc.",Acciones,"HCI Group, Inc. stock",,en,EE. UU.,0
+HCSG,"Healthcare Services Group, Inc.",Acciones,"Healthcare Services Group, Inc. stock",,en,EE. UU.,0
+HE,"Hawaiian Electric Industries, Inc.",Acciones,"Hawaiian Electric Industries, Inc. stock",,en,EE. UU.,0
+HFWA,Heritage Financial Corporation,Acciones,Heritage Financial Corporation stock,,en,EE. UU.,0
+HIW,Highwoods Properties,Acciones,Highwoods Properties stock,,en,EE. UU.,0
+HLIT,Harmonic Inc.,Acciones,Harmonic Inc. stock,,en,EE. UU.,0
+HLX,"Helix Energy Solutions Group, Inc.",Acciones,"Helix Energy Solutions Group, Inc. stock",,en,EE. UU.,0
+HMN,Horace Mann Educators Corporation,Acciones,Horace Mann Educators Corporation stock,,en,EE. UU.,0
+HNI,HNI Corporation,Acciones,HNI Corporation stock,,en,EE. UU.,0
+HOPE,"Hope Bancorp, Inc.",Acciones,"Hope Bancorp, Inc. stock",,en,EE. UU.,0
+HP,"Helmerich & Payne, Inc.",Acciones,"Helmerich & Payne, Inc. stock",,en,EE. UU.,0
+HRMY,"Harmony Biosciences Holdings, Inc.",Acciones,"Harmony Biosciences Holdings, Inc. stock",,en,EE. UU.,0
+HSTM,"HealthStream, Inc.",Acciones,"HealthStream, Inc. stock",,en,EE. UU.,0
+HTH,Hilltop Holdings Inc.,Acciones,Hilltop Holdings Inc. stock,,en,EE. UU.,0
+HTLD,"Heartland Express, Inc.",Acciones,"Heartland Express, Inc. stock",,en,EE. UU.,0
+HTO,H2O America,Acciones,H2O America stock,,en,EE. UU.,0
+HUBG,"Hub Group, Inc.",Acciones,"Hub Group, Inc. stock",,en,EE. UU.,0
+HWKN,"Hawkins, Inc.",Acciones,"Hawkins, Inc. stock",,en,EE. UU.,0
+HZO,"MarineMax, Inc.",Acciones,"MarineMax, Inc. stock",,en,EE. UU.,0
+IART,Integra Lifesciences Holdings,Acciones,Integra Lifesciences Holdings stock,,en,EE. UU.,0
+IBP,"Installed Building Products, Inc.",Acciones,"Installed Building Products, Inc. stock",,en,EE. UU.,0
+ICHR,"Ichor Holdings, Ltd.",Acciones,"Ichor Holdings, Ltd. stock",,en,EE. UU.,0
+ICUI,ICU Medical,Acciones,ICU Medical stock,,en,EE. UU.,0
+IIPR,"Innovative Industrial Properties, Inc.",Acciones,"Innovative Industrial Properties, Inc. stock",,en,EE. UU.,0
+INDB,Independent Bank Corp.,Acciones,Independent Bank Corp. stock,,en,EE. UU.,0
+INDV,Indivior,Acciones,Indivior stock,,en,EE. UU.,0
+INSP,"Inspire Medical Systems, Inc.",Acciones,"Inspire Medical Systems, Inc. stock",,en,EE. UU.,0
+INSW,"International Seaways, Inc.",Acciones,"International Seaways, Inc. stock",,en,EE. UU.,0
+INVA,"Innoviva, Inc.",Acciones,"Innoviva, Inc. stock",,en,EE. UU.,0
+INVX,"Innovex International, Inc.",Acciones,"Innovex International, Inc. stock",,en,EE. UU.,0
+IOSP,"Innospec, Inc.",Acciones,"Innospec, Inc. stock",,en,EE. UU.,0
+IPAR,"Inter Parfums, Inc.",Acciones,"Inter Parfums, Inc. stock",,en,EE. UU.,0
+IRDM,Iridium Communications,Acciones,Iridium Communications stock,,en,EE. UU.,0
+ITGR,Integer Holdings Corporation,Acciones,Integer Holdings Corporation stock,,en,EE. UU.,0
+ITRI,"Itron, Inc.",Acciones,"Itron, Inc. stock",,en,EE. UU.,0
+IVT,InvenTrust Properties,Acciones,InvenTrust Properties stock,,en,EE. UU.,0
+JBGS,JBG Smith,Acciones,JBG Smith stock,,en,EE. UU.,0
+JBLU,JetBlue,Acciones,JetBlue stock,,en,EE. UU.,0
+JBSS,"John B. Sanfilippo & Son, Inc.",Acciones,"John B. Sanfilippo & Son, Inc. stock",,en,EE. UU.,0
+JBTM,JBT Marel Corporation,Acciones,JBT Marel Corporation stock,,en,EE. UU.,0
+JJSF,J&J Snack Foods Corp.,Acciones,J&J Snack Foods Corp. stock,,en,EE. UU.,0
+JOE,St. Joe Company,Acciones,St. Joe Company stock,,en,EE. UU.,0
+JXN,"Jackson Financial, Inc.",Acciones,"Jackson Financial, Inc. stock",,en,EE. UU.,0
+KAI,Kadant Inc.,Acciones,Kadant Inc. stock,,en,EE. UU.,0
+KALU,Kaiser Aluminum Corporation,Acciones,Kaiser Aluminum Corporation stock,,en,EE. UU.,0
+KFY,Korn/Ferry International,Acciones,Korn/Ferry International stock,,en,EE. UU.,0
+KGS,"Kodiak Gas Services, Inc.",Acciones,"Kodiak Gas Services, Inc. stock",,en,EE. UU.,0
+KLIC,"Kulicke and Soffa Industries, Inc.",Acciones,"Kulicke and Soffa Industries, Inc. stock",,en,EE. UU.,0
+KMPR,Kemper Corporation,Acciones,Kemper Corporation stock,,en,EE. UU.,0
+KMT,Kennametal,Acciones,Kennametal stock,,en,EE. UU.,0
+KMX,"CarMax, Inc.",Acciones,"CarMax, Inc. stock",,en,EE. UU.,0
+KN,Knowles Corporation,Acciones,Knowles Corporation stock,,en,EE. UU.,0
+KNTK,"Kinetik Holdings, Inc.",Acciones,"Kinetik Holdings, Inc. stock",,en,EE. UU.,0
+KOP,"Koppers Holdings, Inc.",Acciones,"Koppers Holdings, Inc. stock",,en,EE. UU.,0
+KRMN,Karman Holdings,Acciones,Karman Holdings stock,,en,EE. UU.,0
+KSS,Kohl's Corp.,Acciones,Kohl's Corp. stock,,en,EE. UU.,0
+KTB,Kontoor Brands,Acciones,Kontoor Brands stock,,en,EE. UU.,0
+KWR,Quaker Chemical Corporation,Acciones,Quaker Chemical Corporation stock,,en,EE. UU.,0
+LAUR,"Laureate Education, Inc.",Acciones,"Laureate Education, Inc. stock",,en,EE. UU.,0
+LAZ,Lazard,Acciones,Lazard stock,,en,EE. UU.,0
+LBRT,"Liberty Energy, Inc.",Acciones,"Liberty Energy, Inc. stock",,en,EE. UU.,0
+LCII,LCI Industries,Acciones,LCI Industries stock,,en,EE. UU.,0
+LEG,Leggett & Platt,Acciones,Leggett & Platt stock,,en,EE. UU.,0
+LEU,Centrus Energy Corp.,Acciones,Centrus Energy Corp. stock,,en,EE. UU.,0
+LFST,Lifestance Health,Acciones,Lifestance Health stock,,en,EE. UU.,0
+LGIH,LGI Homes,Acciones,LGI Homes stock,,en,EE. UU.,0
+LIF,Life360,Acciones,Life360 stock,,en,EE. UU.,0
+LGND,"Ligand Pharmaceuticals, Inc.",Acciones,"Ligand Pharmaceuticals, Inc. stock",,en,EE. UU.,0
+LKFN,Lakeland Financial,Acciones,Lakeland Financial stock,,en,EE. UU.,0
+LKQ,LKQ Corporation,Acciones,LKQ Corporation stock,,en,EE. UU.,0
+LMAT,LeMaitre Vascular,Acciones,LeMaitre Vascular stock,,en,EE. UU.,0
+LNC,Lincoln Financial,Acciones,Lincoln Financial stock,,en,EE. UU.,0
+LNN,Lindsay Corporation,Acciones,Lindsay Corporation stock,,en,EE. UU.,0
+LPG,Dorian LPG Ltd.,Acciones,Dorian LPG Ltd. stock,,en,EE. UU.,0
+LQDT,"Liquidity Services, Inc.",Acciones,"Liquidity Services, Inc. stock",,en,EE. UU.,0
+LRN,"Stride, Inc.",Acciones,"Stride, Inc. stock",,en,EE. UU.,0
+LTC,"LTC Properties, Inc.",Acciones,"LTC Properties, Inc. stock",,en,EE. UU.,0
+LTH,"Life Time Group Holdings, Inc.",Acciones,"Life Time Group Holdings, Inc. stock",,en,EE. UU.,0
+LUMN,Lumen Technologies,Acciones,Lumen Technologies stock,,en,EE. UU.,0
+LW,Lamb Weston,Acciones,Lamb Weston stock,,en,EE. UU.,0
+LXP,Lexington Realty Trust,Acciones,Lexington Realty Trust stock,,en,EE. UU.,0
+LYFT,"Lyft, Inc.",Acciones,"Lyft, Inc. stock",,en,EE. UU.,0
+LZ,"LegalZoom.com, Inc.",Acciones,"LegalZoom.com, Inc. stock",,en,EE. UU.,0
+LZB,"La-Z-Boy, Inc.",Acciones,"La-Z-Boy, Inc. stock",,en,EE. UU.,0
+MAC,Macerich,Acciones,Macerich stock,,en,EE. UU.,0
+MAN,ManpowerGroup,Acciones,ManpowerGroup stock,,en,EE. UU.,0
+MARA,"MARA Holdings, Inc.",Acciones,"MARA Holdings, Inc. stock",,en,EE. UU.,0
+MATW,Matthews International Corporation,Acciones,Matthews International Corporation stock,,en,EE. UU.,0
+MATX,"Matson, Inc.",Acciones,"Matson, Inc. stock",,en,EE. UU.,0
+MBC,"MasterBrand, Inc.",Acciones,"MasterBrand, Inc. stock",,en,EE. UU.,0
+MBGL,"Mobility Global, Inc.",Acciones,"Mobility Global, Inc. stock",,en,EE. UU.,0
+MBIN,Merchants Bancorp,Acciones,Merchants Bancorp stock,,en,EE. UU.,0
+MC,Moelis & Company,Acciones,Moelis & Company stock,,en,EE. UU.,0
+MCRI,"Monarch Casino & Resort, Inc.",Acciones,"Monarch Casino & Resort, Inc. stock",,en,EE. UU.,0
+MCY,Mercury General,Acciones,Mercury General stock,,en,EE. UU.,0
+MD,Pediatrix Medical Group,Acciones,Pediatrix Medical Group stock,,en,EE. UU.,0
+MDU,"MDU Resources Group, Inc.",Acciones,"MDU Resources Group, Inc. stock",,en,EE. UU.,0
+MFP,"Midera Food Processing, Inc.",Acciones,"Midera Food Processing, Inc. stock",,en,EE. UU.,0
+MGEE,"MGE Energy, Inc.",Acciones,"MGE Energy, Inc. stock",,en,EE. UU.,0
+MGY,"Magnolia Oil & Gas, Corp.",Acciones,"Magnolia Oil & Gas, Corp. stock",,en,EE. UU.,0
+MHK,Mohawk Industries,Acciones,Mohawk Industries stock,,en,EE. UU.,0
+MHO,"M/I Homes, Inc.",Acciones,"M/I Homes, Inc. stock",,en,EE. UU.,0
+MIR,"Mirion Technologies, Inc.",Acciones,"Mirion Technologies, Inc. stock",,en,EE. UU.,0
+MKTX,MarketAxess,Acciones,MarketAxess stock,,en,EE. UU.,0
+MLKN,"MillerKnoll, Inc.",Acciones,"MillerKnoll, Inc. stock",,en,EE. UU.,0
+MMI,"Marcus & Millichap, Inc.",Acciones,"Marcus & Millichap, Inc. stock",,en,EE. UU.,0
+MMSI,"Merit Medical Systems, Inc.",Acciones,"Merit Medical Systems, Inc. stock",,en,EE. UU.,0
+MPT,Medical Properties Trust,Acciones,Medical Properties Trust stock,,en,EE. UU.,0
+MRCY,Mercury Systems,Acciones,Mercury Systems stock,,en,EE. UU.,0
+MRP,"Millrose Properties, Inc.",Acciones,"Millrose Properties, Inc. stock",,en,EE. UU.,0
+MRTN,"Marten Transport, Ltd.",Acciones,"Marten Transport, Ltd. stock",,en,EE. UU.,0
+MSEX,Middlesex Water Company,Acciones,Middlesex Water Company stock,,en,EE. UU.,0
+MSGK,MSG Knickerbockers Corp.,Acciones,MSG Knickerbockers Corp. stock,,en,EE. UU.,0
+MTCH,Match Group,Acciones,Match Group stock,,en,EE. UU.,0
+MTH,Meritage Homes Corporation,Acciones,Meritage Homes Corporation stock,,en,EE. UU.,0
+MTRN,Materion Corp.,Acciones,Materion Corp. stock,,en,EE. UU.,0
+MTUS,Metallus Inc,Acciones,Metallus Inc stock,,en,EE. UU.,0
+MTX,Minerals Technologies,Acciones,Minerals Technologies stock,,en,EE. UU.,0
+MWA,Mueller Water Products,Acciones,Mueller Water Products stock,,en,EE. UU.,0
+MXL,"MaxLinear, Inc.",Acciones,"MaxLinear, Inc. stock",,en,EE. UU.,0
+MYRG,"MYR Group, Inc.",Acciones,"MYR Group, Inc. stock",,en,EE. UU.,0
+NABL,"N-able, Inc.",Acciones,"N-able, Inc. stock",,en,EE. UU.,0
+NATL,NCR Atleos,Acciones,NCR Atleos stock,,en,EE. UU.,0
+NAVI,Navient,Acciones,Navient stock,,en,EE. UU.,0
+NBHC,National Bank Holdings Corporation,Acciones,National Bank Holdings Corporation stock,,en,EE. UU.,0
+NBTB,"NBT Bancorp, Inc.",Acciones,"NBT Bancorp, Inc. stock",,en,EE. UU.,0
+NE,Noble Corporation,Acciones,Noble Corporation stock,,en,EE. UU.,0
+NEO,"NeoGenomics Laboratories, Inc.",Acciones,"NeoGenomics Laboratories, Inc. stock",,en,EE. UU.,0
+NEOG,Neogen,Acciones,Neogen stock,,en,EE. UU.,0
+NGVT,"Ingevity, Corp.",Acciones,"Ingevity, Corp. stock",,en,EE. UU.,0
+NHC,"National Healthcare, Corp.",Acciones,"National Healthcare, Corp. stock",,en,EE. UU.,0
+NHI,"National Health Investors, Inc.",Acciones,"National Health Investors, Inc. stock",,en,EE. UU.,0
+NIC,Nicolet Bankshares,Acciones,Nicolet Bankshares stock,,en,EE. UU.,0
+NMIH,"NMI Holdings, Inc.",Acciones,"NMI Holdings, Inc. stock",,en,EE. UU.,0
+NOG,"Northern Oil and Gas, Inc.",Acciones,"Northern Oil and Gas, Inc. stock",,en,EE. UU.,0
+NPK,"National Presto Industries, Inc.",Acciones,"National Presto Industries, Inc. stock",,en,EE. UU.,0
+NPO,"EnPro Industries, Inc.",Acciones,"EnPro Industries, Inc. stock",,en,EE. UU.,0
+NSIT,"Insight Enterprises, Inc.",Acciones,"Insight Enterprises, Inc. stock",,en,EE. UU.,0
+NSP,Insperity,Acciones,Insperity stock,,en,EE. UU.,0
+NSSC,Napco Security Technologies,Acciones,Napco Security Technologies stock,,en,EE. UU.,0
+NTCT,"NETSCOUT Systems, Inc.",Acciones,"NETSCOUT Systems, Inc. stock",,en,EE. UU.,0
+NTST,NETSTREIT Corp.,Acciones,NETSTREIT Corp. stock,,en,EE. UU.,0
+NWBI,"Northwest Bancshares, Inc.",Acciones,"Northwest Bancshares, Inc. stock",,en,EE. UU.,0
+NWL,Newell Brands,Acciones,Newell Brands stock,,en,EE. UU.,0
+NWN,NW Natural,Acciones,NW Natural stock,,en,EE. UU.,0
+NX,Quanex Building Products Corporation,Acciones,Quanex Building Products Corporation stock,,en,EE. UU.,0
+NXRT,"NexPoint Residential Trust, Inc.",Acciones,"NexPoint Residential Trust, Inc. stock",,en,EE. UU.,0
+OFG,OFG Bancorp,Acciones,OFG Bancorp stock,,en,EE. UU.,0
+OGN,Organon & Co.,Acciones,Organon & Co. stock,,en,EE. UU.,0
+OI,"O-I Glass, Inc.",Acciones,"O-I Glass, Inc. stock",,en,EE. UU.,0
+OII,"Oceaneering International, Inc.",Acciones,"Oceaneering International, Inc. stock",,en,EE. UU.,0
+OMCL,Omnicell,Acciones,Omnicell stock,,en,EE. UU.,0
+OPLN,"OPENLANE, Inc.",Acciones,"OPENLANE, Inc. stock",,en,EE. UU.,0
+OSIS,"OSI Systems, Inc.",Acciones,"OSI Systems, Inc. stock",,en,EE. UU.,0
+OSW,OneSpaWorld Holdings Limited,Acciones,OneSpaWorld Holdings Limited stock,,en,EE. UU.,0
+OTTR,Otter Tail Corporation,Acciones,Otter Tail Corporation stock,,en,EE. UU.,0
+OUT,Outfront Media,Acciones,Outfront Media stock,,en,EE. UU.,0
+PAHC,Phibro Animal Health,Acciones,Phibro Animal Health stock,,en,EE. UU.,0
+PARR,"Par Pacific Holdings, Inc.",Acciones,"Par Pacific Holdings, Inc. stock",,en,EE. UU.,0
+PAYC,Paycom,Acciones,Paycom stock,,en,EE. UU.,0
+PAYO,Payoneer Global Inc.,Acciones,Payoneer Global Inc. stock,,en,EE. UU.,0
+PATK,"Patrick Industries, Inc.",Acciones,"Patrick Industries, Inc. stock",,en,EE. UU.,0
+PBH,Prestige Consumer Healthcare,Acciones,Prestige Consumer Healthcare stock,,en,EE. UU.,0
+PBI,"Pitney Bowes, Inc.",Acciones,"Pitney Bowes, Inc. stock",,en,EE. UU.,0
+PCRX,"Pacira BioSciences, Inc.",Acciones,"Pacira BioSciences, Inc. stock",,en,EE. UU.,0
+PDFS,"PDF Solutions, Inc.",Acciones,"PDF Solutions, Inc. stock",,en,EE. UU.,0
+PEB,Pebblebrook Hotel Trust,Acciones,Pebblebrook Hotel Trust stock,,en,EE. UU.,0
+PECO,Phillips Edison & Company,Acciones,Phillips Edison & Company stock,,en,EE. UU.,0
+PENG,"Penguin Solutions, Inc.",Acciones,"Penguin Solutions, Inc. stock",,en,EE. UU.,0
+PENN,Penn Entertainment,Acciones,Penn Entertainment stock,,en,EE. UU.,0
+PFBC,Preferred Bank,Acciones,Preferred Bank stock,,en,EE. UU.,0
+PFS,"Provident Financial Services, Inc.",Acciones,"Provident Financial Services, Inc. stock",,en,EE. UU.,0
+PGNY,"Progyny, Inc.",Acciones,"Progyny, Inc. stock",,en,EE. UU.,0
+PHIN,"PHINIA, Inc.",Acciones,"PHINIA, Inc. stock",,en,EE. UU.,0
+PI,"Impinj, Inc.",Acciones,"Impinj, Inc. stock",,en,EE. UU.,0
+PIPR,Piper Sandler Companies,Acciones,Piper Sandler Companies stock,,en,EE. UU.,0
+PJT,"PJT Partners, Inc.",Acciones,"PJT Partners, Inc. stock",,en,EE. UU.,0
+PLAB,"Photronics, Inc.",Acciones,"Photronics, Inc. stock",,en,EE. UU.,0
+PLMR,"Palomar Holdings, Inc.",Acciones,"Palomar Holdings, Inc. stock",,en,EE. UU.,0
+PLUS,"ePlus, Inc.",Acciones,"ePlus, Inc. stock",,en,EE. UU.,0
+PLXS,Plexus Corp.,Acciones,Plexus Corp. stock,,en,EE. UU.,0
+PMT,PennyMac Mortgage Investment Trust,Acciones,PennyMac Mortgage Investment Trust stock,,en,EE. UU.,0
+POOL,Pool Corporation,Acciones,Pool Corporation stock,,en,EE. UU.,0
+POWI,Power Integrations,Acciones,Power Integrations stock,,en,EE. UU.,0
+POWL,"Powell Industries, Inc.",Acciones,"Powell Industries, Inc. stock",,en,EE. UU.,0
+PPLI,People Inc.,Acciones,People Inc. stock,,en,EE. UU.,0
+PRDO,Perdoceo Education Corp.,Acciones,Perdoceo Education Corp. stock,,en,EE. UU.,0
+PRG,"PROG Holdings, Inc.",Acciones,"PROG Holdings, Inc. stock",,en,EE. UU.,0
+PRGO,Perrigo,Acciones,Perrigo stock,,en,EE. UU.,0
+PRGS,Progress Software Corporation,Acciones,Progress Software Corporation stock,,en,EE. UU.,0
+PRIM,Primoris Services Corporation,Acciones,Primoris Services Corporation stock,,en,EE. UU.,0
+PRK,Park National Corp.,Acciones,Park National Corp. stock,,en,EE. UU.,0
+PRKS,United Parks & Resorts,Acciones,United Parks & Resorts stock,,en,EE. UU.,0
+PRLB,Protolabs,Acciones,Protolabs stock,,en,EE. UU.,0
+PRSU,"Pursuit Attractions & Hospitality, Inc.",Acciones,"Pursuit Attractions & Hospitality, Inc. stock",,en,EE. UU.,0
+PRVA,"Privia Health Group, Inc.",Acciones,"Privia Health Group, Inc. stock",,en,EE. UU.,0
+PSMT,PriceSmart,Acciones,PriceSmart stock,,en,EE. UU.,0
+PTCT,"PTC Therapeutics, Inc.",Acciones,"PTC Therapeutics, Inc. stock",,en,EE. UU.,0
+PTEN,"Patterson-UTI Energy, Inc.",Acciones,"Patterson-UTI Energy, Inc. stock",,en,EE. UU.,0
+PTGX,"Protagonist Therapeutics, Inc.",Acciones,"Protagonist Therapeutics, Inc. stock",,en,EE. UU.,0
+PTON,"Peloton Interactive, Inc.",Acciones,"Peloton Interactive, Inc. stock",,en,EE. UU.,0
+PZZA,Papa John's Pizza,Acciones,Papa John's Pizza stock,,en,EE. UU.,0
+QDEL,QuidelOrtho,Acciones,QuidelOrtho stock,,en,EE. UU.,0
+QNST,"QuinStreet, Inc.",Acciones,"QuinStreet, Inc. stock",,en,EE. UU.,0
+QRVO,Qorvo,Acciones,Qorvo stock,,en,EE. UU.,0
+QTWO,"Q2 Holdings, Inc.",Acciones,"Q2 Holdings, Inc. stock",,en,EE. UU.,0
+RAMP,"LiveRamp Holdings, Inc.",Acciones,"LiveRamp Holdings, Inc. stock",,en,EE. UU.,0
+RAL,Ralliant Corp,Acciones,Ralliant Corp stock,,en,EE. UU.,0
+RCUS,"Arcus Biosciences, Inc.",Acciones,"Arcus Biosciences, Inc. stock",,en,EE. UU.,0
+RDN,"Radian Group, Inc.",Acciones,"Radian Group, Inc. stock",,en,EE. UU.,0
+RDNT,"RadNet, Inc.",Acciones,"RadNet, Inc. stock",,en,EE. UU.,0
+RELY,Remitly,Acciones,Remitly stock,,en,EE. UU.,0
+RES,"RPC, Inc.",Acciones,"RPC, Inc. stock",,en,EE. UU.,0
+REYN,Reynolds Consumer Products,Acciones,Reynolds Consumer Products stock,,en,EE. UU.,0
+REX,REX American Resources Corporation,Acciones,REX American Resources Corporation stock,,en,EE. UU.,0
+REZI,"Resideo Technologies, Inc.",Acciones,"Resideo Technologies, Inc. stock",,en,EE. UU.,0
+RHI,Robert Half,Acciones,Robert Half stock,,en,EE. UU.,0
+RHP,Ryman Hospitality Properties,Acciones,Ryman Hospitality Properties stock,,en,EE. UU.,0
+RITM,Rithm Capital,Acciones,Rithm Capital stock,,en,EE. UU.,0
+RNG,"RingCentral, Inc.",Acciones,"RingCentral, Inc. stock",,en,EE. UU.,0
+RNST,Renasant Corp.,Acciones,Renasant Corp. stock,,en,EE. UU.,0
+ROAD,"Construction Partners, Inc.",Acciones,"Construction Partners, Inc. stock",,en,EE. UU.,0
+ROCK,"Gibraltar Industries, Inc.",Acciones,"Gibraltar Industries, Inc. stock",,en,EE. UU.,0
+ROG,Rogers Corporation,Acciones,Rogers Corporation stock,,en,EE. UU.,0
+RRR,"Red Rock Resorts, Inc.",Acciones,"Red Rock Resorts, Inc. stock",,en,EE. UU.,0
+RSI,"Rush Street Interactive, Inc.",Acciones,"Rush Street Interactive, Inc. stock",,en,EE. UU.,0
+RUN,Sunrun,Acciones,Sunrun stock,,en,EE. UU.,0
+RUSHA,Rush Enterprises,Acciones,Rush Enterprises stock,,en,EE. UU.,0
+RXO,"RXO, Inc.",Acciones,"RXO, Inc. stock",,en,EE. UU.,0
+SAFE,"Safehold, Inc.",Acciones,"Safehold, Inc. stock",,en,EE. UU.,0
+SABR,Sabre,Acciones,Sabre stock,,en,EE. UU.,0
+SAFT,"Safety Insurance Group, Inc.",Acciones,"Safety Insurance Group, Inc. stock",,en,EE. UU.,0
+SAH,"Sonic Automotive, Inc.",Acciones,"Sonic Automotive, Inc. stock",,en,EE. UU.,0
+SBCF,Seacoast Banking Corporation of Florida,Acciones,Seacoast Banking Corporation of Florida stock,,en,EE. UU.,0
+SBH,"Sally Beauty Holdings, Inc.",Acciones,"Sally Beauty Holdings, Inc. stock",,en,EE. UU.,0
+SBSI,"Southside Bancshares, Inc.",Acciones,"Southside Bancshares, Inc. stock",,en,EE. UU.,0
+SCHL,Scholastic Corporation,Acciones,Scholastic Corporation stock,,en,EE. UU.,0
+SCL,Stepan Company,Acciones,Stepan Company stock,,en,EE. UU.,0
+SCSC,"ScanSource, Inc.",Acciones,"ScanSource, Inc. stock",,en,EE. UU.,0
+SDGR,"Schrödinger, Inc.",Acciones,"Schrödinger, Inc. stock",,en,EE. UU.,0
+SEDG,SolarEdge,Acciones,SolarEdge stock,,en,EE. UU.,0
+SEI,"Solaris Energy Infrastructure, Inc.",Acciones,"Solaris Energy Infrastructure, Inc. stock",,en,EE. UU.,0
+SEZL,Sezzle,Acciones,Sezzle stock,,en,EE. UU.,0
+SFBS,"ServisFirst Bancshares, Inc.",Acciones,"ServisFirst Bancshares, Inc. stock",,en,EE. UU.,0
+SFNC,Simmons First National Corporation,Acciones,Simmons First National Corporation stock,,en,EE. UU.,0
+SHAK,"Shake Shack, Inc.",Acciones,"Shake Shack, Inc. stock",,en,EE. UU.,0
+SHEN,Shenandoah Telecommunications Co,Acciones,Shenandoah Telecommunications Co stock,,en,EE. UU.,0
+SHO,"Sunstone Hotel Investors, Inc.",Acciones,"Sunstone Hotel Investors, Inc. stock",,en,EE. UU.,0
+SHOO,"Steven Madden, Ltd.",Acciones,"Steven Madden, Ltd. stock",,en,EE. UU.,0
+SIG,Signet Jewelers,Acciones,Signet Jewelers stock,,en,EE. UU.,0
+SKT,"Tanger Factory Outlet Centers, Inc.",Acciones,"Tanger Factory Outlet Centers, Inc. stock",,en,EE. UU.,0
+SKY,"Champion Homes, Inc.",Acciones,"Champion Homes, Inc. stock",,en,EE. UU.,0
+SKYW,"SkyWest, Inc.",Acciones,"SkyWest, Inc. stock",,en,EE. UU.,0
+SLG,SL Green Realty,Acciones,SL Green Realty stock,,en,EE. UU.,0
+SLVM,Sylvamo Corp.,Acciones,Sylvamo Corp. stock,,en,EE. UU.,0
+SM,SM Energy Company,Acciones,SM Energy Company stock,,en,EE. UU.,0
+SMP,"Standard Motor Products, Inc.",Acciones,"Standard Motor Products, Inc. stock",,en,EE. UU.,0
+SMPL,Simply Good Foods Company,Acciones,Simply Good Foods Company stock,,en,EE. UU.,0
+SNDR,Schneider National,Acciones,Schneider National stock,,en,EE. UU.,0
+SNEX,StoneX Group Inc.,Acciones,StoneX Group Inc. stock,,en,EE. UU.,0
+SONO,"Sonos, Inc.",Acciones,"Sonos, Inc. stock",,en,EE. UU.,0
+SPHR,Sphere Entertainment,Acciones,Sphere Entertainment stock,,en,EE. UU.,0
+SPNT,SiriusPoint Ltd.,Acciones,SiriusPoint Ltd. stock,,en,EE. UU.,0
+SPSC,"SPS Commerce, Inc.",Acciones,"SPS Commerce, Inc. stock",,en,EE. UU.,0
+SRPT,Sarepta Therapeutics,Acciones,Sarepta Therapeutics stock,,en,EE. UU.,0
+STAA,STAAR Surgical Company,Acciones,STAAR Surgical Company stock,,en,EE. UU.,0
+STBA,"S&T Bancorp, Inc.",Acciones,"S&T Bancorp, Inc. stock",,en,EE. UU.,0
+STC,Stewart Information Services Corporation,Acciones,Stewart Information Services Corporation stock,,en,EE. UU.,0
+STEP,StepStone Group,Acciones,StepStone Group stock,,en,EE. UU.,0
+STRA,"Strategic Education, Inc.",Acciones,"Strategic Education, Inc. stock",,en,EE. UU.,0
+SUPN,"Supernus, Inc.",Acciones,"Supernus, Inc. stock",,en,EE. UU.,0
+SXI,Standex International Corporation,Acciones,Standex International Corporation stock,,en,EE. UU.,0
+SXT,Sensient Technologies,Acciones,Sensient Technologies stock,,en,EE. UU.,0
+TALO,"Talos Energy, Inc.",Acciones,"Talos Energy, Inc. stock",,en,EE. UU.,0
+TBBK,"The Bancorp, Inc.",Acciones,"The Bancorp, Inc. stock",,en,EE. UU.,0
+TDC,Teradata,Acciones,Teradata stock,,en,EE. UU.,0
+TDS,"Telephone and Data Systems, Inc.",Acciones,"Telephone and Data Systems, Inc. stock",,en,EE. UU.,0
+TDW,"Tidewater, Inc.",Acciones,"Tidewater, Inc. stock",,en,EE. UU.,0
+TFIN,"Triumph Bancorp, Inc.",Acciones,"Triumph Bancorp, Inc. stock",,en,EE. UU.,0
+TFX,Teleflex,Acciones,Teleflex stock,,en,EE. UU.,0
+TGTX,"TG Therapeutics, Inc.",Acciones,"TG Therapeutics, Inc. stock",,en,EE. UU.,0
+THRM,Gentherm Incorporated,Acciones,Gentherm Incorporated stock,,en,EE. UU.,0
+TILE,"Interface, Inc.",Acciones,"Interface, Inc. stock",,en,EE. UU.,0
+TMDX,"TransMedics Group, Inc.",Acciones,"TransMedics Group, Inc. stock",,en,EE. UU.,0
+TMP,Tompkins Financial Corporation,Acciones,Tompkins Financial Corporation stock,,en,EE. UU.,0
+TNC,Tennant Company,Acciones,Tennant Company stock,,en,EE. UU.,0
+TNDM,Tandem Diabetes Care,Acciones,Tandem Diabetes Care stock,,en,EE. UU.,0
+TPC,Tutor Perini Corporation,Acciones,Tutor Perini Corporation stock,,en,EE. UU.,0
+TR,"Tootsie Roll Industries, Inc.",Acciones,"Tootsie Roll Industries, Inc. stock",,en,EE. UU.,0
+TRIP,TripAdvisor,Acciones,TripAdvisor stock,,en,EE. UU.,0
+TRMK,Trustmark Corp.,Acciones,Trustmark Corp. stock,,en,EE. UU.,0
+TRN,"Trinity Industries, Inc.",Acciones,"Trinity Industries, Inc. stock",,en,EE. UU.,0
+TRNO,Terreno Realty Corporation,Acciones,Terreno Realty Corporation stock,,en,EE. UU.,0
+TRST,TrustCo Bank Corp NY,Acciones,TrustCo Bank Corp NY stock,,en,EE. UU.,0
+TRUP,Trupanion,Acciones,Trupanion stock,,en,EE. UU.,0
+UA,Under Armour (Class C),Acciones,Under Armour (Class C) stock,,en,EE. UU.,0
+UAA,Under Armour (Class A),Acciones,Under Armour (Class A) stock,,en,EE. UU.,0
+UCB,"United Community Banks, Inc.",Acciones,"United Community Banks, Inc. stock",,en,EE. UU.,0
+UCTT,"Ultra Clean Holdings, Inc.",Acciones,"Ultra Clean Holdings, Inc. stock",,en,EE. UU.,0
+UE,Urban Edge Properties,Acciones,Urban Edge Properties stock,,en,EE. UU.,0
+UFCS,"United Fire Group, Inc.",Acciones,"United Fire Group, Inc. stock",,en,EE. UU.,0
+UFPT,"UFP Technologies, Inc.",Acciones,"UFP Technologies, Inc. stock",,en,EE. UU.,0
+UNF,UniFirst Corporation,Acciones,UniFirst Corporation stock,,en,EE. UU.,0
+UNFI,United Natural Foods Inc,Acciones,United Natural Foods Inc stock,,en,EE. UU.,0
+UNIT,Uniti Group,Acciones,Uniti Group stock,,en,EE. UU.,0
+UPBD,"Upbound Group, Inc.",Acciones,"Upbound Group, Inc. stock",,en,EE. UU.,0
+UPWK,"Upwork, Inc.",Acciones,"Upwork, Inc. stock",,en,EE. UU.,0
+URBN,"Urban Outfitters, Inc.",Acciones,"Urban Outfitters, Inc. stock",,en,EE. UU.,0
+USLM,"United States Lime & Minerals, Inc.",Acciones,"United States Lime & Minerals, Inc. stock",,en,EE. UU.,0
+USPH,"U.S. Physical Therapy, Inc.",Acciones,"U.S. Physical Therapy, Inc. stock",,en,EE. UU.,0
+UTI,Universal Technical Institute,Acciones,Universal Technical Institute stock,,en,EE. UU.,0
+UTL,Unitil Corporation,Acciones,Unitil Corporation stock,,en,EE. UU.,0
+UVV,Universal Corporation,Acciones,Universal Corporation stock,,en,EE. UU.,0
+VAC,Marriott Vacations Worldwide,Acciones,Marriott Vacations Worldwide stock,,en,EE. UU.,0
+VCEL,Vericel,Acciones,Vericel stock,,en,EE. UU.,0
+VCTR,"Victory Capital Holdings, Inc.",Acciones,"Victory Capital Holdings, Inc. stock",,en,EE. UU.,0
+VCYT,"Veracyte, Inc.",Acciones,"Veracyte, Inc. stock",,en,EE. UU.,0
+VECO,Veeco Instruments Inc.,Acciones,Veeco Instruments Inc. stock,,en,EE. UU.,0
+VGNT,Versigent PLC,Acciones,Versigent PLC stock,,en,EE. UU.,0
+VIR,"Vir Biotechnology, Inc.",Acciones,"Vir Biotechnology, Inc. stock",,en,EE. UU.,0
+VIRT,"Virtu Financial, Inc.",Acciones,"Virtu Financial, Inc. stock",,en,EE. UU.,0
+VRRM,Verra Mobility Corporation,Acciones,Verra Mobility Corporation stock,,en,EE. UU.,0
+VRTS,"Virtus Investment Partners, Inc.",Acciones,"Virtus Investment Partners, Inc. stock",,en,EE. UU.,0
+VSAT,"Viasat, Inc.",Acciones,"Viasat, Inc. stock",,en,EE. UU.,0
+VSEC,VSE Corporation,Acciones,VSE Corporation stock,,en,EE. UU.,0
+VSH,Vishay Intertechnology,Acciones,Vishay Intertechnology stock,,en,EE. UU.,0
+VSNT,"Versant Media Group, Inc.",Acciones,"Versant Media Group, Inc. stock",,en,EE. UU.,0
+VSTS,Vestis,Acciones,Vestis stock,,en,EE. UU.,0
+VSXY,Victoria's Secret,Acciones,Victoria's Secret stock,,en,EE. UU.,0
+VTOL,Bristow Group Inc.,Acciones,Bristow Group Inc. stock,,en,EE. UU.,0
+VVX,"V2X, Inc.",Acciones,"V2X, Inc. stock",,en,EE. UU.,0
+VYX,NCR Voyix,Acciones,NCR Voyix stock,,en,EE. UU.,0
+WABC,Westamerica Bank,Acciones,Westamerica Bank stock,,en,EE. UU.,0
+WAFD,"WaFd, Inc.",Acciones,"WaFd, Inc. stock",,en,EE. UU.,0
+WAY,Waystar Holding Corp,Acciones,Waystar Holding Corp stock,,en,EE. UU.,0
+WD,"Walker & Dunlop, Inc.",Acciones,"Walker & Dunlop, Inc. stock",,en,EE. UU.,0
+WDFC,WD-40 Company,Acciones,WD-40 Company stock,,en,EE. UU.,0
+WEN,The Wendy's Company,Acciones,The Wendy's Company stock,,en,EE. UU.,0
+WERN,Werner Enterprises,Acciones,Werner Enterprises stock,,en,EE. UU.,0
+WGO,"Winnebago Industries, Inc.",Acciones,"Winnebago Industries, Inc. stock",,en,EE. UU.,0
+WHD,"Cactus, Inc.",Acciones,"Cactus, Inc. stock",,en,EE. UU.,0
+WINA,Winmark,Acciones,Winmark stock,,en,EE. UU.,0
+WKC,World Kinect Corporation,Acciones,World Kinect Corporation stock,,en,EE. UU.,0
+WLY,John Wiley & Sons,Acciones,John Wiley & Sons stock,,en,EE. UU.,0
+WOR,Worthington Enterprises,Acciones,Worthington Enterprises stock,,en,EE. UU.,0
+WRBY,Warby Parker,Acciones,Warby Parker stock,,en,EE. UU.,0
+WRLD,World Acceptance Corporation,Acciones,World Acceptance Corporation stock,,en,EE. UU.,0
+WS,Worthington Steel,Acciones,Worthington Steel stock,,en,EE. UU.,0
+WSBC,WesBanco,Acciones,WesBanco stock,,en,EE. UU.,0
+WSC,WillScot Holdings Corp.,Acciones,WillScot Holdings Corp. stock,,en,EE. UU.,0
+WSFS,WSFS Financial Corporation,Acciones,WSFS Financial Corporation stock,,en,EE. UU.,0
+WT,"WisdomTree Investments, Inc.",Acciones,"WisdomTree Investments, Inc. stock",,en,EE. UU.,0
+WU,Western Union,Acciones,Western Union stock,,en,EE. UU.,0
+WWW,"Wolverine World Wide, Inc.",Acciones,"Wolverine World Wide, Inc. stock",,en,EE. UU.,0
+XHR,"Xenia Hotels & Resorts, Inc.",Acciones,"Xenia Hotels & Resorts, Inc. stock",,en,EE. UU.,0
+XNCR,Xencor Inc,Acciones,Xencor Inc stock,,en,EE. UU.,0
+XPEL,"XPEL, Inc.",Acciones,"XPEL, Inc. stock",,en,EE. UU.,0
+YELP,"Yelp, Inc.",Acciones,"Yelp, Inc. stock",,en,EE. UU.,0
+YOU,"Clear Secure, Inc.",Acciones,"Clear Secure, Inc. stock",,en,EE. UU.,0
+ZD,Ziff Davis,Acciones,Ziff Davis stock,,en,EE. UU.,0
+ZWS,Zurn Elkay Water Solutions Corp.,Acciones,Zurn Elkay Water Solutions Corp. stock,,en,EE. UU.,0
+3IN.L,3i Infrastructure,Acciones,3i Infrastructure stock,,en,Reino Unido,0
+FOUR.L,4imprint,Acciones,4imprint stock,,en,Reino Unido,0
+AAS.L,Aberdeen Asia Focus,Acciones,Aberdeen Asia Focus stock,,en,Reino Unido,0
+AEP.L,AEP Plantations,Acciones,AEP Plantations stock,,en,Reino Unido,0
+ALFA.L,Alfa Financial Software,Acciones,Alfa Financial Software stock,,en,Reino Unido,0
+AMRQ.L,Amaroq,Acciones,Amaroq stock,,en,Reino Unido,0
+AO.L,AO World,Acciones,AO World stock,,en,Reino Unido,0
+APN.L,Applied Nutrition,Acciones,Applied Nutrition stock,,en,Reino Unido,0
+ASHM.L,Ashmore Group,Acciones,Ashmore Group stock,,en,Reino Unido,0
+ASC.L,ASOS,Acciones,ASOS stock,,en,Reino Unido,0
+ATYM.L,Atalaya Mining,Acciones,Atalaya Mining stock,,en,Reino Unido,0
+ATG.L,Auction Technology Group,Acciones,Auction Technology Group stock,,en,Reino Unido,0
+AVON.L,Avon Technologies,Acciones,Avon Technologies stock,,en,Reino Unido,0
+BME.L,B&M,Acciones,B&M stock,,en,Reino Unido,0
+BCG.L,Baltic Classifieds,Acciones,Baltic Classifieds stock,,en,Reino Unido,0
+BAG.L,A.G. Barr,Acciones,A.G. Barr stock,,en,Reino Unido,0
+AJB.L,AJ Bell,Acciones,AJ Bell stock,,en,Reino Unido,0
+BWY.L,Bellway,Acciones,Bellway stock,,en,Reino Unido,0
+BKG.L,Berkeley Group Holdings,Acciones,Berkeley Group Holdings stock,,en,Reino Unido,0
+BHMG.L,BH Macro,Acciones,BH Macro stock,,en,Reino Unido,0
+BYG.L,Big Yellow Group,Acciones,Big Yellow Group stock,,en,Reino Unido,0
+BPCR.L,Biopharma Credit,Acciones,Biopharma Credit stock,,en,Reino Unido,0
+BMY.L,Bloomsbury Publishing,Acciones,Bloomsbury Publishing stock,,en,Reino Unido,0
+BOY.L,Bodycote,Acciones,Bodycote stock,,en,Reino Unido,0
+BREE.L,Breedon Group,Acciones,Breedon Group stock,,en,Reino Unido,0
+BPT.L,Bridgepoint Group,Acciones,Bridgepoint Group stock,,en,Reino Unido,0
+BYIT.L,Bytes Technology Group,Acciones,Bytes Technology Group stock,,en,Reino Unido,0
+CLDN.L,Caledonia Investments,Acciones,Caledonia Investments stock,,en,Reino Unido,0
+CWR.L,Ceres Power,Acciones,Ceres Power stock,,en,Reino Unido,0
+CHG.L,Chemring Group,Acciones,Chemring Group stock,,en,Reino Unido,0
+CSN.L,Chesnara,Acciones,Chesnara stock,,en,Reino Unido,0
+CKN.L,Clarkson,Acciones,Clarkson stock,,en,Reino Unido,0
+CBG.L,Close Brothers Group,Acciones,Close Brothers Group stock,,en,Reino Unido,0
+CMCX.L,CMC Markets,Acciones,CMC Markets stock,,en,Reino Unido,0
+COA.L,Coats Group,Acciones,Coats Group stock,,en,Reino Unido,0
+CORD.L,Cordiant Digital Infrastructure,Acciones,Cordiant Digital Infrastructure stock,,en,Reino Unido,0
+COST.L,Costain Group,Acciones,Costain Group stock,,en,Reino Unido,0
+CWK.L,Cranswick,Acciones,Cranswick stock,,en,Reino Unido,0
+CURY.L,Currys,Acciones,Currys stock,,en,Reino Unido,0
+CVSG.L,CVS Group,Acciones,CVS Group stock,,en,Reino Unido,0
+DLN.L,Derwent London,Acciones,Derwent London stock,,en,Reino Unido,0
+DSCV.L,discoverIE,Acciones,discoverIE stock,,en,Reino Unido,0
+DOM.L,Domino's Pizza,Acciones,Domino's Pizza stock,,en,Reino Unido,0
+DRX.L,Drax Group,Acciones,Drax Group stock,,en,Reino Unido,0
+DOCS.L,Dr. Martens,Acciones,Dr. Martens stock,,en,Reino Unido,0
+DNLM.L,Dunelm Group,Acciones,Dunelm Group stock,,en,Reino Unido,0
+ELM.L,Elementis,Acciones,Elementis stock,,en,Reino Unido,0
+ENOG.L,Energean,Acciones,Energean stock,,en,Reino Unido,0
+ENQ.L,EnQuest,Acciones,EnQuest stock,,en,Reino Unido,0
+ENT.L,Entain,Acciones,Entain stock,,en,Reino Unido,0
+EWG.L,Eurowag,Acciones,Eurowag stock,,en,Reino Unido,0
+FCSS.L,Fidelity China Special Situations,Acciones,Fidelity China Special Situations stock,,en,Reino Unido,0
+FEML.L,Fidelity Emerging Markets,Acciones,Fidelity Emerging Markets stock,,en,Reino Unido,0
+FSV.L,Fidelity Special Values,Acciones,Fidelity Special Values stock,,en,Reino Unido,0
+FGP.L,FirstGroup,Acciones,FirstGroup stock,,en,Reino Unido,0
+FGEN.L,Foresight Environmental Infrastructure,Acciones,Foresight Environmental Infrastructure stock,,en,Reino Unido,0
+FSG.L,Foresight Group,Acciones,Foresight Group stock,,en,Reino Unido,0
+FRAS.L,Frasers Group,Acciones,Frasers Group stock,,en,Reino Unido,0
+FCH.L,Funding Circle,Acciones,Funding Circle stock,,en,Reino Unido,0
+GFRD.L,Galliford Try,Acciones,Galliford Try stock,,en,Reino Unido,0
+GAMA.L,Gamma Communications,Acciones,Gamma Communications stock,,en,Reino Unido,0
+GCP.L,GCP Infrastructure Investments,Acciones,GCP Infrastructure Investments stock,,en,Reino Unido,0
+GEN.L,Genuit Group,Acciones,Genuit Group stock,,en,Reino Unido,0
+GNS.L,Genus,Acciones,Genus stock,,en,Reino Unido,0
+DATA.L,GlobalData,Acciones,GlobalData stock,,en,Reino Unido,0
+GDWN.L,Goodwin,Acciones,Goodwin stock,,en,Reino Unido,0
+GFTU.L,Grafton Group,Acciones,Grafton Group stock,,en,Reino Unido,0
+GRI.L,Grainger,Acciones,Grainger stock,,en,Reino Unido,0
+GPE.L,Great Portland Estates,Acciones,Great Portland Estates stock,,en,Reino Unido,0
+UKW.L,Greencoat UK Wind,Acciones,Greencoat UK Wind stock,,en,Reino Unido,0
+GNC.L,Greencore,Acciones,Greencore stock,,en,Reino Unido,0
+GRG.L,Greggs,Acciones,Greggs stock,,en,Reino Unido,0
+HFD.L,Halfords,Acciones,Halfords stock,,en,Reino Unido,0
+HMSO.L,Hammerson,Acciones,Hammerson stock,,en,Reino Unido,0
+HANA.L,Hansa Investment Company,Acciones,Hansa Investment Company stock,,en,Reino Unido,0
+HBR.L,Harbour Energy,Acciones,Harbour Energy stock,,en,Reino Unido,0
+HVPE.L,HarbourVest Global Private Equity,Acciones,HarbourVest Global Private Equity stock,,en,Reino Unido,0
+HAS.L,Hays,Acciones,Hays stock,,en,Reino Unido,0
+HTWS.L,Helios Towers,Acciones,Helios Towers stock,,en,Reino Unido,0
+HFEL.L,Henderson Far East Income,Acciones,Henderson Far East Income stock,,en,Reino Unido,0
+HICL.L,HICL Infrastructure Company,Acciones,HICL Infrastructure Company stock,,en,Reino Unido,0
+HIK.L,Hikma Pharmaceuticals,Acciones,Hikma Pharmaceuticals stock,,en,Reino Unido,0
+HILS.L,Hill & Smith,Acciones,Hill & Smith stock,,en,Reino Unido,0
+HFG.L,Hilton Food Group,Acciones,Hilton Food Group stock,,en,Reino Unido,0
+HOC.L,Hochschild Mining,Acciones,Hochschild Mining stock,,en,Reino Unido,0
+BOWL.L,Hollywood Bowl Group,Acciones,Hollywood Bowl Group stock,,en,Reino Unido,0
+HTG.L,Hunting,Acciones,Hunting stock,,en,Reino Unido,0
+INCH.L,Inchcape,Acciones,Inchcape stock,,en,Reino Unido,0
+IHP.L,IntegraFin Holdings,Acciones,IntegraFin Holdings stock,,en,Reino Unido,0
+INPP.L,International Public Partnerships,Acciones,International Public Partnerships stock,,en,Reino Unido,0
+IWG.L,International Workplace Group,Acciones,International Workplace Group stock,,en,Reino Unido,0
+IPO.L,IP Group,Acciones,IP Group stock,,en,Reino Unido,0
+ITV.L,ITV,Acciones,ITV stock,,en,Reino Unido,0
+JMAT.L,Johnson Matthey,Acciones,Johnson Matthey stock,,en,Reino Unido,0
+JSG.L,Johnson Service Group,Acciones,Johnson Service Group stock,,en,Reino Unido,0
+JEMI.L,JPMorgan Emerging Markets Dividend Income,Acciones,JPMorgan Emerging Markets Dividend Income stock,,en,Reino Unido,0
+JMGI.L,JPMorgan Emerging Markets Growth & Income,Acciones,JPMorgan Emerging Markets Growth & Income stock,,en,Reino Unido,0
+JEDT.L,JPMorgan European Discovery,Acciones,JPMorgan European Discovery stock,,en,Reino Unido,0
+JEGI.L,JPMorgan European Growth & Income,Acciones,JPMorgan European Growth & Income stock,,en,Reino Unido,0
+JGGI.L,JPMorgan Global Growth & Income,Acciones,JPMorgan Global Growth & Income stock,,en,Reino Unido,0
+JUP.L,Jupiter Fund Management,Acciones,Jupiter Fund Management stock,,en,Reino Unido,0
+KNOS.L,Kainos,Acciones,Kainos stock,,en,Reino Unido,0
+KLR.L,Keller Group,Acciones,Keller Group stock,,en,Reino Unido,0
+KIE.L,Kier Group,Acciones,Kier Group stock,,en,Reino Unido,0
+LRE.L,Lancashire Holdings,Acciones,Lancashire Holdings stock,,en,Reino Unido,0
+LWDB.L,Law Debenture,Acciones,Law Debenture stock,,en,Reino Unido,0
+EMG.L,Man Group,Acciones,Man Group stock,,en,Reino Unido,0
+MEGP.L,ME Group International,Acciones,ME Group International stock,,en,Reino Unido,0
+MNO.L,Meridian Mining,Acciones,Meridian Mining stock,,en,Reino Unido,0
+MTRO.L,Metro Bank,Acciones,Metro Bank stock,,en,Reino Unido,0
+PAGE.L,Michael Page,Acciones,Michael Page stock,,en,Reino Unido,0
+MAB.L,Mitchells & Butlers,Acciones,Mitchells & Butlers stock,,en,Reino Unido,0
+MTO.L,Mitie,Acciones,Mitie stock,,en,Reino Unido,0
+GROW.L,Molten Ventures,Acciones,Molten Ventures stock,,en,Reino Unido,0
+MNDI.L,Mondi,Acciones,Mondi stock,,en,Reino Unido,0
+MONY.L,MONY Group,Acciones,MONY Group stock,,en,Reino Unido,0
+MOON.L,Moonpig,Acciones,Moonpig stock,,en,Reino Unido,0
+MGAM.L,Morgan Advanced Materials,Acciones,Morgan Advanced Materials stock,,en,Reino Unido,0
+MGNS.L,Morgan Sindall Group,Acciones,Morgan Sindall Group stock,,en,Reino Unido,0
+NCC.L,NCC Group,Acciones,NCC Group stock,,en,Reino Unido,0
+NBPE.L,Neuberger Private Equity Partners,Acciones,Neuberger Private Equity Partners stock,,en,Reino Unido,0
+N91.L,Ninety One,Acciones,Ninety One stock,,en,Reino Unido,0
+OCI.L,Oakley Capital Investments,Acciones,Oakley Capital Investments stock,,en,Reino Unido,0
+OCDO.L,Ocado Group,Acciones,Ocado Group stock,,en,Reino Unido,0
+OSB.L,OSB Group,Acciones,OSB Group stock,,en,Reino Unido,0
+OXB.L,Oxford Biomedica,Acciones,Oxford Biomedica stock,,en,Reino Unido,0
+OXIG.L,Oxford Instruments,Acciones,Oxford Instruments stock,,en,Reino Unido,0
+ONT.L,Oxford Nanopore Technologies,Acciones,Oxford Nanopore Technologies stock,,en,Reino Unido,0
+PAF.L,Pan African Resources,Acciones,Pan African Resources stock,,en,Reino Unido,0
+PINT.L,Pantheon Infrastructure,Acciones,Pantheon Infrastructure stock,,en,Reino Unido,0
+PIN.L,Pantheon International,Acciones,Pantheon International stock,,en,Reino Unido,0
+PAG.L,Paragon Banking Group,Acciones,Paragon Banking Group stock,,en,Reino Unido,0
+PEY.L,Partners Group Private Equity,Acciones,Partners Group Private Equity stock,,en,Reino Unido,0
+PNN.L,Pennon Group,Acciones,Pennon Group stock,,en,Reino Unido,0
+PSN.L,Persimmon,Acciones,Persimmon stock,,en,Reino Unido,0
+PETS.L,Pets at Home,Acciones,Pets at Home stock,,en,Reino Unido,0
+PTEC.L,Playtech,Acciones,Playtech stock,,en,Reino Unido,0
+PLUS.L,Plus500,Acciones,Plus500 stock,,en,Reino Unido,0
+POLN.L,Pollen Street Group,Acciones,Pollen Street Group stock,,en,Reino Unido,0
+PPH.L,PPHE Hotel Group,Acciones,PPHE Hotel Group stock,,en,Reino Unido,0
+PFD.L,Premier Foods,Acciones,Premier Foods stock,,en,Reino Unido,0
+PHP.L,Primary Health Properties,Acciones,Primary Health Properties stock,,en,Reino Unido,0
+PRN.L,Princes Group,Acciones,Princes Group stock,,en,Reino Unido,0
+QQ.L,Qinetiq,Acciones,Qinetiq stock,,en,Reino Unido,0
+QLT.L,Quilter,Acciones,Quilter stock,,en,Reino Unido,0
+RNK.L,Rank Group,Acciones,Rank Group stock,,en,Reino Unido,0
+RPI.L,Raspberry Pi Holdings,Acciones,Raspberry Pi Holdings stock,,en,Reino Unido,0
+RAT.L,Rathbones,Acciones,Rathbones stock,,en,Reino Unido,0
+RSW.L,Renishaw,Acciones,Renishaw stock,,en,Reino Unido,0
+RHIM.L,RHI Magnesita,Acciones,RHI Magnesita stock,,en,Reino Unido,0
+RMV.L,Rightmove,Acciones,Rightmove stock,,en,Reino Unido,0
+RCP.L,RIT Capital Partners,Acciones,RIT Capital Partners stock,,en,Reino Unido,0
+ROSE.L,Rosebank Industries,Acciones,Rosebank Industries stock,,en,Reino Unido,0
+ROR.L,Rotork,Acciones,Rotork stock,,en,Reino Unido,0
+RS1.L,RS Group,Acciones,RS Group stock,,en,Reino Unido,0
+RTW.L,RTW Biotech Opportunities,Acciones,RTW Biotech Opportunities stock,,en,Reino Unido,0
+RICA.L,Ruffer Investment Company,Acciones,Ruffer Investment Company stock,,en,Reino Unido,0
+SAFE.L,Safestore,Acciones,Safestore stock,,en,Reino Unido,0
+SAGA.L,Saga,Acciones,Saga stock,,en,Reino Unido,0
+SVS.L,Savills,Acciones,Savills stock,,en,Reino Unido,0
+ATR.L,Schroder Asian Total Return Investment Company,Acciones,Schroder Asian Total Return Investment Company stock,,en,Reino Unido,0
+SAIN.L,Scottish American Investment Company,Acciones,Scottish American Investment Company stock,,en,Reino Unido,0
+SRP.L,Serco,Acciones,Serco stock,,en,Reino Unido,0
+SHC.L,Shaftesbury Capital,Acciones,Shaftesbury Capital stock,,en,Reino Unido,0
+SHAW.L,Shawbrook Bank,Acciones,Shawbrook Bank stock,,en,Reino Unido,0
+SRE.L,Sirius Real Estate,Acciones,Sirius Real Estate stock,,en,Reino Unido,0
+SCT.L,Softcat,Acciones,Softcat stock,,en,Reino Unido,0
+SPI.L,Spire Healthcare,Acciones,Spire Healthcare stock,,en,Reino Unido,0
+SSPG.L,SSP Group,Acciones,SSP Group stock,,en,Reino Unido,0
+SUPR.L,Supermarket Income REIT,Acciones,Supermarket Income REIT stock,,en,Reino Unido,0
+SYNC.L,Syncona,Acciones,Syncona stock,,en,Reino Unido,0
+THRL.L,Target Healthcare REIT,Acciones,Target Healthcare REIT stock,,en,Reino Unido,0
+TATE.L,Tate & Lyle,Acciones,Tate & Lyle stock,,en,Reino Unido,0
+TW.L,Taylor Wimpey,Acciones,Taylor Wimpey stock,,en,Reino Unido,0
+TBCG.L,TBC Bank,Acciones,TBC Bank stock,,en,Reino Unido,0
+TEP.L,Telecom Plus,Acciones,Telecom Plus stock,,en,Reino Unido,0
+TRIG.L,The Renewables Infrastructure Group,Acciones,The Renewables Infrastructure Group stock,,en,Reino Unido,0
+THG.L,THG,Acciones,THG stock,,en,Reino Unido,0
+TCAP.L,TP ICAP,Acciones,TP ICAP stock,,en,Reino Unido,0
+TRN.L,Trainline,Acciones,Trainline stock,,en,Reino Unido,0
+TPK.L,Travis Perkins,Acciones,Travis Perkins stock,,en,Reino Unido,0
+TRST.L,Trustpilot,Acciones,Trustpilot stock,,en,Reino Unido,0
+UTG.L,Unite Group,Acciones,Unite Group stock,,en,Reino Unido,0
+UEM.L,Utilico Emerging Markets,Acciones,Utilico Emerging Markets stock,,en,Reino Unido,0
+VSVS.L,Vesuvius,Acciones,Vesuvius stock,,en,Reino Unido,0
+VCT.L,Victrex,Acciones,Victrex stock,,en,Reino Unido,0
+VEIL.L,Vietnam Enterprise Investments,Acciones,Vietnam Enterprise Investments stock,,en,Reino Unido,0
+VTY.L,Vistry Group,Acciones,Vistry Group stock,,en,Reino Unido,0
+VLX.L,Volex,Acciones,Volex stock,,en,Reino Unido,0
+FAN.L,Volution Group,Acciones,Volution Group stock,,en,Reino Unido,0
+WOSG.L,Watches of Switzerland,Acciones,Watches of Switzerland stock,,en,Reino Unido,0
+JDW.L,Wetherspoons,Acciones,Wetherspoons stock,,en,Reino Unido,0
+SMWH.L,WHSmith,Acciones,WHSmith stock,,en,Reino Unido,0
+WIX.L,Wickes,Acciones,Wickes stock,,en,Reino Unido,0
+WIZZ.L,Wizz Air,Acciones,Wizz Air stock,,en,Reino Unido,0
+WKP.L,Workspace Group,Acciones,Workspace Group stock,,en,Reino Unido,0
+XPP.L,XP Power,Acciones,XP Power stock,,en,Reino Unido,0
+XPS.L,XPS Pensions,Acciones,XPS Pensions stock,,en,Reino Unido,0
+YNGA.L,Young's,Acciones,Young's stock,,en,Reino Unido,0
+ZIG.L,Zigup,Acciones,Zigup stock,,en,Reino Unido,0
+AIXA.DE,Aixtron,Acciones,Aixtron stock,,en,Alemania,0
+AT1.DE,Aroundtown,Acciones,Aroundtown stock,,en,Alemania,0
+NDA.DE,Aurubis,Acciones,Aurubis stock,,en,Alemania,0
+BC8.DE,Bechtle,Acciones,Bechtle stock,,en,Alemania,0
+BFSA.DE,Befesa,Acciones,Befesa stock,,en,Alemania,0
+GBF.DE,Bilfinger,Acciones,Bilfinger stock,,en,Alemania,0
+AFX.DE,Carl Zeiss Meditec,Acciones,Carl Zeiss Meditec stock,,en,Alemania,0
+EVD.DE,CTS Eventim,Acciones,CTS Eventim stock,,en,Alemania,0
+DHER.DE,Delivery Hero,Acciones,Delivery Hero stock,,en,Alemania,0
+LHA.DE,Lufthansa,Acciones,Lufthansa stock,,en,Alemania,0
+ECV.DE,Encavis,Acciones,Encavis stock,,en,Alemania,0
+EVK.DE,Evonik,Acciones,Evonik stock,,en,Alemania,0
+EVT.DE,Evotec,Acciones,Evotec stock,,en,Alemania,0
+FRA.DE,Fraport,Acciones,Fraport stock,,en,Alemania,0
+FNTN.DE,Freenet,Acciones,Freenet stock,,en,Alemania,0
+FPE3.DE,Fuchs Petrolub,Acciones,Fuchs Petrolub stock,,en,Alemania,0
+GXI.DE,Gerresheimer,Acciones,Gerresheimer stock,,en,Alemania,0
+HLE.DE,Hella,Acciones,Hella stock,,en,Alemania,0
+HFG.DE,HelloFresh,Acciones,HelloFresh stock,,en,Alemania,0
+HAG.DE,Hensoldt,Acciones,Hensoldt stock,,en,Alemania,0
+HOT.DE,Hochtief,Acciones,Hochtief stock,,en,Alemania,0
+BOSS.DE,Hugo Boss,Acciones,Hugo Boss stock,,en,Alemania,0
+JEN.DE,Jenoptik,Acciones,Jenoptik stock,,en,Alemania,0
+JUN3.DE,Jungheinrich,Acciones,Jungheinrich stock,,en,Alemania,0
+SDF.DE,K+S,Acciones,K+S stock,,en,Alemania,0
+KGX.DE,KION Group,Acciones,KION Group stock,,en,Alemania,0
+KBX.DE,Knorr-Bremse,Acciones,Knorr-Bremse stock,,en,Alemania,0
+KRN.DE,Krones,Acciones,Krones stock,,en,Alemania,0
+LXS.DE,Lanxess,Acciones,Lanxess stock,,en,Alemania,0
+LEG.DE,LEG Immobilien,Acciones,LEG Immobilien stock,,en,Alemania,0
+NEM.DE,Nemetschek,Acciones,Nemetschek stock,,en,Alemania,0
+NDX1.DE,Nordex,Acciones,Nordex stock,,en,Alemania,0
+PUM.DE,Puma,Acciones,Puma stock,,en,Alemania,0
+RAA.DE,Rational,Acciones,Rational stock,,en,Alemania,0
+RDC.DE,Redcare Pharmacy,Acciones,Redcare Pharmacy stock,,en,Alemania,0
+RRTL.DE,RTL Group,Acciones,RTL Group stock,,en,Alemania,0
+WAF.DE,Siltronic,Acciones,Siltronic stock,,en,Alemania,0
+STM.DE,Stabilus,Acciones,Stabilus stock,,en,Alemania,0
+SAX.DE,Ströer,Acciones,Ströer stock,,en,Alemania,0
+TEG.DE,TAG Tegernsee Immobilien und Beteiligung,Acciones,TAG Tegernsee Immobilien und Beteiligung stock,,en,Alemania,0
+TLX.DE,Talanx,Acciones,Talanx stock,,en,Alemania,0
+TMV.DE,TeamViewer,Acciones,TeamViewer stock,,en,Alemania,0
+TKA.DE,ThyssenKrupp,Acciones,ThyssenKrupp stock,,en,Alemania,0
+8TRA.DE,Traton,Acciones,Traton stock,,en,Alemania,0
+TUI1.DE,TUI,Acciones,TUI stock,,en,Alemania,0
+UTDI.DE,United Internet,Acciones,United Internet stock,,en,Alemania,0
+WCH.DE,Wacker Chemie,Acciones,Wacker Chemie stock,,en,Alemania,0
+A2A.MI,A2A,Acciones,A2A stock,,en,Italia,0
+AMP.MI,Amplifon,Acciones,Amplifon stock,,en,Italia,0
+AVIO.MI,Avio,Acciones,Avio stock,,en,Italia,0
+AZM.MI,Azimut,Acciones,Azimut stock,,en,Italia,0
+BMED.MI,Banca Mediolanum,Acciones,Banca Mediolanum stock,,en,Italia,0
+BMPS.MI,Banca Monte dei Paschi di Siena,Acciones,Banca Monte dei Paschi di Siena stock,,en,Italia,0
+BAMI.MI,Banco BPM,Acciones,Banco BPM stock,,en,Italia,0
+BPE.MI,BPER Banca,Acciones,BPER Banca stock,,en,Italia,0
+BC.MI,Brunello Cucinelli,Acciones,Brunello Cucinelli stock,,en,Italia,0
+BZU.MI,Buzzi,Acciones,Buzzi stock,,en,Italia,0
+CPR.MI,Campari,Acciones,Campari stock,,en,Italia,0
+FCT.MI,Fincantieri,Acciones,Fincantieri stock,,en,Italia,0
+FBK.MI,FinecoBank,Acciones,FinecoBank stock,,en,Italia,0
+G.MI,Generali,Acciones,Generali stock,,en,Italia,0
+HER.MI,Hera,Acciones,Hera stock,,en,Italia,0
+INW.MI,INWIT,Acciones,INWIT stock,,en,Italia,0
+IG.MI,Italgas,Acciones,Italgas stock,,en,Italia,0
+IVG.MI,Iveco,Acciones,Iveco stock,,en,Italia,0
+LDO.MI,Leonardo,Acciones,Leonardo stock,,en,Italia,0
+LTMC.MI,Lottomatica Group,Acciones,Lottomatica Group stock,,en,Italia,0
+MB.MI,Mediobanca,Acciones,Mediobanca stock,,en,Italia,0
+MONC.MI,Moncler,Acciones,Moncler stock,,en,Italia,0
+NEXI.MI,Nexi,Acciones,Nexi stock,,en,Italia,0
+PST.MI,Poste italiane,Acciones,Poste italiane stock,,en,Italia,0
+PRY.MI,Prysmian,Acciones,Prysmian stock,,en,Italia,0
+REC.MI,Recordati,Acciones,Recordati stock,,en,Italia,0
+SPM.MI,Saipem,Acciones,Saipem stock,,en,Italia,0
+SRG.MI,Snam,Acciones,Snam stock,,en,Italia,0
+STLAM.MI,Stellantis,Acciones,Stellantis stock,,en,Italia,0
+STMMI.MI,STMicroelectronics,Acciones,STMicroelectronics stock,,en,Italia,0
+TPRO.MI,Technoprobe,Acciones,Technoprobe stock,,en,Italia,0
+TIT.MI,Telecom Italia,Acciones,Telecom Italia stock,,en,Italia,0
+TEN.MI,Tenaris,Acciones,Tenaris stock,,en,Italia,0
+TRN.MI,Terna,Acciones,Terna stock,,en,Italia,0
+UNI.MI,Unipol,Acciones,Unipol stock,,en,Italia,0
+0005.HK,HSBC Holdings plc,Acciones,HSBC Holdings plc stock,,en,Hong Kong,0
+0388.HK,HKEx Limited,Acciones,HKEx Limited stock,,en,Hong Kong,0
+0939.HK,China Construction Bank,Acciones,China Construction Bank stock,,en,Hong Kong,0
+1299.HK,AIA Group Limited,Acciones,AIA Group Limited stock,,en,Hong Kong,0
+1398.HK,Industrial and Commercial Bank of China,Acciones,Industrial and Commercial Bank of China stock,,en,Hong Kong,0
+2318.HK,Ping An Insurance,Acciones,Ping An Insurance stock,,en,Hong Kong,0
+2388.HK,BOC Hong Kong (Holdings) Ltd,Acciones,BOC Hong Kong (Holdings) Ltd stock,,en,Hong Kong,0
+2628.HK,China Life,Acciones,China Life stock,,en,Hong Kong,0
+3968.HK,China Merchants Bank,Acciones,China Merchants Bank stock,,en,Hong Kong,0
+3988.HK,Bank of China Ltd,Acciones,Bank of China Ltd stock,,en,Hong Kong,0
+0002.HK,CLP Holdings Limited,Acciones,CLP Holdings Limited stock,,en,Hong Kong,0
+0003.HK,Hong Kong and China Gas Company Limited,Acciones,Hong Kong and China Gas Company Limited stock,,en,Hong Kong,0
+0006.HK,Power Assets Holdings Limited,Acciones,Power Assets Holdings Limited stock,,en,Hong Kong,0
+0836.HK,China Resources Power,Acciones,China Resources Power stock,,en,Hong Kong,0
+1038.HK,Cheung Kong Infrastructure Holdings Limited,Acciones,Cheung Kong Infrastructure Holdings Limited stock,,en,Hong Kong,0
+2688.HK,ENN Energy,Acciones,ENN Energy stock,,en,Hong Kong,0
+0012.HK,Henderson Land Development Company Limited,Acciones,Henderson Land Development Company Limited stock,,en,Hong Kong,0
+0016.HK,Sun Hung Kai Properties Limited,Acciones,Sun Hung Kai Properties Limited stock,,en,Hong Kong,0
+0101.HK,Hang Lung Properties Limited,Acciones,Hang Lung Properties Limited stock,,en,Hong Kong,0
+0688.HK,China Overseas Land & Investment Limited,Acciones,China Overseas Land & Investment Limited stock,,en,Hong Kong,0
+0823.HK,Link REIT,Acciones,Link REIT stock,,en,Hong Kong,0
+0960.HK,Longfor Properties,Acciones,Longfor Properties stock,,en,Hong Kong,0
+1109.HK,China Resources Land Limited,Acciones,China Resources Land Limited stock,,en,Hong Kong,0
+1113.HK,CK Asset Holdings,Acciones,CK Asset Holdings stock,,en,Hong Kong,0
+1209.HK,China Resources Mixc Lifestyle,Acciones,China Resources Mixc Lifestyle stock,,en,Hong Kong,0
+1997.HK,Wharf Real Estate Investment Company Limited,Acciones,Wharf Real Estate Investment Company Limited stock,,en,Hong Kong,0
+0001.HK,CK Hutchison Holdings Limited,Acciones,CK Hutchison Holdings Limited stock,,en,Hong Kong,0
+0027.HK,Galaxy Entertainment Group Ltd.,Acciones,Galaxy Entertainment Group Ltd. stock,,en,Hong Kong,0
+0066.HK,MTR Corporation Ltd,Acciones,MTR Corporation Ltd stock,,en,Hong Kong,0
+0175.HK,Geely Auto,Acciones,Geely Auto stock,,en,Hong Kong,0
+0241.HK,Alibaba Health,Acciones,Alibaba Health stock,,en,Hong Kong,0
+0267.HK,CITIC Limited,Acciones,CITIC Limited stock,,en,Hong Kong,0
+0285.HK,BYD Electronics,Acciones,BYD Electronics stock,,en,Hong Kong,0
+0288.HK,WH Group,Acciones,WH Group stock,,en,Hong Kong,0
+0291.HK,China Resources Beer,Acciones,China Resources Beer stock,,en,Hong Kong,0
+0300.HK,Midea Group,Acciones,Midea Group stock,,en,Hong Kong,0
+0316.HK,Orient Overseas (International) Limited,Acciones,Orient Overseas (International) Limited stock,,en,Hong Kong,0
+0322.HK,Tingyi,Acciones,Tingyi stock,,en,Hong Kong,0
+0386.HK,Sinopec Corp,Acciones,Sinopec Corp stock,,en,Hong Kong,0
+0669.HK,Techtronic Industries,Acciones,Techtronic Industries stock,,en,Hong Kong,0
+0700.HK,Tencent Holdings Limited,Acciones,Tencent Holdings Limited stock,,en,Hong Kong,0
+0762.HK,China Unicom,Acciones,China Unicom stock,,en,Hong Kong,0
+0857.HK,PetroChina Company Limited,Acciones,PetroChina Company Limited stock,,en,Hong Kong,0
+0868.HK,Xinyi Glass,Acciones,Xinyi Glass stock,,en,Hong Kong,0
+0881.HK,Zhongsheng Group,Acciones,Zhongsheng Group stock,,en,Hong Kong,0
+0883.HK,CNOOC Limited,Acciones,CNOOC Limited stock,,en,Hong Kong,0
+0941.HK,China Mobile Ltd,Acciones,China Mobile Ltd stock,,en,Hong Kong,0
+0968.HK,Xinyi Solar,Acciones,Xinyi Solar stock,,en,Hong Kong,0
+0981.HK,Semiconductor Manufacturing International Corporation,Acciones,Semiconductor Manufacturing International Corporation stock,,en,Hong Kong,0
+0992.HK,Lenovo,Acciones,Lenovo stock,,en,Hong Kong,0
+1024.HK,Kuaishou,Acciones,Kuaishou stock,,en,Hong Kong,0
+1044.HK,Hengan International Group Co. Ltd,Acciones,Hengan International Group Co. Ltd stock,,en,Hong Kong,0
+1088.HK,China Shenhua Energy,Acciones,China Shenhua Energy stock,,en,Hong Kong,0
+1093.HK,CSPC Pharmaceutical Group,Acciones,CSPC Pharmaceutical Group stock,,en,Hong Kong,0
+1099.HK,Sinopharm Group,Acciones,Sinopharm Group stock,,en,Hong Kong,0
+1177.HK,Sino Biopharm,Acciones,Sino Biopharm stock,,en,Hong Kong,0
+1211.HK,BYD Company,Acciones,BYD Company stock,,en,Hong Kong,0
+1378.HK,China Hongqiao Group,Acciones,China Hongqiao Group stock,,en,Hong Kong,0
+1810.HK,Xiaomi,Acciones,Xiaomi stock,,en,Hong Kong,0
+1876.HK,Budweiser Brewing Company APAC,Acciones,Budweiser Brewing Company APAC stock,,en,Hong Kong,0
+1928.HK,Sands China,Acciones,Sands China stock,,en,Hong Kong,0
+1929.HK,Chow Tai Fook,Acciones,Chow Tai Fook stock,,en,Hong Kong,0
+2015.HK,Li Auto,Acciones,Li Auto stock,,en,Hong Kong,0
+2020.HK,Anta Sports,Acciones,Anta Sports stock,,en,Hong Kong,0
+2057.HK,ZTO Express,Acciones,ZTO Express stock,,en,Hong Kong,0
+2269.HK,WuXi Biologics,Acciones,WuXi Biologics stock,,en,Hong Kong,0
+2313.HK,Shenzhou International,Acciones,Shenzhou International stock,,en,Hong Kong,0
+2319.HK,Mengniu Dairy,Acciones,Mengniu Dairy stock,,en,Hong Kong,0
+2331.HK,Li-Ning,Acciones,Li-Ning stock,,en,Hong Kong,0
+2359.HK,WuXi AppTec,Acciones,WuXi AppTec stock,,en,Hong Kong,0
+2382.HK,Sunny Optical,Acciones,Sunny Optical stock,,en,Hong Kong,0
+2618.HK,JD Logistics,Acciones,JD Logistics stock,,en,Hong Kong,0
+2899.HK,Zijin Mining,Acciones,Zijin Mining stock,,en,Hong Kong,0
+3690.HK,Meituan,Acciones,Meituan stock,,en,Hong Kong,0
+3692.HK,Hansoh Pharmaceutical Group,Acciones,Hansoh Pharmaceutical Group stock,,en,Hong Kong,0
+6618.HK,JD Health,Acciones,JD Health stock,,en,Hong Kong,0
+6690.HK,Haier,Acciones,Haier stock,,en,Hong Kong,0
+6862.HK,Haidilao,Acciones,Haidilao stock,,en,Hong Kong,0
+9618.HK,JD.com,Acciones,JD.com stock,,en,Hong Kong,0
+9633.HK,Nongfu Spring,Acciones,Nongfu Spring stock,,en,Hong Kong,0
+9888.HK,Baidu,Acciones,Baidu stock,,en,Hong Kong,0
+9961.HK,Trip.com Group,Acciones,Trip.com Group stock,,en,Hong Kong,0
+9988.HK,Alibaba Group,Acciones,Alibaba Group stock,,en,Hong Kong,0
+9992.HK,Pop Mart,Acciones,Pop Mart stock,,en,Hong Kong,0
+9999.HK,NetEase,Acciones,NetEase stock,,en,Hong Kong,0
+AEM.TO,Agnico Eagle Mines Limited,Acciones,Agnico Eagle Mines Limited stock,,en,Canadá,0
+ATD.TO,Alimentation Couche-Tard Inc.,Acciones,Alimentation Couche-Tard Inc. stock,,en,Canadá,0
+BMO.TO,Bank of Montreal,Acciones,Bank of Montreal stock,,en,Canadá,0
+BNS.TO,Bank of Nova Scotia,Acciones,Bank of Nova Scotia stock,,en,Canadá,0
+ABX.TO,Barrick Mining Corporation,Acciones,Barrick Mining Corporation stock,,en,Canadá,0
+BCE.TO,BCE Inc.,Acciones,BCE Inc. stock,,en,Canadá,0
+BAM.TO,Brookfield Asset Management Ltd.,Acciones,Brookfield Asset Management Ltd. stock,,en,Canadá,0
+BN.TO,Brookfield Corporation,Acciones,Brookfield Corporation stock,,en,Canadá,0
+BIP-UN.TO,Brookfield Infrastructure Partners L.P.,Acciones,Brookfield Infrastructure Partners L.P. stock,,en,Canadá,0
+CAE.TO,CAE Inc.,Acciones,CAE Inc. stock,,en,Canadá,0
+CCO.TO,Cameco Corporation,Acciones,Cameco Corporation stock,,en,Canadá,0
+CM.TO,Canadian Imperial Bank of Commerce,Acciones,Canadian Imperial Bank of Commerce stock,,en,Canadá,0
+CNR.TO,Canadian National Railway Company,Acciones,Canadian National Railway Company stock,,en,Canadá,0
+CNQ.TO,Canadian Natural Resources Limited,Acciones,Canadian Natural Resources Limited stock,,en,Canadá,0
+CP.TO,Canadian Pacific Kansas City Limited,Acciones,Canadian Pacific Kansas City Limited stock,,en,Canadá,0
+CTC-A.TO,Canadian Tire Corporation Limited,Acciones,Canadian Tire Corporation Limited stock,,en,Canadá,0
+CCL-B.TO,CCL Industries Inc.,Acciones,CCL Industries Inc. stock,,en,Canadá,0
+CLS.TO,Celestica Inc.,Acciones,Celestica Inc. stock,,en,Canadá,0
+CVE.TO,Cenovus Energy Inc.,Acciones,Cenovus Energy Inc. stock,,en,Canadá,0
+GIB-A.TO,CGI Inc.,Acciones,CGI Inc. stock,,en,Canadá,0
+CSU.TO,Constellation Software Inc.,Acciones,Constellation Software Inc. stock,,en,Canadá,0
+DOL.TO,Dollarama Inc.,Acciones,Dollarama Inc. stock,,en,Canadá,0
+EMA.TO,Emera Incorporated,Acciones,Emera Incorporated stock,,en,Canadá,0
+ENB.TO,Enbridge Inc.,Acciones,Enbridge Inc. stock,,en,Canadá,0
+FFH.TO,Fairfax Financial Holdings Limited,Acciones,Fairfax Financial Holdings Limited stock,,en,Canadá,0
+FM.TO,First Quantum Minerals Ltd.,Acciones,First Quantum Minerals Ltd. stock,,en,Canadá,0
+FSV.TO,FirstService Corporation,Acciones,FirstService Corporation stock,,en,Canadá,0
+FTS.TO,Fortis Inc.,Acciones,Fortis Inc. stock,,en,Canadá,0
+FNV.TO,Franco-Nevada Corporation,Acciones,Franco-Nevada Corporation stock,,en,Canadá,0
+WN.TO,George Weston Limited,Acciones,George Weston Limited stock,,en,Canadá,0
+GIL.TO,Gildan Activewear Inc.,Acciones,Gildan Activewear Inc. stock,,en,Canadá,0
+H.TO,Hydro One Limited,Acciones,Hydro One Limited stock,,en,Canadá,0
+IMO.TO,Imperial Oil Limited,Acciones,Imperial Oil Limited stock,,en,Canadá,0
+IFC.TO,Intact Financial Corporation,Acciones,Intact Financial Corporation stock,,en,Canadá,0
+K.TO,Kinross Gold Corporation,Acciones,Kinross Gold Corporation stock,,en,Canadá,0
+L.TO,Loblaw Companies Limited,Acciones,Loblaw Companies Limited stock,,en,Canadá,0
+MG.TO,Magna International Inc.,Acciones,Magna International Inc. stock,,en,Canadá,0
+MFC.TO,Manulife Financial Corporation,Acciones,Manulife Financial Corporation stock,,en,Canadá,0
+MRU.TO,Metro Inc.,Acciones,Metro Inc. stock,,en,Canadá,0
+NTR.TO,Nutrien Ltd.,Acciones,Nutrien Ltd. stock,,en,Canadá,0
+OTEX.TO,Open Text Corporation,Acciones,Open Text Corporation stock,,en,Canadá,0
+PPL.TO,Pembina Pipeline Corporation,Acciones,Pembina Pipeline Corporation stock,,en,Canadá,0
+POW.TO,Power Corporation of Canada,Acciones,Power Corporation of Canada stock,,en,Canadá,0
+QSR.TO,Restaurant Brands International Inc.,Acciones,Restaurant Brands International Inc. stock,,en,Canadá,0
+RCI-B.TO,Rogers Communications Inc.,Acciones,Rogers Communications Inc. stock,,en,Canadá,0
+RY.TO,Royal Bank of Canada,Acciones,Royal Bank of Canada stock,,en,Canadá,0
+SAP.TO,Saputo Inc.,Acciones,Saputo Inc. stock,,en,Canadá,0
+SHOP.TO,Shopify Inc.,Acciones,Shopify Inc. stock,,en,Canadá,0
+SLF.TO,Sun Life Financial Inc.,Acciones,Sun Life Financial Inc. stock,,en,Canadá,0
+SU.TO,Suncor Energy Inc.,Acciones,Suncor Energy Inc. stock,,en,Canadá,0
+TRP.TO,TC Energy Corporation,Acciones,TC Energy Corporation stock,,en,Canadá,0
+TECK-B.TO,Teck Resources Limited,Acciones,Teck Resources Limited stock,,en,Canadá,0
+T.TO,Telus Corporation,Acciones,Telus Corporation stock,,en,Canadá,0
+TRI.TO,Thomson Reuters Corporation,Acciones,Thomson Reuters Corporation stock,,en,Canadá,0
+TD.TO,Toronto-Dominion Bank,Acciones,Toronto-Dominion Bank stock,,en,Canadá,0
+TOU.TO,Tourmaline Oil Corp.,Acciones,Tourmaline Oil Corp. stock,,en,Canadá,0
+WCN.TO,Waste Connections Inc.,Acciones,Waste Connections Inc. stock,,en,Canadá,0
+WPM.TO,Wheaton Precious Metals Corp.,Acciones,Wheaton Precious Metals Corp. stock,,en,Canadá,0
+WSP.TO,WSP Global Inc.,Acciones,WSP Global Inc. stock,,en,Canadá,0
+ALL.AX,Aristocrat Leisure,Acciones,Aristocrat Leisure stock,,en,Australia,0
+AMC.AX,Amcor,Acciones,Amcor stock,,en,Australia,0
+ANZ.AX,ANZ Bank,Acciones,ANZ Bank stock,,en,Australia,0
+BHP.AX,BHP,Acciones,BHP stock,,en,Australia,0
+BXB.AX,Brambles,Acciones,Brambles stock,,en,Australia,0
+CAR.AX,CAR Group,Acciones,CAR Group stock,,en,Australia,0
+CBA.AX,Commonwealth Bank,Acciones,Commonwealth Bank stock,,en,Australia,0
+COH.AX,Cochlear,Acciones,Cochlear stock,,en,Australia,0
+COL.AX,Coles Group,Acciones,Coles Group stock,,en,Australia,0
+CPU.AX,Computershare,Acciones,Computershare stock,,en,Australia,0
+CSL.AX,CSL,Acciones,CSL stock,,en,Australia,0
+EVN.AX,Evolution Mining,Acciones,Evolution Mining stock,,en,Australia,0
+FMG.AX,Fortescue,Acciones,Fortescue stock,,en,Australia,0
+FPH.AX,Fisher & Paykel Healthcare,Acciones,Fisher & Paykel Healthcare stock,,en,Australia,0
+GMG.AX,Goodman Group,Acciones,Goodman Group stock,,en,Australia,0
+IAG.AX,Insurance Australia Group,Acciones,Insurance Australia Group stock,,en,Australia,0
+JBH.AX,JB Hi-Fi,Acciones,JB Hi-Fi stock,,en,Australia,0
+JHX.AX,James Hardie,Acciones,James Hardie stock,,en,Australia,0
+LYC.AX,Lynas,Acciones,Lynas stock,,en,Australia,0
+MPL.AX,Medibank,Acciones,Medibank stock,,en,Australia,0
+MQG.AX,Macquarie Group,Acciones,Macquarie Group stock,,en,Australia,0
+NAB.AX,National Australia Bank,Acciones,National Australia Bank stock,,en,Australia,0
+NEM.AX,Newmont,Acciones,Newmont stock,,en,Australia,0
+NST.AX,Northern Star Resources,Acciones,Northern Star Resources stock,,en,Australia,0
+NWS.AX,News Corp,Acciones,News Corp stock,,en,Australia,0
+ORG.AX,Origin Energy,Acciones,Origin Energy stock,,en,Australia,0
+PME.AX,Pro Medicus,Acciones,Pro Medicus stock,,en,Australia,0
+QAN.AX,Qantas,Acciones,Qantas stock,,en,Australia,0
+QBE.AX,QBE Insurance,Acciones,QBE Insurance stock,,en,Australia,0
+REA.AX,REA Group,Acciones,REA Group stock,,en,Australia,0
+RIO.AX,Rio Tinto,Acciones,Rio Tinto stock,,en,Australia,0
+RMD.AX,ResMed,Acciones,ResMed stock,,en,Australia,0
+S32.AX,South32,Acciones,South32 stock,,en,Australia,0
+SCG.AX,Scentre Group,Acciones,Scentre Group stock,,en,Australia,0
+SGH.AX,Seven Group Holdings,Acciones,Seven Group Holdings stock,,en,Australia,0
+SGP.AX,Stockland,Acciones,Stockland stock,,en,Australia,0
+SIG.AX,Sigma Healthcare,Acciones,Sigma Healthcare stock,,en,Australia,0
+SOL.AX,Soul Patts,Acciones,Soul Patts stock,,en,Australia,0
+STO.AX,Santos,Acciones,Santos stock,,en,Australia,0
+SUN.AX,Suncorp,Acciones,Suncorp stock,,en,Australia,0
+TCL.AX,Transurban,Acciones,Transurban stock,,en,Australia,0
+TLS.AX,Telstra,Acciones,Telstra stock,,en,Australia,0
+VAS.AX,Vanguard Australian Shares,Acciones,Vanguard Australian Shares stock,,en,Australia,0
+WBC.AX,Westpac,Acciones,Westpac stock,,en,Australia,0
+WES.AX,Wesfarmers,Acciones,Wesfarmers stock,,en,Australia,0
+WDS.AX,Woodside Energy,Acciones,Woodside Energy stock,,en,Australia,0
+WOW.AX,Woolworths,Acciones,Woolworths stock,,en,Australia,0
+XRO.AX,Xero,Acciones,Xero stock,,en,Australia,0
+XYZ.AX,Block,Acciones,Block stock,,en,Australia,0

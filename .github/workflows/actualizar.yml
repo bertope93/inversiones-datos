@@ -1,0 +1,66 @@
+name: Actualizar datos
+
+on:
+  schedule:
+    - cron: "0 22 * * *"        # completa: 23:00 en España (invierno)
+    - cron: "0 7 * * 1-5"       # rápida: 08:00
+    - cron: "0 15 * * 1-5"      # rápida: 16:00
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "completa o rapido"
+        default: rapido
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Modo
+        id: modo
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then m="${{ inputs.modo }}";
+          elif [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then m=completa; else m=rapido; fi
+          echo "modo=$m" >> "$GITHUB_OUTPUT"; echo "Modo: $m"
+
+      - name: Recuperar datos anteriores
+        run: |
+          mkdir -p data/raw data/clean prev
+          gh release download datos -D prev -p "*.gz" || echo "Sin datos anteriores"
+          for f in prev/raw__*.gz; do [ -e "$f" ] && gunzip -c "$f" > "data/raw/$(basename "${f#prev/raw__}" .gz)"; done
+          for f in prev/*.csv.gz; do [ -e "$f" ] && gunzip -c "$f" > "data/clean/$(basename "$f" .gz)"; done
+          ls -la data/raw data/clean
+
+      - name: Descargar
+        run: |
+          if [ "${{ steps.modo.outputs.modo }}" = "completa" ]; then python scripts/descargar_datos.py;
+          else python scripts/descargar_datos.py rapido; fi
+
+      - name: Publicar
+        run: |
+          mkdir -p out
+          for f in data/clean/*.csv; do gzip -c "$f" > "out/$(basename "$f").gz"; done
+          for f in precios_yahoo.csv info_cache.json info_yahoo.json; do
+            [ -e "data/raw/$f" ] && gzip -c "data/raw/$f" > "out/raw__$f.gz"; done
+          gh release view datos >/dev/null 2>&1 || gh release create datos --title "Datos" --notes "Datos del informe (se reemplazan en cada actualización)."
+          # primero los datos y al final la hora, para que Power BI no lea una mezcla
+          gh release upload datos out/raw__*.gz --clobber
+          ls out/*.csv.gz | grep -v actualizacion | xargs gh release upload datos --clobber
+          gh release upload datos out/actualizacion.csv.gz --clobber

@@ -1,0 +1,11 @@
+# Solo se publica lo necesario para la descarga en la nube
+/*
+!/.gitignore
+!/.github/
+!/requirements.txt
+!/README.md
+!/config/
+!/scripts/
+/scripts/*
+!/scripts/descargar_datos.py
+!/scripts/enriquecer.py

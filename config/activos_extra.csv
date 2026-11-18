@@ -1,0 +1,106 @@
+ticker,nombre,clase,consulta,dominio,idioma,mercado
+LQDA,Liquidia,Acciones,Liquidia stock,liquidia.com,en,EE. UU.
+UTHR,United Therapeutics,Acciones,United Therapeutics stock,unither.com,en,EE. UU.
+VWCE.DE,Vanguard FTSE All-World (acumulación),ETFs,Vanguard FTSE All-World ETF,vanguard.com,en,ETF
+VWRL.AS,Vanguard FTSE All-World (distribución),ETFs,Vanguard FTSE All-World ETF,vanguard.com,en,ETF
+SXR8.DE,iShares Core S&P 500 (EUR),ETFs,iShares Core S&P 500 UCITS,ishares.com,en,ETF
+VUSA.AS,Vanguard S&P 500 (EUR),ETFs,Vanguard S&P 500 UCITS,vanguard.com,en,ETF
+EQQQ.DE,Invesco Nasdaq-100 (EUR),ETFs,Invesco Nasdaq-100 UCITS,invesco.com,en,ETF
+IS3N.DE,iShares Core MSCI EM IMI,ETFs,iShares MSCI emerging markets,ishares.com,en,ETF
+XDWD.DE,Xtrackers MSCI World,ETFs,Xtrackers MSCI World,dws.com,en,ETF
+VOO,Vanguard S&P 500,ETFs,VOO ETF,vanguard.com,en,ETF
+IVV,iShares Core S&P 500,ETFs,IVV ETF,ishares.com,en,ETF
+VTI,Vanguard Total Stock Market,ETFs,VTI ETF,vanguard.com,en,ETF
+DIA,SPDR Dow Jones,ETFs,DIA ETF Dow,ssga.com,en,ETF
+IWM,iShares Russell 2000,ETFs,IWM small caps ETF,ishares.com,en,ETF
+SCHD,Schwab US Dividend Equity,ETFs,SCHD dividend ETF,schwab.com,en,ETF
+JEPI,JPMorgan Equity Premium Income,ETFs,JEPI ETF,jpmorgan.com,en,ETF
+EFA,iShares MSCI EAFE,ETFs,EFA ETF,ishares.com,en,ETF
+IEMG,iShares Core MSCI Emerging,ETFs,IEMG emerging ETF,ishares.com,en,ETF
+XLK,Technology Select Sector,ETFs,tech stocks ETF XLK,ssga.com,en,ETF
+XLY,Consumer Discretionary Select,ETFs,consumer discretionary ETF,ssga.com,en,ETF
+XLP,Consumer Staples Select,ETFs,consumer staples ETF,ssga.com,en,ETF
+XLI,Industrial Select Sector,ETFs,industrials ETF,ssga.com,en,ETF
+XLU,Utilities Select Sector,ETFs,utilities ETF,ssga.com,en,ETF
+XLB,Materials Select Sector,ETFs,materials ETF,ssga.com,en,ETF
+XLRE,Real Estate Select Sector,ETFs,real estate ETF,ssga.com,en,ETF
+XLC,Communication Services Select,ETFs,communication services ETF,ssga.com,en,ETF
+VNQ,Vanguard Real Estate,ETFs,REIT ETF VNQ,vanguard.com,en,ETF
+SOXX,iShares Semiconductor,ETFs,semiconductor ETF SOXX,ishares.com,en,ETF
+TQQQ,ProShares UltraPro QQQ (x3),ETFs,TQQQ leveraged ETF,proshares.com,en,ETF
+ICLN,iShares Global Clean Energy,ETFs,clean energy ETF,ishares.com,en,ETF
+TAN,Invesco Solar,ETFs,solar stocks ETF,invesco.com,en,ETF
+LIT,Global X Lithium & Battery,ETFs,lithium ETF,globalxetfs.com,en,ETF
+URA,Global X Uranium,ETFs,uranium ETF,globalxetfs.com,en,ETF
+CIBR,First Trust Cybersecurity,ETFs,cybersecurity ETF,ftportfolios.com,en,ETF
+BOTZ,Global X Robotics & AI,ETFs,robotics AI ETF,globalxetfs.com,en,ETF
+KWEB,KraneShares China Internet,ETFs,China internet stocks ETF,kraneshares.com,en,ETF
+FXI,iShares China Large-Cap,ETFs,China stocks ETF FXI,ishares.com,en,ETF
+EWJ,iShares MSCI Japan,ETFs,Japan stocks ETF,ishares.com,en,ETF
+EWZ,iShares MSCI Brazil,ETFs,Brazil stocks ETF,ishares.com,en,ETF
+INDA,iShares MSCI India,ETFs,India stocks ETF,ishares.com,en,ETF
+EWG,iShares MSCI Germany,ETFs,Germany stocks ETF,ishares.com,en,ETF
+EWP,iShares MSCI Spain,ETFs,Spain stocks ETF,ishares.com,en,ETF
+GDX,VanEck Gold Miners,ETFs,gold miners ETF,vaneck.com,en,ETF
+CPER,United States Copper,ETFs,copper price,uscfinvestments.com,en,ETF
+UNG,United States Natural Gas,ETFs,natural gas price,uscfinvestments.com,en,ETF
+DBC,Invesco DB Commodity,ETFs,commodities ETF,invesco.com,en,ETF
+IBIT,iShares Bitcoin Trust,ETFs,IBIT bitcoin ETF flows,ishares.com,en,ETF
+ETHA,iShares Ethereum Trust,ETFs,ether ETF flows,ishares.com,en,ETF
+PHM.MC,Pharma Mar,Acciones,Pharma Mar bolsa,pharmamar.com,es,España
+VIS.MC,Viscofan,Acciones,Viscofan bolsa,viscofan.com,es,España
+CAF.MC,CAF,Acciones,CAF Construcciones y Auxiliar de Ferrocarriles bolsa,caf.net,es,España
+EBRO.MC,Ebro Foods,Acciones,Ebro Foods bolsa,ebrofoods.es,es,España
+ALM.MC,Almirall,Acciones,Almirall bolsa,almirall.com,es,España
+ENC.MC,Ence,Acciones,Ence bolsa,ence.es,es,España
+GEST.MC,Gestamp,Acciones,Gestamp bolsa,gestamp.com,es,España
+CIE.MC,CIE Automotive,Acciones,CIE Automotive bolsa,cieautomotive.com,es,España
+ENO.MC,Elecnor,Acciones,Elecnor bolsa,elecnor.com,es,España
+FAE.MC,Faes Farma,Acciones,Faes Farma bolsa,faesfarma.com,es,España
+VID.MC,Vidrala,Acciones,Vidrala bolsa,vidrala.com,es,España
+PSG.MC,Prosegur,Acciones,Prosegur bolsa,prosegur.com,es,España
+A3M.MC,Atresmedia,Acciones,Atresmedia bolsa,atresmediacorporacion.com,es,España
+TUB.MC,Tubacex,Acciones,Tubacex bolsa,tubacex.com,es,España
+GRE.MC,Grenergy,Acciones,Grenergy bolsa,grenergy.eu,es,España
+LDA.MC,Línea Directa,Acciones,Línea Directa bolsa,lineadirectaaseguradora.com,es,España
+NEI.MC,Neinor Homes,Acciones,Neinor Homes bolsa,neinorhomes.com,es,España
+MVC.MC,Metrovacesa,Acciones,Metrovacesa bolsa,metrovacesa.com,es,España
+DOM.MC,Global Dominion,Acciones,Dominion bolsa,dominion-global.com,es,España
+ECR.MC,Ercros,Acciones,Ercros bolsa,ercros.es,es,España
+ORY.MC,Oryzon Genomics,Acciones,Oryzon bolsa,oryzon.com,es,España
+ADX.MC,Audax Renovables,Acciones,Audax Renovables bolsa,audaxrenovables.com,es,España
+TRE.MC,Técnicas Reunidas,Acciones,Técnicas Reunidas bolsa,tecnicasreunidas.es,es,España
+MEL.MC,Meliá Hotels,Acciones,Meliá bolsa,melia.com,es,España
+EDR.MC,eDreams Odigeo,Acciones,eDreams bolsa,edreamsodigeo.com,es,España
+7203.T,Toyota,Acciones,Toyota stock,toyota-global.com,en,Japón
+6758.T,Sony,Acciones,Sony stock,sony.com,en,Japón
+8306.T,Mitsubishi UFJ,Acciones,Mitsubishi UFJ stock,mufg.jp,en,Japón
+6861.T,Keyence,Acciones,Keyence stock,keyence.com,en,Japón
+9984.T,SoftBank Group,Acciones,SoftBank Group stock,group.softbank,en,Japón
+9983.T,Fast Retailing (Uniqlo),Acciones,Fast Retailing stock,fastretailing.com,en,Japón
+6501.T,Hitachi,Acciones,Hitachi stock,hitachi.com,en,Japón
+8035.T,Tokyo Electron,Acciones,Tokyo Electron stock,tel.com,en,Japón
+7974.T,Nintendo,Acciones,Nintendo stock,nintendo.com,en,Japón
+7267.T,Honda,Acciones,Honda stock,honda.com,en,Japón
+4502.T,Takeda,Acciones,Takeda stock,takeda.com,en,Japón
+6857.T,Advantest,Acciones,Advantest stock,advantest.com,en,Japón
+6146.T,Disco,Acciones,Disco Corp stock,disco.co.jp,en,Japón
+7011.T,Mitsubishi Heavy Industries,Acciones,Mitsubishi Heavy stock,mhi.com,en,Japón
+005930.KS,Samsung Electronics,Acciones,Samsung Electronics stock,samsung.com,en,Corea del Sur
+000660.KS,SK Hynix,Acciones,SK Hynix stock,skhynix.com,en,Corea del Sur
+NESN.SW,Nestlé,Acciones,Nestle stock,nestle.com,en,Suiza
+NOVN.SW,Novartis,Acciones,Novartis stock,novartis.com,en,Suiza
+ROG.SW,Roche,Acciones,Roche stock,roche.com,en,Suiza
+UBSG.SW,UBS,Acciones,UBS stock,ubs.com,en,Suiza
+ZURN.SW,Zurich Insurance,Acciones,Zurich Insurance stock,zurich.com,en,Suiza
+ABBN.SW,ABB,Acciones,ABB stock,abb.com,en,Suiza
+CFR.SW,Richemont,Acciones,Richemont stock,richemont.com,en,Suiza
+LOGN.SW,Logitech,Acciones,Logitech stock,logitech.com,en,Suiza
+NOVO-B.CO,Novo Nordisk (Copenhague),Acciones,Novo Nordisk stock,novonordisk.com,en,Dinamarca
+DSV.CO,DSV,Acciones,DSV stock,dsv.com,en,Dinamarca
+VOLV-B.ST,Volvo,Acciones,Volvo stock,volvogroup.com,en,Suecia
+ERIC-B.ST,Ericsson,Acciones,Ericsson stock,ericsson.com,en,Suecia
+EQNR.OL,Equinor,Acciones,Equinor stock,equinor.com,en,Noruega
+ADYEN.AS,Adyen,Acciones,Adyen stock,adyen.com,en,Países Bajos
+HEIA.AS,Heineken,Acciones,Heineken stock,theheinekencompany.com,en,Países Bajos
+NOKIA.HE,Nokia,Acciones,Nokia stock,nokia.com,en,Finlandia
