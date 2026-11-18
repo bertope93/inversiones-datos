@@ -781,6 +781,9 @@ def main():
         con = act["nota_fund"].notna() & (fpts[h].abs() >= 3)
         act[f"motivo_{h}"] = np.where(con, "negocio " + act["nota_fund"].fillna(0).astype(int).astype(str)
                                       + "/100 frente a su sector · " + base_mot, base_mot)
+    # volatilidad usada en la previsión (el modelo la espera siempre, aunque ningún valor se haya acotado)
+    lim = np.minimum(np.maximum(act["sigma"], np.where(act["clase"].eq("Acciones"), 0.15, 0)), dd.SIGMA_MAX)
+    act["sigma_prev"] = act["sigma_prev"].fillna(lim) if "sigma_prev" in act else lim
     act.to_csv(CLEAN / "activos.csv", index=False, encoding="utf-8")
     print("· bandas del gráfico de los activos con volatilidad acotada…")
     bandas_serie(act, tocados)
