@@ -727,7 +727,11 @@ def main():
     cat_por = dict(tuple(cat.groupby("id_activo"))) if len(cat) else {}
     res_ok = res[res["bpa_real"].notna() & res["sorpresa_pct"].notna()].sort_values("fecha")
     res_por = {i: g.tail(4) for i, g in res_ok.groupby("id_activo")}
-    an = pd.read_csv(CLEAN / "analistas.csv")
+    try:
+        an = pd.read_csv(CLEAN / "analistas.csv")
+    except pd.errors.EmptyDataError:
+        an = pd.DataFrame(columns=["id_activo", "fecha", "firma", "accion", "recomendacion", "anterior",
+                                   "precio_objetivo", "objetivo_anterior"])
     an = an[pd.to_datetime(an["fecha"], errors="coerce") >= pd.Timestamp(act["fecha_dato"].max()) - pd.Timedelta(days=90)]
     an_por = dict(tuple(an.groupby("id_activo")))
     fu_d = fu.to_dict("index")

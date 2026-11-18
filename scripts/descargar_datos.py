@@ -450,6 +450,17 @@ def main():
     # valores principales; el resto (noticias antiguas, grandes movimientos) se reutiliza de la última descarga
     rapido = "rapido" in sys.argv and (RAW / "precios_yahoo.csv").exists() and (CLEAN / "noticias.csv").exists()
     previas = {}
+    prev_an = prev_res = None
+    if (CLEAN / "activos.csv").exists():        # si Yahoo falla para un valor, se conservan sus datos anteriores
+        id_tk0 = dict(pd.read_csv(CLEAN / "activos.csv", usecols=["id", "ticker"]).values)
+        def _prev(nombre):
+            try:
+                d = pd.read_csv(CLEAN / nombre)
+                d["ticker"] = d["id_activo"].map(id_tk0)
+                return d.dropna(subset=["ticker"])
+            except Exception:
+                return None
+        prev_an, prev_res = _prev("analistas.csv"), _prev("resultados.csv")
     if rapido:
         print("MODO RÁPIDO")
         pa = pd.read_csv(CLEAN / "activos.csv", usecols=["id", "ticker"])
@@ -468,18 +479,28 @@ def main():
         nev_prev = pn[pn["evento"] == 1]
 
     print("· precios (Yahoo Finance)…")
-    px = yf.download(tickers, period="1mo" if rapido else "max", interval="1d", auto_adjust=True, progress=False,
-                     group_by="ticker", threads=True)
-    cierres = pd.DataFrame({t: px[t]["Close"] for t in tickers if t in px.columns.get_level_values(0)})
+    partes = []
+    for k in range(0, len(tickers), 250):     # por bloques: Yahoo bloquea las peticiones masivas (sobre todo en la nube)
+        bloque = tickers[k:k + 250]
+        try:
+            px = yf.download(bloque, period="1mo" if rapido else "max", interval="1d", auto_adjust=True, progress=False,
+                             group_by="ticker", threads=True)
+            partes.append(pd.DataFrame({t: px[t]["Close"] for t in bloque if t in px.columns.get_level_values(0)}))
+        except Exception:
+            pass
+        time.sleep(3)
+    cierres = pd.concat(partes, axis=1) if partes else pd.DataFrame()
     cierres.index = pd.to_datetime(cierres.index).tz_localize(None).normalize()
-    if rapido:
-        viejo = pd.read_csv(RAW / "precios_yahoo.csv", index_col=0, parse_dates=True)
-        cierres = cierres.dropna(how="all", axis=1).combine_first(viejo)
+    cierres = cierres.dropna(how="all", axis=1)
+    viejo_f = RAW / "precios_yahoo.csv"
+    if viejo_f.exists():                      # lo que no se pudo bajar conserva su histórico anterior
+        viejo = pd.read_csv(viejo_f, index_col=0, parse_dates=True)
+        cierres = cierres.combine_first(viejo) if rapido else cierres.combine_first(viejo[[c for c in viejo if c not in cierres]])
 
     def faltan():
         return [t for t in tickers if t not in cierres or cierres[t].dropna().size < 60
                 or cierres[t].dropna().index[-1] < HOY - pd.Timedelta(days=10)]
-    for ronda in range(0 if rapido else 4):     # Yahoo corta las descargas grandes: reintentar por bloques
+    for ronda in range(2 if rapido else 4):     # Yahoo corta las descargas grandes: reintentar por bloques
         pend = faltan()
         if not pend:
             break
@@ -595,6 +616,15 @@ def main():
         for ana, res in ex.map(profesionales, acciones):
             analistas += ana
             resultados += res
+    for prev, lista in ((prev_an, analistas), (prev_res, resultados)):
+        if prev is None or not len(prev):
+            continue
+        con = {x["id_activo"] for x in lista}
+        por_tk = dict(tuple(prev.groupby("ticker")))
+        for orden, t in acciones:
+            if orden not in con and t in por_tk:
+                lista += por_tk[t].drop(columns="ticker").assign(id_activo=orden).to_dict("records")
+    print(f"  {len(analistas)} notas de bancos, {len(resultados)} fechas de resultados")
     print("· documentos oficiales presentados a la SEC…")
     documentos = sec_documentos(acciones)
 
