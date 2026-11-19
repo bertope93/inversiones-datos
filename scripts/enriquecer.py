@@ -743,6 +743,35 @@ def a_euros(act):
     return act
 
 
+def caminos_ejemplo():
+    """Tres caminos simulados por activo para la zona de previsión (no son previsiones: muestran cómo se movería el
+    precio con su volatilidad). De 300 simulaciones coherentes con la mediana y las bandas, se eligen las que acaban
+    cerca del percentil 20, 50 y 80. Semilla fija por activo para que no cambien al azar entre actualizaciones."""
+    ruta = CLEAN / "serie.csv"
+    s = pd.read_csv(ruta)
+    for c in ("cam_bajo", "cam_medio", "cam_alto"):
+        s[c] = np.nan
+    prev = s[s["mediana"].notna()]
+    for i, g in prev.groupby("id", sort=False):
+        med = g["mediana"].to_numpy(float)
+        sup = g["b80_sup"].to_numpy(float)
+        if len(med) < 3 or not np.all(med > 0):
+            continue
+        sd = np.log(np.where(sup > 0, sup, med) / med) / 1.2816          # desviación acumulada en cada día (log)
+        sd = np.maximum.accumulate(np.nan_to_num(sd))
+        var_paso = np.diff(sd ** 2, prepend=0.0).clip(min=0)              # incluye el salto de los días de resultados
+        rng = np.random.default_rng(int(i) * 7919 + 17)
+        w = np.cumsum(rng.standard_normal((300, len(med))) * np.sqrt(var_paso), axis=1)
+        caminos = med * np.exp(w)
+        fin = caminos[:, -1]
+        orden = np.argsort(fin)
+        for c, q in (("cam_bajo", 0.2), ("cam_medio", 0.5), ("cam_alto", 0.8)):
+            s.loc[g.index, c] = caminos[orden[int(q * 299)]]
+    tmp = ruta.with_suffix(".tmp")
+    s.to_csv(tmp, index=False, encoding="utf-8")
+    tmp.replace(ruta)
+
+
 def tecnicos():
     s = pd.read_csv(CLEAN / "serie.csv", usecols=["id", "fecha", "cierre"]).dropna()
     s["fecha"] = pd.to_datetime(s["fecha"])
@@ -898,6 +927,8 @@ def main():
     print("· todo a euros (precios, previsiones y gráficas)…")
     act = a_euros(act)
     act.to_csv(CLEAN / "activos.csv", index=False, encoding="utf-8")
+    print("· caminos de ejemplo de la previsión…")
+    caminos_ejemplo()
     print(f"ok: {len(act)} activos explicados, {len(cat)} catalizadores")
 
 

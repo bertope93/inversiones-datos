@@ -405,6 +405,26 @@ def cuantiles(s0, mu, sigma, sesiones):
 
 
 SIGMA_MAX = 0.8
+TAU_DERIVA = 0.25 / math.log(2)        # semivida de 3 meses: el impulso reciente se desvanece hacia la deriva de largo plazo
+TAU_VOL = (2 / 12) / math.log(2)       # semivida de 2 meses: la volatilidad actual vuelve a la de 5 años (como un GARCH)
+
+
+def trayectoria(p, h, extra_var=0.0, piso=0.0):
+    """Media y desviación del logaritmo del precio a h años (revisión de Cibran, 19/11/2026).
+    - Deriva: la de corto plazo (con el momentum 12-1) se desvanece hacia la de largo con semivida de 3 meses.
+    - Objetivo de analistas: con su sesgo optimista descontado (10 %), a la mitad y solo hasta 12 meses.
+    - Volatilidad: la actual (EWMA) converge a la de 5 años con semivida de 2 meses.
+    extra_var: salto de los días de resultados; piso: volatilidad mínima."""
+    g_lp, g_cp = p["g_lp"], p["g_cp"]
+    m = g_lp * h + (g_cp - g_lp) * TAU_DERIVA * (1 - math.exp(-h / TAU_DERIVA)) + p["obj"] * min(h, 1)
+    s0, slp = max(min(p["sig0"], SIGMA_MAX), piso), max(min(p["sig_lp"], SIGMA_MAX), piso)
+    v = slp ** 2 * h + (s0 ** 2 - slp ** 2) * TAU_VOL * (1 - math.exp(-h / TAU_VOL)) + extra_var
+    return m, math.sqrt(max(v, 1e-12))
+
+
+def cuantiles_tray(s0, p, h, extra_var=0.0, piso=0.0):
+    m, sd = trayectoria(p, h, extra_var, piso)
+    return {k: s0 * math.exp(m + z * sd) for k, z in Z.items()}, m, sd
 
 
 def corregir_peniques(s):
@@ -713,16 +733,31 @@ def main():
         mov_res = float(np.mean(movs)) if movs else 0.0
         dias_res = (pd.Timestamp(prox_res) - HOY).days if prox_res else 999
 
+        # ---------- Parámetros de la trayectoria prevista ----------
+        g_lp = math.log(1 + 0.7 * prior + 0.3 * clip(mu_hist, -0.2, 0.25))
+        r12_1 = None
+        p_1m, p_12m = s[s.index <= fecha0 - pd.Timedelta(days=30)], s[s.index <= fecha0 - pd.Timedelta(days=365)]
+        if len(p_1m) and len(p_12m) and vol_1a > 0:
+            r12_1 = float(p_1m.iloc[-1] / p_12m.iloc[-1] - 1)
+        g_cp = g_lp + (0.10 * clip(r12_1 / vol_1a, -2, 2) * vol_1a if r12_1 is not None else 0.0)
+        if g_lp > 0:                                       # el momentum no cambia el signo de la línea central
+            g_cp = max(g_cp, 0.0)
+        elif g_lp < 0:
+            g_cp = min(g_cp, 0.0)
+        r5l = np.log(r5).diff().dropna()
+        tray = {"g_lp": g_lp, "g_cp": g_cp, "sig0": ewma,
+                "sig_lp": float(r5l.std() * anual) if len(r5l) > 60 else sigma,
+                "obj": 0.5 * math.log(1 + clip(potencial - 0.10, -0.3, 0.3)) if potencial is not None else 0.0}
+        mu = math.exp(trayectoria(tray, 1.0)[0]) - 1         # rentabilidad central a 12 meses
+
         # ---------- Previsión por horizonte ----------
         prev = {}
         # a 5 años no se usan objetivos de analistas (son a 12 meses) y el histórico se acota: domina la referencia de la clase
         mu_largo = 0.6 * prior + 0.4 * clip(mu_hist, -0.2, 0.25)
         for hz, ses in HORIZONTES.items():
             ses_h = round(ses * ses_anio / 252)
-            mu_h = mu_largo if hz == "largo" else mu
             extra = mov_res if 0 <= dias_res <= ses_h * 1.45 else 0.0
-            sig_h = math.sqrt(max(sigma, 0.15 if a["clase"] == "Acciones" else 0) ** 2 + extra ** 2 * ses_anio / ses_h)
-            q, m, sd = cuantiles(s0, mu_h, sig_h, ses_h * 252 / ses_anio)
+            q, m, sd = cuantiles_tray(s0, tray, ses_h / ses_anio, extra ** 2, 0.15 if a["clase"] == "Acciones" else 0.0)
             prev[hz] = {"p10": q["p10"] / s0 - 1, "p50": q["p50"] / s0 - 1, "p90": q["p90"] / s0 - 1,
                         "perdida": norm_cdf(-m / sd) if sd > 0 else 0.5}
 
@@ -812,9 +847,8 @@ def main():
             pd.date_range(fecha0 + pd.Timedelta(days=1), periods=365)
         prev_filas = []
         for k, f in enumerate(dias, start=1):
-            sig_k = sigma if not (prox_res and f >= pd.Timestamp(prox_res)) else \
-                math.sqrt(sigma ** 2 + mov_res ** 2 * ses_anio / k)
-            q, _, _ = cuantiles(s0, mu, sig_k, k * 252 / ses_anio)
+            extra = mov_res ** 2 if (prox_res and f >= pd.Timestamp(prox_res)) else 0.0
+            q, _, _ = cuantiles_tray(s0, tray, k / ses_anio, extra)
             prev_filas.append((orden, f.strftime("%Y-%m-%d"), np.nan, q["p50"], q["p10"], q["p90"], q["p025"], q["p975"]))
         bloque = pd.concat([bloque, pd.DataFrame(prev_filas, columns=bloque.columns)])
         bloque.to_csv(serie_tmp, mode="a", header=not serie_tmp.exists(), index=False, encoding="utf-8")
