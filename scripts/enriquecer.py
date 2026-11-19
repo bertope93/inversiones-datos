@@ -100,7 +100,16 @@ def reordenar(act):
     # euros por unidad de la moneda de cotización (los índices van en puntos, no en dinero)
     act["eur_x"] = np.where(indices, np.nan, act["moneda"].map(fx) / fx.get("EUR", np.nan))
     act["cap_eur"] = act["cap_usd"] / fx.get("EUR", np.nan)
-    clave = np.where(indices, act["orden"], -act["cap_usd"].fillna(0))
+    # una empresa, un puesto: si cotiza en dos bolsas o tiene dos tipos de acción (Alphabet A y C, ASML en Ámsterdam
+    # y Nueva York…), Yahoo da a cada una la capitalización de toda la empresa. Cuenta la de mayor capitalización y
+    # las demás van justo debajo en la lista, pero no cuentan para el top por defecto.
+    acc = act["clase"] == "Acciones"
+    rango = act[acc].groupby("nombre_largo")["cap_usd"].rank(ascending=False, method="first")
+    secundaria = pd.Series(False, index=act.index)
+    secundaria[rango.index] = rango > 1
+    act["cotizacion_secundaria"] = secundaria.astype(int)
+    cap_emp = act["cap_usd"].fillna(0).groupby(act["nombre_largo"].where(acc, act.index.astype(str))).transform("max")
+    clave = np.where(indices, act["orden"], -cap_emp + secundaria.astype(float) * 0.5)   # la secundaria, justo debajo
     act = act.assign(_k=clave).sort_values(["clase_orden", "_k"]).drop(columns="_k")
     act["orden"] = range(1, len(act) + 1)
     return act
