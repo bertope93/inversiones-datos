@@ -65,10 +65,41 @@ def tipos_cambio(monedas):
     return fx
 
 
+FX = {"USD": 1.0}
+FALTA_FX = set()                                         # dólares por unidad de cada moneda (lo rellena reordenar)
+
+
+def a_eur(importe, moneda):
+    """Pasa un importe a euros con el cambio del día (None si no hay cambio)."""
+    if isinstance(moneda, str) and moneda not in FX and moneda not in FALTA_FX:   # p. ej. la moneda de las cuentas
+        nuevo = tipos_cambio([moneda])
+        FX.update({k: v for k, v in nuevo.items() if k == moneda})
+        FALTA_FX.add(moneda)
+    if importe is None or pd.isna(importe) or moneda not in FX or "EUR" not in FX:
+        return None
+    return importe * FX[moneda] / FX["EUR"]
+
+
+def eur_txt(x):
+    if x is None or pd.isna(x):
+        return ""
+    if abs(x) >= 1e9:
+        return f"{x / 1e9:,.1f} mil millones de €".replace(",", "X").replace(".", ",").replace("X", ".")
+    if abs(x) >= 1e6:
+        return f"{x / 1e6:,.0f} millones de €".replace(",", ".")
+    return f"{x:,.2f} €".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
 def reordenar(act):
-    fx = tipos_cambio(act["moneda"].dropna().unique())
-    act["cap_usd"] = act["cap_bursatil"] * act["moneda"].map(fx)
+    fx = tipos_cambio(list(act["moneda"].dropna().unique()) + ["EUR"])
+    FX.update(fx)
+    # Yahoo da el precio de Londres/Tel Aviv/Johannesburgo en peniques/agorot/céntimos, pero la capitalización en la moneda entera
+    mon_cap = act["moneda"].replace({"GBp": "GBP", "ILA": "ILS", "ZAc": "ZAR"})
+    act["cap_usd"] = act["cap_bursatil"] * mon_cap.map(fx)
     indices = act["clase"] == "Índices"
+    # euros por unidad de la moneda de cotización (los índices van en puntos, no en dinero)
+    act["eur_x"] = np.where(indices, np.nan, act["moneda"].map(fx) / fx.get("EUR", np.nan))
+    act["cap_eur"] = act["cap_usd"] / fx.get("EUR", np.nan)
     clave = np.where(indices, act["orden"], -act["cap_usd"].fillna(0))
     act = act.assign(_k=clave).sort_values(["clase_orden", "_k"]).drop(columns="_k")
     act["orden"] = range(1, len(act) + 1)
@@ -194,6 +225,7 @@ def explicar(a, tec, nots, cats, res, f=None):
     if a.get("n_analistas", 0) >= 3 and pd.notna(a.get("potencial")):
         ana = (f"Los {int(a['n_analistas'])} analistas que la siguen le ven de media un recorrido de {pc(a['potencial'])} "
                f"(precio objetivo {a['obj_medio']:,.2f} {a['moneda']}".replace(",", "X").replace(".", ",").replace("X", ".") +
+               (f", unos {eur_txt(a_eur(a['obj_medio'], a['moneda']))}" if a["moneda"] != "EUR" and a_eur(a["obj_medio"], a["moneda"]) else "") +
                (f"; consenso: {a['consenso']}" if isinstance(a.get("consenso"), str) and a["consenso"] else "") + ").")
         if a.get("notas_bancos_90d", 0) >= 3:
             ana += f" En los últimos 90 días hubo {int(a['mejoras_90d'])} {'mejora' if a['mejoras_90d'] == 1 else 'mejoras'} y {int(a['rebajas_90d'])} {'rebaja' if a['rebajas_90d'] == 1 else 'rebajas'} de recomendación."
@@ -495,8 +527,8 @@ def html_empresa(a, f, desg):
     if f is not None and f.get("descripcion"):
         datos = [x for x in (a["sector"], a["industria"], ", ".join(y for y in (f.get("ciudad"), a["pais"]) if isinstance(y, str) and y),
                              f"{int(f['empleados']):,} empleados".replace(",", ".") if pd.notna(f.get("empleados")) else "",
-                             (f"ventas de {f['ventas'] / 1e9:,.1f} mil millones {f['moneda_fin']}".replace(".", ",") if f['ventas'] >= 1e9
-                              else f"ventas de {f['ventas'] / 1e6:,.0f} millones {f['moneda_fin']}".replace(",", ".")) if pd.notna(f.get("ventas")) and f["ventas"] else "")
+                             ("ventas de " + (eur_txt(a_eur(f["ventas"], f["moneda_fin"])) or
+                              f"{f['ventas'] / 1e6:,.0f} millones {f['moneda_fin']}".replace(",", "."))) if pd.notna(f.get("ventas")) and f["ventas"] else "")
                  if isinstance(x, str) and x]
         partes.append(f"<div style='{css_h};margin-top:0'>A qué se dedica</div>"
                       f"<div style='color:#475569;font-size:11.5px;margin-bottom:4px'>{' · '.join(datos)}</div>"
@@ -657,7 +689,7 @@ def main():
     no = pd.read_csv(CLEAN / "noticias.csv", low_memory=False)
     ev = pd.read_csv(CLEAN / "eventos.csv")
     res = pd.read_csv(CLEAN / "resultados.csv")
-    print("· orden por capitalización en dólares…")
+    print("· orden por capitalización y cambio a euros…")
     act = reordenar(act)
     import descargar_datos as dd
     print("· temas de las noticias…")
