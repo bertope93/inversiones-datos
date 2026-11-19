@@ -94,7 +94,7 @@ def reordenar(act):
     fx = tipos_cambio(list(act["moneda"].dropna().unique()) + ["EUR"])
     FX.update(fx)
     # Yahoo da el precio de Londres/Tel Aviv/Johannesburgo en peniques/agorot/céntimos, pero la capitalización en la moneda entera
-    mon_cap = act["moneda"].replace({"GBp": "GBP", "ILA": "ILS", "ZAc": "ZAR"})
+    mon_cap = act.get("moneda_orig", act["moneda"]).fillna(act["moneda"]).replace({"GBp": "GBP", "ILA": "ILS", "ZAc": "ZAR"})
     act["cap_usd"] = act["cap_bursatil"] * mon_cap.map(fx)
     indices = act["clase"] == "Índices"
     # euros por unidad de la moneda de cotización (los índices van en puntos, no en dinero)
@@ -224,8 +224,8 @@ def explicar(a, tec, nots, cats, res, f=None):
     ana = ""
     if a.get("n_analistas", 0) >= 3 and pd.notna(a.get("potencial")):
         ana = (f"Los {int(a['n_analistas'])} analistas que la siguen le ven de media un recorrido de {pc(a['potencial'])} "
-               f"(precio objetivo {a['obj_medio']:,.2f} {a['moneda']}".replace(",", "X").replace(".", ",").replace("X", ".") +
-               (f", unos {eur_txt(a_eur(a['obj_medio'], a['moneda']))}" if a["moneda"] != "EUR" and a_eur(a["obj_medio"], a["moneda"]) else "") +
+               "(precio objetivo " + (eur_txt(a_eur(a["obj_medio"], a["moneda"])) or
+                                      f"{a['obj_medio']:,.2f} {a['moneda']}".replace(",", "X").replace(".", ",").replace("X", ".")) +
                (f"; consenso: {a['consenso']}" if isinstance(a.get("consenso"), str) and a["consenso"] else "") + ").")
         if a.get("notas_bancos_90d", 0) >= 3:
             ana += f" En los últimos 90 días hubo {int(a['mejoras_90d'])} {'mejora' if a['mejoras_90d'] == 1 else 'mejoras'} y {int(a['rebajas_90d'])} {'rebaja' if a['rebajas_90d'] == 1 else 'rebajas'} de recomendación."
@@ -667,6 +667,82 @@ def bandas_serie(act, tocados):
     tmp.replace(ruta)
 
 
+SIN_EUROS = {"^TNX", "^IRX"}                              # rentabilidades en %, no precios
+PENIQUES = {"GBp": ("GBP", 100), "ILA": ("ILS", 100), "ZAc": ("ZAR", 100)}
+
+
+def historico_fx(bases):
+    """Unidades de cada moneda por euro, día a día (Yahoo: EURUSD=X, EURJPY=X…)."""
+    import yfinance as yf
+    out = {}
+    for b in bases:
+        try:
+            h = yf.Ticker(f"EUR{b}=X").history(period="max")["Close"].dropna()
+            h.index = pd.to_datetime(h.index).tz_localize(None).normalize()
+            h = h[(h > 0)]
+            if len(h) > 100:
+                out[b] = h[~h.index.duplicated(keep="last")].sort_index()
+        except Exception as e:
+            print(f"  sin cambio histórico EUR/{b}: {e}")
+    return out
+
+
+def a_euros(act):
+    """Pasa a euros el precio, los objetivos, las variaciones y la serie (histórico y previsión) de acciones, ETF,
+    cripto y fondos de bonos. Los índices (puntos), las divisas y los tipos de interés se quedan como están.
+    Cada cierre se convierte con el cambio de ese día; la previsión, con el último. Solo se hace una vez por descarga."""
+    if "moneda_orig" in act:
+        return act
+    act = act.copy()
+    act["moneda_orig"] = act["moneda"]
+    conv = act["clase"].isin(["Acciones", "ETFs", "Cripto", "Renta fija"]) & ~act["ticker"].isin(SIN_EUROS) &         act["moneda"].notna() & (act["moneda"] != "EUR")
+    base = act["moneda"].map(lambda m: PENIQUES.get(m, (m, 1))[0])
+    div = act["moneda"].map(lambda m: PENIQUES.get(m, (m, 1))[1])
+    fx = historico_fx(sorted(base[conv].unique()))
+    conv &= base.isin(fx.keys())
+    if not conv.any():
+        return act
+    # ---- serie ----
+    ruta = CLEAN / "serie.csv"
+    s = pd.read_csv(ruta)
+    s["_f"] = pd.to_datetime(s["fecha"])
+    mapa = act.loc[conv].set_index("id")
+    cols = ["cierre", "mediana", "b80_inf", "b80_sup", "b95_inf", "b95_sup"]
+    s["_r"] = np.nan
+    for b, grupo in mapa.groupby(base[conv].values):
+        h = fx[b]
+        sel = s["id"].isin(grupo.index)
+        f = s.loc[sel, "_f"]
+        r = h.reindex(h.index.union(f.unique())).sort_index().ffill().bfill()   # sin dato ese día: el anterior
+        s.loc[sel, "_r"] = f.map(r).values * s.loc[sel, "id"].map(grupo["moneda"].map(lambda m: PENIQUES.get(m, (m, 1))[1])).values
+    m = s["_r"].notna()
+    s.loc[m, cols] = s.loc[m, cols].div(s.loc[m, "_r"], axis=0)
+    tmp = ruta.with_suffix(".tmp")
+    s.drop(columns=["_f", "_r"]).to_csv(tmp, index=False, encoding="utf-8")
+    tmp.replace(ruta)
+    # ---- ficha ----
+    def tasa(b, fecha):
+        h = fx[b]
+        h = h[h.index <= fecha]
+        return float(h.iloc[-1]) if len(h) else float(fx[b].iloc[0])
+    for k in act.index[conv]:
+        b, d = base[k], div[k]
+        u = pd.to_datetime(act.at[k, "fecha_dato"])
+        r0 = tasa(b, u) * d
+        for c in ("precio", "obj_medio", "obj_alto", "obj_bajo"):
+            if pd.notna(act.at[k, c]):
+                act.at[k, c] = act.at[k, c] / r0
+        for c, fecha in (("var_1d", u - pd.Timedelta(days=1)), ("var_1m", u - pd.Timedelta(days=30)),
+                         ("var_ytd", pd.Timestamp(u.year - 1, 12, 31)), ("var_1a", u - pd.Timedelta(days=365)),
+                         ("var_5a", u - pd.Timedelta(days=5 * 365))):
+            v = act.at[k, c]
+            if pd.notna(v):
+                act.at[k, c] = (1 + v) * (tasa(b, fecha) * d) / r0 - 1
+    act.loc[conv, "moneda"] = "EUR"
+    act.loc[conv, "eur_x"] = 1.0
+    return act
+
+
 def tecnicos():
     s = pd.read_csv(CLEAN / "serie.csv", usecols=["id", "fecha", "cierre"]).dropna()
     s["fecha"] = pd.to_datetime(s["fecha"])
@@ -819,6 +895,9 @@ def main():
     act.to_csv(CLEAN / "activos.csv", index=False, encoding="utf-8")
     print("· bandas del gráfico de los activos con volatilidad acotada…")
     bandas_serie(act, tocados)
+    print("· todo a euros (precios, previsiones y gráficas)…")
+    act = a_euros(act)
+    act.to_csv(CLEAN / "activos.csv", index=False, encoding="utf-8")
     print(f"ok: {len(act)} activos explicados, {len(cat)} catalizadores")
 
 
